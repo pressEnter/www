@@ -1,0 +1,21 @@
+hr {
+	clear: both;
+	visibility: hidden;
+}
+body {
+	font-size: 62.5%;
+}
+/*
+ * 
+ *=WRAPPER 
+ * 
+ */
+div#wrapper {
+	font-size: 1.4em;
+}
+/*
+ * 
+ *=HEADER
+ *
+ */
+
