@@ -59,6 +59,7 @@ div#main-nav {
 	margin: 0 0 0 5px;
 	font-size: 14px;
 	font-weight: bold;
+	background: #4D4D4D;
 }
 div#main-nav ul {
 	float: right;

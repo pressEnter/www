@@ -1,4 +1,4 @@
-<div class="form-wrapper">
+<div class="form-wrapper<?php echo $this->contact_form_model->hasErrors() ? ' with-errors' : ''; ?>">
 <?php $form = $this->beginWidget('CActiveForm', array(
 	'id'=>'site-contact-form',
 	'enableClientValidation' => false,

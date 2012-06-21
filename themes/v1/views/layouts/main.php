@@ -22,7 +22,7 @@
 
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
-<body>
+<body id="<?php echo str_replace('/', '-', $this->getUniqueId()).'-'.$this->getAction()->getId(); ?>">
 <div id="wrapper">
 	
 	<div id="header">
