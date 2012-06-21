@@ -1,0 +1,80 @@
+/*** ESSENTIAL STYLES ***/
+div#main-nav ul.sf-menu, 
+div#main-nav ul.sf-menu * {
+}
+div#main-nav ul.sf-menu {
+}
+div#main-nav ul.sf-menu ul {
+	position: absolute;
+	top: -999em;
+	width: 10em; /* left offset of submenus need to match (see below) */
+}
+div#main-nav ul.sf-menu ul li {
+	width: 100%;
+}
+div#main-nav ul.sf-menu li:hover {
+	visibility: inherit; /* fixes IE7 'sticky bug' */
+}
+div#main-nav ul.sf-menu li {
+	position: relative;
+}
+div#main-nav ul.sf-menu a {
+	display: block;
+	position: relative;
+}
+div#main-nav ul.sf-menu li:hover ul,
+div#main-nav ul.sf-menu li.sfHover ul {
+	left: 0;
+	top: 35px; /* match top ul list item height */
+	z-index: 99;
+}
+ul div#main-nav ul.sf-menu li:hover li ul,
+ul div#main-nav ul.sf-menu li.sfHover li ul {
+	top: -999em;
+}
+ul div#main-nav ul.sf-menu li li:hover ul,
+ul div#main-nav ul.sf-menu li li.sfHover ul {
+	left: 10em; /* match ul width */
+	top: 0;
+}
+ul div#main-nav ul.sf-menu li li:hover li ul,
+ul div#main-nav ul.sf-menu li li.sfHover li ul {
+	top: -999em;
+}
+ul div#main-nav ul.sf-menu li li li:hover ul,
+ul div#main-nav ul.sf-menu li li li.sfHover ul {
+	left: 10em; /* match ul width */
+	top: 0;
+}
+/*
+ *
+ *=MAIN-NAV
+ *
+ */
+div#main-nav {
+	position: absolute;
+	top: 130px;
+	width: 960px;
+	height: 35px;
+	margin: 0 0 0 5px;
+	font-size: 14px;
+	font-weight: bold;
+}
+div#main-nav ul {
+	float: right;
+}
+div#main-nav ul ul {
+	border-top: 1px transparent solid;
+}
+div#main-nav li {
+	background: #4D4D4D;
+	float: left;
+}
+div#main-nav a {
+	padding: .75em 1em;
+}
+div#main-nav a:link,
+div#main-nav a:visited {
+	color: #fff;
+	text-decoration: none;
+}

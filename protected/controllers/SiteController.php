@@ -9,9 +9,17 @@ class SiteController extends Controller
 	{
 		return array(
 			// captcha action renders the CAPTCHA image displayed on the contact page
+			// http://www.yiiframework.com/doc/api/1.1/CCaptchaAction
 			'captcha'=>array(
 				'class'=>'CCaptchaAction',
-				'backColor'=>0xFFFFFF,
+				'backColor' => 0xFFFFFF,
+				'foreColor' => 0xFF0D00,
+				'height' => 40,
+				'width' => 90,
+				'padding' => 0,
+				'offset' => 2,
+				'minLength' => 5,
+				'maxLength' => 5,
 			),
 			// page action renders "static" pages stored under 'protected/views/site/pages'
 			// They can be accessed via: index.php?r=site/page&view=FileName

@@ -6,10 +6,32 @@
 class Controller extends CController
 {
 	/**
+	 * 
+	 */ 
+	public $contact_form_model;
+	/**
+	 * 
+	 */ 
+	protected function beforeAction($action){
+		Yii::setPathOfAlias('forms', Yii::getPathOfAlias('application').'/models/forms');
+		Yii::import('forms.ContactForm');
+		$this->contact_form_model = new ContactForm;
+		if(isset($_POST['ContactForm'])){
+			$this->contact_form_model->attributes = $_POST['ContactForm'];
+			if($this->contact_form_model->validate()){
+				$headers = "From: {$this->contact_form_model->email}\r\nReply-To: {$this->contact_form_model->email}";
+				mail(Yii::app()->params['adminEmail'], 'Contacto desde el sitio', $this->contact_form_model->body, $headers);
+				Yii::app()->user->setFlash('success', 'Gracias por contactarse! Estaremos respondiendo.');
+				$this->refresh();
+			}
+		}		
+		return parent::beforeAction($action);
+	}
+	/**
 	 * @var string the default layout for the controller view. Defaults to '//layouts/column1',
 	 * meaning using a single column layout. See 'protected/views/layouts/column1.php'.
 	 */
-	public $layout='//layouts/column1';
+	public $layout = 'webroot.themes.v1.views.layouts.main';
 	/**
 	 * @var array context menu items. This property will be assigned to {@link CMenu::items}.
 	 */

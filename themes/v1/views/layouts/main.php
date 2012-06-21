@@ -8,35 +8,75 @@
 	<![endif]-->
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/reset.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/main.css" />
+	<link rel="stylesheet" media="screen" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/main-nav.css" /> 
+	<?php Yii::app()->clientScript->registerCoreScript('jquery'); ?>
+	
+	<script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/superfish-1.4.8/js/hoverIntent.js"></script> 
+	<script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/superfish-1.4.8/js/superfish.js"></script> 
+	 
+	<script type="text/javascript">
+		$(document).ready(function(){ 
+			$("ul.sf-menu").superfish(); 
+		}); 
+	</script>
+
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
 <body>
 <div id="wrapper">
 	
 	<div id="header">
-		<h1><?php echo CHtml::encode(Yii::app()->name); ?></h1>
+		<h1>
+			<a href="<?php echo Yii::app()->request->baseUrl; ?>">
+				<span><?php echo CHtml::encode(Yii::app()->name); ?></span>
+			</a>
+		</h1>
+		<h2><span>Cooperativa de Software</span></h2>
 	</div><!-- header -->
 	
 	<div id="main-nav">
-		<?php $this->widget('zii.widgets.CMenu',array(
-			'items'=>array(
-				array('label'=>'Home', 'url'=>array('/site/index')),
-				array('label'=>'About', 'url'=>array('/site/page', 'view'=>'about')),
-				array('label'=>'Contact', 'url'=>array('/site/contact')),
-				array('label'=>'Login', 'url'=>array('/site/login'), 'visible'=>Yii::app()->user->isGuest),
-				array('label'=>'Logout ('.Yii::app()->user->name.')', 'url'=>array('/site/logout'), 'visible'=>!Yii::app()->user->isGuest)
-			),
-		)); ?>
+		<?php $this->renderPartial('webroot.themes.v1.views._main_nav'); ?>
 	</div><!-- main-nav -->
 	
 	<div id="content">
-	<?php echo $content; ?>
+		<div id="inner-content">
+		<?php $this->renderPartial('webroot.themes.v1.views._flashes'); ?>
+		<?php echo $content; ?>
+		</div>
 	</div>
 	
 	<div id="footer">
-		Copyright &copy; <?php echo date('Y'); ?> by My Company.<br/>
-		All Rights Reserved.<br/>
-		<?php echo Yii::powered(); ?>
+		<div id="contact">
+			<h3>Contacto</h3>
+			<ul id="contact-details">
+				<li><strong>Email</strong> <span>info@pressenter.com.ar</span></li>
+				<li><strong>Teléfono</strong> <span>+54 9 11 3475 1407</span></li>
+				<li><strong>Dirección</strong> <span>Belgrano 748 1ro Of. 13</span></li>
+			</ul>
+			<div id="map">
+				<?php 
+				/*
+				<iframe width="280" height="210" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.ar/maps?f=q&amp;source=s_q&amp;hl=es-419&amp;geocode=&amp;q=Avenida+Belgrano+748,+Ciudad+Aut%C3%B3noma+de+Buenos+Aires&amp;aq=0&amp;oq=Avenida+Belgrano+748,+Ciudad&amp;sll=-38.341656,-63.28125&amp;sspn=34.935993,86.572266&amp;ie=UTF8&amp;hq=&amp;hnear=Av+Belgrano+748,+Monserrat,+Buenos+Aires&amp;t=m&amp;ll=-34.612796,-58.376799&amp;spn=0.014834,0.025663&amp;z=14&amp;output=embed"></iframe>
+				<br />
+				<!--
+				<small>
+					<a href="https://maps.google.com.ar/maps?f=q&amp;source=embed&amp;hl=es-419&amp;geocode=&amp;q=Avenida+Belgrano+748,+Ciudad+Aut%C3%B3noma+de+Buenos+Aires&amp;aq=0&amp;oq=Avenida+Belgrano+748,+Ciudad&amp;sll=-38.341656,-63.28125&amp;sspn=34.935993,86.572266&amp;ie=UTF8&amp;hq=&amp;hnear=Av+Belgrano+748,+Monserrat,+Buenos+Aires&amp;t=m&amp;ll=-34.612796,-58.376799&amp;spn=0.014834,0.025663&amp;z=14" style="color:#0000FF;text-align:left">Ver mapa más grande</a>
+				</small>
+				-->
+				*/ 
+				?>
+			</div> <!-- map -->
+			<div id="site-contact-form-wrapper">
+				<?php $this->renderPartial('webroot.themes.v1.views._site_contact_form'); ?>
+			</div>
+		</div> <!-- contact -->
+		<div id="links">
+				<?php $this->renderPartial('webroot.themes.v1.views._links'); ?>
+		</div><!-- links -->
+		<hr />
+		<div id="copyleft">
+			<p><strong>pressEnter &copy;</strong> <span>Cooperativa de Software</span> <?php echo date('Y'); ?> - <?php echo CHtml::link('Licencia', 'http://www.gnu.org/copyleft/gpl.html', array('target' => '_blank')); ?></p>
+		</div>
 	</div><!-- footer -->
 
 </div><!-- wrapper -->

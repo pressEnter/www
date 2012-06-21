@@ -13,4 +13,6 @@ if (file_exists(dirname(__FILE__) .'/protected/config/main.local.php')) {
     $local = require(dirname(__FILE__) .'/protected/config/main.local.php');
     $config = CMap::mergeArray($config, $local);
 }
+Yii::setPathOfAlias('forms', Yii::getPathOfAlias('application').'/models/forms');
 Yii::createWebApplication($config)->run();
+

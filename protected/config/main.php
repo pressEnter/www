@@ -36,6 +36,7 @@ return array(
 			// enable cookie-based authentication
 			'allowAutoLogin'=>true,
 		),
+		
 		// uncomment the following to enable URLs in path-format
 		'urlManager'=>array(
 			'urlFormat'=>'path',
@@ -84,4 +85,5 @@ return array(
 		'adminEmail'=>'webmaster@example.com',
 	),
 	'theme' => 'v1',
+	'layout' => '',
 );
