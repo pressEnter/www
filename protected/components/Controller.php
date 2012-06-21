@@ -14,8 +14,8 @@ class Controller extends CController
 	 */ 
 	protected function beforeAction($action){
 		Yii::setPathOfAlias('forms', Yii::getPathOfAlias('application').'/models/forms');
-		Yii::import('forms.ContactForm');
-		$this->contact_form_model = new ContactForm;
+		Yii::import('forms.QuickContactForm');
+		$this->contact_form_model = new QuickContactForm;
 		if(isset($_POST['ContactForm'])){
 			$this->contact_form_model->attributes = $_POST['ContactForm'];
 			if($this->contact_form_model->validate()){
