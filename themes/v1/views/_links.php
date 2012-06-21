@@ -30,17 +30,17 @@
 				<?php $images_dir = Yii::app()->theme->baseUrl ."/images"; ?>
 				<ul>
 					<li>
-						<a href="#">
+						<a href="#" target="_blank">
 							<img src="<?php echo $images_dir; ?>/icons/twitter-logo-square-24x24.png" alt="" title="" />
 						</a>
 					</li>
 					<li>
-						<a href="#">
+						<a href="#" target="_blank">
 							<img src="<?php echo $images_dir; ?>/icons/facebook-logo-square-24x24.png" alt="" title="" />
 						</a>
 					</li>
 					<li>
-						<a href="http://www.linkedin.com/company/2532858">
+						<a href="http://www.linkedin.com/company/2532858" target="_blank">
 							<img src="<?php echo $images_dir; ?>/icons/linkedin-logo-square2-24x24.png" alt="" title="" />
 						</a>
 					</li>
