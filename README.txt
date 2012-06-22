@@ -1,1 +1,4 @@
-Al bajar el proyecto, crear los directorios "assets" y "protected/runtime" y darle permiso de escritura a ambos.
+Los siguientes directorios necesitan permiso de escritura:
+
+-assets
+-protected/runtime
