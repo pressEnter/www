@@ -10,10 +10,10 @@
 	</div>
 	<div class="gallery">
 		<a href="<?php echo Yii::app()->request->getBaseUrl(true).'/images/highlights/alba/entrada-legajo-pedagogico.jpg'; ?>">
-			<img src="<?php echo Yii::app()->request->getBaseUrl(true).'/images/highlights/alba/entrada-legajo-pedagogico-thumb.jpg'; ?>" title="Legajo pedagógico" />
+			<img src="<?php echo Yii::app()->request->getBaseUrl(true).'/images/highlights/alba/entrada-legajo-pedagogico-thumb.jpg'; ?>" alt="Legajo pedagógico" title="Legajo pedagógico" />
 		</a>		
 		<a href="<?php echo Yii::app()->request->getBaseUrl(true).'/images/highlights/alba/notas-boletin.jpg'; ?>">
-			<img src="<?php echo Yii::app()->request->getBaseUrl(true).'/images/highlights/alba/notas-boletin-thumb.jpg'; ?>" title="Boletín de notas" />
+			<img src="<?php echo Yii::app()->request->getBaseUrl(true).'/images/highlights/alba/notas-boletin-thumb.jpg'; ?>" alt="Boletín de notas" title="Boletín de notas" />
 		</a>
 		<hr />
 	</div>
@@ -24,7 +24,7 @@
 <div id="news-updates">
 	<div id="news">
 		<h3>Noticias</h3>
-	
+		
 	</div>
 	<div id="updates">
 		<h3>Actualizaciones</h3>
@@ -32,10 +32,27 @@
 	</div>
 </div>
 <div id="technologies">
+	<?php $technologies_url = Yii::app()->request->getBaseUrl(true) . '/images/technologies/150x93/'; ?>
 	<h3>Tecnologías <span>utilizadas</span></h3>
 	<ul>
-		<li>&nbsp;</li>
+		<li><?php echo CHtml::image($technologies_url.'apache.png', 'Apache', array('title' => 'Apache')); ?></li>
+		<li><?php echo CHtml::image($technologies_url.'django.png', 'Django', array('title' => 'Django')); ?></li>
+		<li><?php echo CHtml::image($technologies_url.'drupal.png', 'Drupal', array('title' => 'Drupal')); ?></li>
+		<li><?php echo CHtml::image($technologies_url.'gnu.png', '', array('title' => '')); ?></li>
+		<li><?php echo CHtml::image($technologies_url.'joomla.png', 'Joomla', array('title' => 'Joomla')); ?></li>
+		<li><?php echo CHtml::image($technologies_url.'jquery.png', 'jQuery', array('title' => 'jQuery')); ?></li>
+		<li><?php echo CHtml::image($technologies_url.'linux.png', 'Linux', array('title' => 'Linux')); ?></li>
+		<li><?php echo CHtml::image($technologies_url.'mysql.png', 'Mysql', array('title' => 'Mysql')); ?></li>
+		<li><?php echo CHtml::image($technologies_url.'olpc.png', 'OLPC', array('title' => 'OLPC')); ?></li>
+		<li><?php echo CHtml::image($technologies_url.'php.png', 'PHP', array('title' => 'PHP')); ?></li>
+		<li><?php echo CHtml::image($technologies_url.'postgresql.png', 'PostgreSQL', array('title' => 'PostgreSQL')); ?></li>
+		<li><?php echo CHtml::image($technologies_url.'python.png', 'Python', array('title' => 'Python')); ?></li>
+		<li><?php echo CHtml::image($technologies_url.'symfony.png', 'Symfony framework', array('title' => 'Symfony framework')); ?></li>
+		<li><?php echo CHtml::image($technologies_url.'wordpress.png', 'Wordpress', array('title' => 'Wordpress')); ?></li>
+		<li><?php echo CHtml::image($technologies_url.'yii.png', 'YII framework', array('title' => 'YII framework')); ?></li>
+		<li class="last">&nbsp;</li>
 	</ul>
+	<hr />
 </div>
 <script type='text/javascript'>
 	<?php $lightbox_url = Yii::app()->theme->baseUrl . '/js/jquery-lightbox-0.5/'; ?>

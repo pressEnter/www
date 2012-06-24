@@ -116,7 +116,8 @@ body#site-index div#updates h3 {
 }
 /* TECHNOLOGIES */
 body#site-index div#technologies {
-	background: url(../images/technologies-bg-160x86.jpg) repeat-x top;
+	background: #DDDAD8 url(../images/technologies-bg-160x86.jpg) repeat-x top;
+	margin-bottom: -5px;
 }
 body#site-index div#technologies h3 {
 	color: #323232;
@@ -126,5 +127,16 @@ body#site-index div#technologies h3 {
 }
 body#site-index div#technologies ul {
 	background: #DDDAD8 url(../images/technologies-shadow-h-960x10.png) no-repeat top;
+	padding-top: 30px;
 	padding-bottom: 20px;
+}
+body#site-index div#technologies li {
+	float: left;
+	width: 150px;
+	height: 93px;
+	margin: 5px 2px;
+}
+body#site-index div#technologies li.last {
+	clear: both;
+	height: 1px;
 }
