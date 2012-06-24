@@ -1,0 +1,130 @@
+/*
+ *
+ *=HOMEPAGE
+ *
+ */
+body#site-index div#content {
+	background: url(../images/content-bg-970x465.png) no-repeat center top;
+}
+body#site-index div#inner-content {
+	width: 960px;
+	margin: 40px auto 0;
+	background: none;
+}
+/* HIGHLIGHT */
+body#site-index div.highlight {
+	height: 425px;
+	background: none;
+}
+body#site-index div.highlight div.image-wrapper {
+	float: left;
+	width: 533px;
+	height: 335px;
+	background: #f00;
+	margin: 30px 0 0 40px;
+	position: relative;
+	overflow: hidden;
+}
+body#site-index div.highlight div.image-wrapper p {
+	position: absolute;
+	top: 120px;
+	width: 450px;
+	margin: 0 0 0 35px;
+	color: #fff;
+	font-size: 14px;
+	line-height: 16px;
+}
+body#site-index div.highlight div.info-wrapper {
+	float: right;
+	width: 350px;
+	margin: 30px 20px 0 0;
+}
+body#site-index div.highlight div.info-wrapper h2,
+body#site-index div.highlight div.info-wrapper h3 {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; 
+}
+body#site-index div.highlight div.info-wrapper h2 {
+	font-size: 32px;
+	letter-spacing: -2px;
+	color: #F01800;
+}
+body#site-index div.highlight div.info-wrapper h3 {
+	font-size: 22px;
+	margin-top: 7px;
+	letter-spacing: -1px;
+	color: #008080;
+}
+body#site-index div.highlight div.info-wrapper p {
+	margin-top: 10px;
+	color: #898989;
+}
+body#site-index div.highlight div.gallery {
+}
+body#site-index div.highlight div.gallery img {
+	display: block;
+	float: left;
+	margin: 60px 0 0 20px;
+	border: 5px #fff solid;
+}
+body#site-index div.highlight div.read-more {
+	float: left;
+}
+body#site-index div.highlight div.read-more a {
+	display: block;
+	position: relative;
+	width: 103px;
+	height: 38px;
+	background: url(../images/button-blue-bg-103x38.png) no-repeat;
+	margin: -85px 0 0 420px;
+	text-align: center;
+	line-height: 38px;
+	text-transform: uppercase;
+}
+body#site-index div.highlight div.read-more a:link,
+body#site-index div.highlight div.read-more a:visited {
+	color: #fff;
+	text-decoration: none;
+}
+body#site-index div.highlight div.read-more a:hover {
+	color: #E7E7E7;
+}
+/* NEWS-UPDATES */
+body#site-index div#news-updates {
+	height: 410px;
+	background: url(../images/news-updates-bg-150x410.jpg) repeat-x;
+}
+body#site-index div#news {
+	width: 640px;
+	float: left;
+	margin-top: 20px;
+}
+body#site-index div#news h3 {
+	text-align: center;
+	color: #FFAD00;
+}
+body#site-index div#updates {
+	width: 320px;
+	height: 390px;
+	float: left;
+	margin-top: 5px;
+	padding-top: 15px;
+	background: url(../images/updates-shadow-v-10x200.jpg) repeat-y left;
+}
+body#site-index div#updates h3 {
+	color: #0199AE;
+	text-indent: 20px;
+}
+/* TECHNOLOGIES */
+body#site-index div#technologies {
+	background: url(../images/technologies-bg-160x86.jpg) repeat-x top;
+}
+body#site-index div#technologies h3 {
+	color: #323232;
+	height: 86px;
+	text-align: center;
+	line-height: 90px;
+}
+body#site-index div#technologies ul {
+	background: #DDDAD8 url(../images/technologies-shadow-h-960x10.png) no-repeat top;
+	padding-bottom: 20px;
+}

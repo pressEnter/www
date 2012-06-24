@@ -1,11 +1,12 @@
 /*
  *  SCHEME
  * 
- *  CELESTE		#0199AE
- *  GRIS CLARO	#DDDAD8
- *  GRIS OSCURO	#898989
- *  NARANJA		#FFAD00
- *  ROJO		#FF0D00
+ *  CELESTE			#0199AE
+ *  AZUL VERDOSO 	#008080
+ *  GRIS CLARO		#DDDAD8
+ *  GRIS OSCURO		#898989
+ *  NARANJA			#FFAD00
+ *  ROJO			#F01800
  * 
  * 
  */ 
@@ -95,6 +96,7 @@ div#content {
 	margin-top: -35px;
 	padding-top: .1px;
 }
+
 /*
  *
  *=INNER-CONTENT
@@ -156,7 +158,7 @@ div#footer div.form-wrapper label {
 	color: #DDDAD8;
 }
 div#footer div.form-wrapper label span.required {
-	color: #FF0D00;
+	color: #F01800;
 }
 div#footer div.form-wrapper label.error {
 	background: url(../images/icons/warning-icon-16x16.png) no-repeat top right;
@@ -187,7 +189,7 @@ div#footer div.form-wrapper div.captcha label.error {
 	padding-right: 25px;
 }
 div#footer div.form-wrapper div.captcha img {
-	border: 2px #FF0D00 solid;
+	border: 2px #F01800 solid;
 	margin-left: 10px;
 }
 div#footer div.form-wrapper div.errorMessage {
@@ -246,54 +248,4 @@ div#footer div#copyleft {
 div#footer div#copyleft a:link,
 div#footer div#copyleft a:visited {
 	color: #fff;
-}
-/*
- *
- *=HOMEPAGE
- *
- */
-/* SLIDES */
-body#site-index div#slides {
-	height: 430px;
-	background: url(../images/slides-bg-15x110.jpg) repeat-x bottom;
-}
-/* SERVICES-UPDATES */
-body#site-index div#services-updates {
-	height: 410px;
-	background: url(../images/services-updates-bg-150x410.jpg) repeat-x;
-}
-body#site-index div#services {
-	width: 640px;
-	float: left;
-	margin-top: 20px;
-}
-body#site-index div#services h3 {
-	text-align: center;
-	color: #FFAD00;
-}
-body#site-index div#updates {
-	width: 320px;
-	height: 390px;
-	float: left;
-	margin-top: 5px;
-	padding-top: 15px;
-	background: url(../images/updates-shadow-v-10x200.jpg) repeat-y left;
-}
-body#site-index div#updates h3 {
-	color: #0199AE;
-	text-indent: 20px;
-}
-/* TECHOLOGIES */
-body#site-index div#technologies {
-	background: url(../images/technologies-bg-160x86.jpg) repeat-x top;
-}
-body#site-index div#technologies h3 {
-	color: #323232;
-	height: 86px;
-	text-align: center;
-	line-height: 90px;
-}
-body#site-index div#technologies ul {
-	background: #DDDAD8 url(../images/technologies-shadow-h-960x10.png) no-repeat top;
-	padding-bottom: 20px;
 }

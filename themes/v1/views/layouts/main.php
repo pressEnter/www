@@ -6,32 +6,39 @@
 	<!--[if lt IE 8]>
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/ie.css" media="screen, projection" />
 	<![endif]-->
+	<?php //Yii::app()->clientScript->registerCoreScript('jquery'); ?>
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/reset.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/main.css" />
 	<link rel="stylesheet" media="screen" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/main-nav.css" /> 
-	<?php Yii::app()->clientScript->registerCoreScript('jquery'); ?>
 	
-	<script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/superfish-1.4.8/js/hoverIntent.js"></script> 
-	<script type="text/javascript" src="<?php echo Yii::app()->theme->baseUrl; ?>/superfish-1.4.8/js/superfish.js"></script> 
-	 
-	<script type="text/javascript">
-		$(document).ready(function(){ 
-			$("ul.sf-menu").superfish(); 
-		}); 
-	</script>
+	<?php Yii::app()->clientScript->registerscriptFile(Yii::app()->theme->baseUrl . "/js/superfish-1.4.8/js/hoverIntent.js"); ?>
+	<?php Yii::app()->clientScript->registerscriptFile(Yii::app()->theme->baseUrl . "/js/superfish-1.4.8/js/superfish.js"); ?>
 
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
 <body id="<?php echo str_replace('/', '-', $this->getUniqueId()).'-'.$this->getAction()->getId(); ?>">
+	<script type="text/javascript">
+		$(document).ready(function(){ 
+			$("ul.sf-menu").superfish({
+				delay:       50,                               // one second delay on mouseout
+				animation:   {opacity:'show', height:'show'},  // fade-in and slide-down animation
+				speed:       'fast',                           // faster animation speed
+				autoArrows:  false,                            // disable generation of arrow mark-up
+				dropShadows: false                             // disable drop shadows
+			}); 
+		}); 
+	</script>
 <div id="wrapper">
 	
 	<div id="header">
 		<h1>
-			<a href="<?php echo Yii::app()->request->baseUrl; ?>">
+			<a href="<?php echo Yii::app()->request->getBaseUrl(true); ?>">
 				<span><?php echo CHtml::encode(Yii::app()->name); ?></span>
 			</a>
 		</h1>
-		<h2><span>Cooperativa de Software</span></h2>
+		<h2><span>Cooperativa de Software {Libre}</span></h2>
+		<div id="header-contact-info">
+		</div>
 	</div><!-- header -->
 	
 	<div id="main-nav">

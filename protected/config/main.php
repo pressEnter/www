@@ -77,6 +77,13 @@ return array(
 				*/
 			),
 		),
+		// Custom jquery version 
+		// http://www.yiiframework.com/forum/index.php/topic/6953-update-von-jquery-auf-1-41/page__p__35545#entry35545
+		//'clientScript'=>array(
+		//	'scriptMap' => array(
+		//		'jquery.js'=>false,
+		//	),
+		//),
 	),
 
 	// application-level parameters that can be accessed
