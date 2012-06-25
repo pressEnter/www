@@ -1,0 +1,3 @@
+[submodule "protected/extensions/behaviors/SluggableBehavior"]
+	path = protected/extensions/behaviors/SluggableBehavior
+	url = git://github.com/mintao/yii-behavior-sluggable.git
