@@ -101,6 +101,38 @@ body#site-index div#news {
 body#site-index div#news h3 {
 	text-align: center;
 	color: #FFAD00;
+	text-shadow: 0 1px 1px #000;
+}
+body#site-index div#news div#posts-wrapper {
+	margin: 0 20px 0;
+}
+body#site-index div#news div.post {
+	margin: 30px 0 40px;
+}
+body#site-index div#news div.published-date {
+	font-size: 12px;
+	background: #FFAD00;
+	float: left;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+body#site-index div#news h4 {
+	font-size: 18px;
+	color: #fff;
+	clear: left;
+}
+body#site-index div#news div.body {
+	margin: 10px 0 0;
+	color: #ccc;
+}
+body#site-index div#news div.read-more {
+	margin: 10px 10px 0 0;
+	text-align: right;
+}
+body#site-index div#news div.read-more a:link,
+body#site-index div#news div.read-more a:visited {
+	color: #fff;
+	text-transform: uppercase;
 }
 body#site-index div#updates {
 	width: 320px;
@@ -111,8 +143,9 @@ body#site-index div#updates {
 	background: url(../images/updates-shadow-v-10x200.jpg) repeat-y left;
 }
 body#site-index div#updates h3 {
-	color: #0199AE;
+	color: #fff;
 	text-indent: 20px;
+	text-shadow: 0 1px 1px #000;
 }
 /* TECHNOLOGIES */
 body#site-index div#technologies {

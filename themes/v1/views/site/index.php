@@ -25,6 +25,10 @@
 	<div id="news">
 		<h3>Noticias</h3>
 		
+		<?php $this->widget('Posts', array(
+			'minimal' => true,
+			'limit' => 2
+		)); ?>
 	</div>
 	<div id="updates">
 		<h3>Actualizaciones</h3>
