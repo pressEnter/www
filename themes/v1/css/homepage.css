@@ -132,9 +132,16 @@ body#site-index div#technologies ul {
 }
 body#site-index div#technologies li {
 	float: left;
+	/*
 	width: 150px;
 	height: 93px;
+	*/
+	width: 100px;
+	height: 62px;
 	margin: 5px 2px;
+}
+body#site-index div#technologies img {
+	width: 100px;
 }
 body#site-index div#technologies li.last {
 	clear: both;

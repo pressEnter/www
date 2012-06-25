@@ -59,7 +59,6 @@ div#main-nav {
 	margin: 0 0 0 5px;
 	font-size: 14px;
 	font-weight: bold;
-	background: #4D4D4D;
 }
 div#main-nav ul {
 	float: right;
@@ -68,8 +67,11 @@ div#main-nav ul ul {
 	border-top: 1px transparent solid;
 }
 div#main-nav li {
-	background: #4D4D4D;
 	float: left;
+	background: #4D4D4D;
+}
+div#main-nav li li {
+	background: #4D4D4D;
 }
 div#main-nav a {
 	padding: .75em 1em;
