@@ -11,7 +11,7 @@
  * 
  */ 
 html {
-	background: url(../images/body-bg-209x2000.jpg) repeat-x top;
+	background: #D3D3D3 url(../images/body-bg-209x2000.jpg) repeat-x top;
 }
 body {
 	font-size: 62.5%;

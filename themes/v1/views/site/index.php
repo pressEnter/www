@@ -21,6 +21,10 @@
 		<?php echo CHtml::link('<span>Leer más</span>', '#'); ?>
 	</div>
 </div>
+<div id="services">
+	<h3>Servicios</h3>
+
+</div>
 <div id="news-updates">
 	<div id="news">
 		<h3>Noticias</h3>
@@ -32,7 +36,7 @@
 	</div>
 	<div id="updates">
 		<h3>Actualizaciones</h3>
-	
+		<?php $this->renderPartial('webroot.themes.v1.views._last_tweets'); ?>
 	</div>
 </div>
 <div id="technologies">

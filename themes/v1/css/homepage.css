@@ -88,80 +88,106 @@ body#site-index div.highlight div.read-more a:visited {
 body#site-index div.highlight div.read-more a:hover {
 	color: #E7E7E7;
 }
+/* SERVICES */
+body#site-index div#services {
+	height: 410px;
+	line-height: 70px;
+	background: url(../images/services-bg-150x410.jpg) repeat-x;
+}
+body#site-index div#services h3 {
+	text-align: center;
+	color: #fff;
+	text-shadow: 0 1px 1px #000;
+}
 /* NEWS-UPDATES */
 body#site-index div#news-updates {
 	height: 410px;
-	background: url(../images/news-updates-bg-150x410.jpg) repeat-x;
+	background: #DDDAD8 url(../images/news-updates-bg-150x172.jpg) repeat;
 }
 body#site-index div#news {
 	width: 640px;
+	height: 390px;
 	float: left;
-	margin-top: 20px;
+	background: url(../images/shadow-v-10x960.png) no-repeat bottom right;
+	padding-bottom: 20px;
 }
 body#site-index div#news h3 {
+	color: #323232;
 	text-align: center;
-	color: #FFAD00;
-	text-shadow: 0 1px 1px #000;
+	font-weight: bold;
+	line-height: 60px;
 }
 body#site-index div#news div#posts-wrapper {
 	margin: 0 20px 0;
 }
 body#site-index div#news div.post {
-	margin: 30px 0 30px;
+	margin: 10px 0 60px;
 }
 body#site-index div#news div.published-date {
 	font-size: 12px;
 	background: #FFAD00;
 	float: left;
 	padding: 5px;
-	margin-bottom: 10px;
+	height: 40px;
 }
 body#site-index div#news h4 {
 	font-size: 18px;
-	color: #fff;
-	clear: left;
+	color: #F01800;
+	margin: 0 0 0 100px;
 }
 body#site-index div#news div.body {
-	margin: 10px 0 0;
-	color: #ccc;
+	margin: 10px 0 0 100px;
+	color: #222;
+	font-size: 14px;
 }
 body#site-index div#news div.read-more {
 	margin: 10px 10px 0 0;
-	text-align: right;
+	float: right;
+}
+body#site-index div#news div.read-more a {
 }
 body#site-index div#news div.read-more a:link,
 body#site-index div#news div.read-more a:visited {
-	color: #fff;
-	text-transform: uppercase;
+	color: #008080;
+	text-decoration: none;
+	font-weight: bold;
+}
+body#site-index div#news div.read-more a:hover {
+	text-decoration: underline;
 }
 body#site-index div#updates {
 	width: 320px;
 	height: 390px;
 	float: left;
-	margin-top: 5px;
-	padding-top: 15px;
-	background: url(../images/updates-shadow-v-10x200.jpg) repeat-y left;
 }
 body#site-index div#updates h3 {
-	color: #fff;
-	text-indent: 20px;
-	text-shadow: 0 1px 1px #000;
+	line-height: 60px;
+	color: #323232;
+	text-align: center;
+	font-weight: bold;
+}
+body#site-index div#updates div#twtr-widget-1 {
+	width: 310px; /* MATCHS WIDGET WIDTH */
+	margin: 30px 0 0 25px;
 }
 /* TECHNOLOGIES */
 body#site-index div#technologies {
-	background: #DDDAD8 url(../images/technologies-bg-160x86.jpg) repeat-x top;
-	margin-bottom: -5px;
+	background: #DDDAD8 url(../images/shadow-h-960x10.png) no-repeat top;
+	margin-bottom: -7px;
 }
 body#site-index div#technologies h3 {
 	color: #323232;
-	height: 86px;
+	height: 36px;
 	text-align: center;
-	line-height: 90px;
+	line-height: 30px;
+	/*background: url(../images/technologies-shadow-h-960x10.png) no-repeat top;*/
+	background: #DDDAD8 url(../images/news-updates-bg-150x172.jpg) repeat;
+	padding-bottom: 10px;
 }
 body#site-index div#technologies ul {
-	background: #DDDAD8 url(../images/technologies-shadow-h-960x10.png) no-repeat top;
 	padding-top: 30px;
 	padding-bottom: 20px;
+	background: url(../images/shadow-h-960x10.png) no-repeat top;
 }
 body#site-index div#technologies li {
 	float: left;
