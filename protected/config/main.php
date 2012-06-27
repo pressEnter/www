@@ -48,7 +48,7 @@ return array(
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			),
 		),
-    'db' => require(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'db.php'),
+		'db' => require(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'db.php'),
 		// uncomment the following to use a MySQL database
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
