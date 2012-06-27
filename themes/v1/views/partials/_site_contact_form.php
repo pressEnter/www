@@ -32,6 +32,7 @@
 			'showRefreshButton' => false,
 			'clickableImage' => true,
 			'imageOptions' => array(),
+			'captchaAction' => 'site/captcha'
 		)); 
 		?>
 		<?php echo $form->textField($this->contact_form_model, 'verifyCode'); ?>

@@ -13,10 +13,10 @@
 			</ul>
 			<ul>
 				<li><h4>Capacitación</h4></li>
-				<li><?php echo CHtml::link('Drupal', '#'); ?></li>
-				<li><?php echo CHtml::link('Symfony', '#'); ?></li>
-				<li><?php echo CHtml::link('HTML/CSS', '#'); ?></li>
-				<li><?php echo CHtml::link('Servidores Linux', '#'); ?></li>
+				<li><?php echo CHtml::link('Drupal', '/training/drupal'); ?></li>
+				<li><?php echo CHtml::link('Symfony', '/training/symfony'); ?></li>
+				<li><?php echo CHtml::link('XHTML/CSS', '/training/xhtml-css'); ?></li>
+				<li><?php echo CHtml::link('Servidores Linux', '/training/servers'); ?></li>
 			</ul>
 			<ul>
 				<li><h4>Links</h4></li>

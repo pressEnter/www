@@ -18,7 +18,7 @@
         <hr />
     </div>
     <div class="read-more">
-        <?php echo CHtml::link('<span>Leer más</span>', '#'); ?>
+        <?php echo CHtml::link('<span>Leer más</span>', 'projects/alba'); ?>
     </div>
 </div>
 <div id="services">
