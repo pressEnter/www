@@ -9,7 +9,7 @@ class Posts extends CWidget {
 	public $limit;
 	public $minimal = false;
 	public $showPagination = true;
-	public $showNoResult = false;
+	public $showNoResults = false;
 	public $pages;
 	public $extraWrapperClasses;
 	public $extraItemClasses;
@@ -36,7 +36,7 @@ class Posts extends CWidget {
 			$this->render('posts_minimal', array(
 				'posts' => $posts, 
 				'showPagination' => false, 
-				'showNoResult' => $this->showNoResult, 
+				'showNoResults' => $this->showNoResults, 
 				'pages' => null, 
 				'extraWrapperClasses' => $extraWrapperClasses, 
 				'extraItemClasses' => $extraItemClasses,
@@ -46,6 +46,7 @@ class Posts extends CWidget {
 			$this->render('posts', array(
 				'posts' => $posts, 
 				'showPagination' => $this->showPagination, 
+				'showNoResults' => $this->showNoResults, 
 				'pages' => $pages, 
 				'extraWrapperClasses' => $extraWrapperClasses, 
 				'extraItemClasses' => $extraItemClasses,
