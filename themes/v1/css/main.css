@@ -15,7 +15,8 @@ html {
 }
 body {
 	font-size: 62.5%;
-	font-family: 'Share', Tahoma, Geneva, sans-serif;
+	font-family: "Overlock", Tahoma, Geneva, sans-serif;
+	font-weight: normal;
 }
 p {
 	line-height: 1.35em;
@@ -30,7 +31,7 @@ h3 {
 	font-size: 22px;
 }
 h4 {
-	font-size: 14px;
+	font-size: 1.4em;
 	font-weight: bold;
 }
 h1 span,
@@ -48,9 +49,9 @@ strong {
  * 
  */
 div#wrapper {
-	font-size: 1.4em;
 	width: 970px;
 	margin: 0 auto;
+	font-size: 1.4em;
 }
 /*
  * 
@@ -202,7 +203,7 @@ div#footer div.form-wrapper div.captcha img {
 	margin-left: 10px;
 }
 div#footer div.form-wrapper div.errorMessage {
-	font-size: 12px;
+	font-size: 1.2em;
 	margin-top: 3px;
 	font-style: italic;
 	text-align: right;
@@ -224,7 +225,7 @@ div#footer div#links li {
 	margin: 3px 0 0;
 }
 div#footer div#links a {
-	font-size: 14px;
+	font-size: 1.0em;
 }
 div#footer div#links a:link,
 div#footer div#links a:visited {
@@ -249,10 +250,12 @@ div#footer div#social-links li {
 }
 /* COPYLEFT */
 div#footer div#copyleft {
+	font-size: 1.0em;
 	margin: -8px auto 0;
 	padding: 20px 0 0;
 	text-align: center;
 	background: url(../images/footer-shadow-h-140x10.jpg) repeat-x top;
+	letter-spacing: 1px;
 }
 div#footer div#copyleft a:link,
 div#footer div#copyleft a:visited {

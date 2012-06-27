@@ -20,7 +20,6 @@ body#site-index div.highlight div.image-wrapper {
 	float: left;
 	width: 533px;
 	height: 335px;
-	background: #f00;
 	margin: 30px 0 0 40px;
 	position: relative;
 	overflow: hidden;
@@ -31,8 +30,7 @@ body#site-index div.highlight div.image-wrapper p {
 	width: 450px;
 	margin: 0 0 0 35px;
 	color: #fff;
-	font-size: 14px;
-	line-height: 16px;
+	font-size: 1.0em;
 	text-align: center;
 }
 body#site-index div.highlight div.info-wrapper {
@@ -45,12 +43,12 @@ body#site-index div.highlight div.info-wrapper h3 {
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; 
 }
 body#site-index div.highlight div.info-wrapper h2 {
-	font-size: 32px;
+	font-size: 2.4em;
 	letter-spacing: -2px;
 	color: #F01800;
 }
 body#site-index div.highlight div.info-wrapper h3 {
-	font-size: 22px;
+	font-size: 1.4em;
 	margin-top: 7px;
 	letter-spacing: -1px;
 	color: #008080;
@@ -58,6 +56,7 @@ body#site-index div.highlight div.info-wrapper h3 {
 body#site-index div.highlight div.info-wrapper p {
 	margin-top: 10px;
 	color: #898989;
+	font-size: 1.0em;
 }
 body#site-index div.highlight div.gallery {
 }
@@ -113,7 +112,7 @@ body#site-index div#services div.service-detail {
 	padding: 60px 0 0 25px;
 }
 body#site-index div#services div.service-detail h4 {
-	font-size: 18px;
+	font-size: 1.4em;
 	margin-bottom: 10px;
 }
 body#site-index div#services div.service-detail img {
@@ -121,7 +120,7 @@ body#site-index div#services div.service-detail img {
 	margin: -10px 10px 0 0;
 }
 body#site-index div#services div.service-detail p {
-	font-size: 14px;
+	font-size: 1.0em;
 	text-align: justify;
 	text-justify: newspaper;
 	width: 250px;
@@ -158,7 +157,6 @@ body#site-index div#news div.post.last {
 	margin-bottom: 0;
 }
 body#site-index div#news div.published-date {
-	font-size: 12px;
 	font-family: Arial, sans-serif;
 	background: url(../images/shadow-v-7x100.jpg) no-repeat right top;
 	float: left;
@@ -172,27 +170,27 @@ body#site-index div#news div.published-date span {
 	display: block;
 }
 body#site-index div#news div.published-date span.month {
-	font-size: 14px;
+	font-size: 1.0em;
 	text-transform: uppercase;
 }
 body#site-index div#news div.published-date span.day {
-	font-size: 30px;
+	font-size: 2.0em;
 	color: #0199AE;
 	font-weight: bold;
 	padding: 4px 0 6px;
 }
 body#site-index div#news div.published-date span.year {
-	font-size: 14px;
+	font-size: 1.0em;
 }
 body#site-index div#news h4 {
-	font-size: 18px;
+	font-size: 1.4em;
 	color: #F01800;
 	margin: 0 0 0 80px;
 }
 body#site-index div#news div.body {
 	margin: 10px 0 0 80px;
 	color: #222;
-	font-size: 14px;
+	font-size: 1.0em;
 	line-height: 18px;
 }
 body#site-index div#news div.read-more {
