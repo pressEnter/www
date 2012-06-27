@@ -83,7 +83,7 @@
 		</div><!-- links -->
 		<hr />
 		<div id="copyleft">
-			<p><strong>pressEnter &copy;</strong> <span>Cooperativa de Software</span> <?php echo date('Y'); ?> - <?php echo CHtml::link('Licencia', 'http://www.gnu.org/copyleft/gpl.html', array('target' => '_blank')); ?></p>
+			<p><strong>pressEnter &copy;</strong> <span>Cooperativa de Software Libre</span> <?php echo date('Y'); ?> - <?php echo CHtml::link('Licencia', 'http://www.gnu.org/copyleft/gpl.html', array('target' => '_blank')); ?></p>
 		</div>
 	</div><!-- footer -->
 
