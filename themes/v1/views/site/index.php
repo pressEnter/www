@@ -22,8 +22,24 @@
 	</div>
 </div>
 <div id="services">
-	<h3>Servicios</h3>
-
+	<!--<h3>Servicios</h3>-->
+	<div id="services-wrapper">
+		<div class="service-detail" id="service-development">
+			<?php echo CHtml::image(Yii::app()->theme->baseUrl . '/images/icons/eleganticons-config.png'); ?>
+			<h4>Desarrollo</h4>
+			<p>Curabitur porttitor elit at sem dapibus placerat. Maecenas lacinia, enim at adipiscing egestas, enim lectus ornare arcu, posuere elementum quam diam at dolor. Nullam eu quam non arcu mollis commodo eu id nisi. Mauris nec quam at massa ultrices semper. Mauris cursus volutpat magna, in eleifend augue vulputate eu. Suspendisse tristique odio vitae lorem posuere iaculis. Donec dapibus rutrum lacinia.</p>
+		</div>
+		<div class="service-detail" id="service-training">
+			<?php echo CHtml::image(Yii::app()->theme->baseUrl . '/images/icons/eleganticons-questions.png'); ?>
+			<h4>Capacitación</h4>
+			<p>Curabitur porttitor elit at sem dapibus placerat. Maecenas lacinia, enim at adipiscing egestas, enim lectus ornare arcu, posuere elementum quam diam at dolor. Nullam eu quam non arcu mollis commodo eu id nisi. Mauris nec quam at massa ultrices semper. Mauris cursus volutpat magna, in eleifend augue vulputate eu. Suspendisse tristique odio vitae lorem posuere iaculis. Donec dapibus rutrum lacinia.</p>
+		</div>
+		<div class="service-detail" id="service-support">
+			<?php echo CHtml::image(Yii::app()->theme->baseUrl . '/images/icons/eleganticons-piechart.png'); ?>
+			<h4>Soporte</h4>
+			<p>Curabitur porttitor elit at sem dapibus placerat. Maecenas lacinia, enim at adipiscing egestas, enim lectus ornare arcu, posuere elementum quam diam at dolor. Nullam eu quam non arcu mollis commodo eu id nisi. Mauris nec quam at massa ultrices semper. Mauris cursus volutpat magna, in eleifend augue vulputate eu. Suspendisse tristique odio vitae lorem posuere iaculis. Donec dapibus rutrum lacinia.</p>
+		</div>
+	</div> <!-- services-wrapper -->
 </div>
 <div id="news-updates">
 	<div id="news">

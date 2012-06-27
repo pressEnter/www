@@ -27,12 +27,13 @@ body#site-index div.highlight div.image-wrapper {
 }
 body#site-index div.highlight div.image-wrapper p {
 	position: absolute;
-	top: 120px;
+	top: 110px;
 	width: 450px;
 	margin: 0 0 0 35px;
 	color: #fff;
 	font-size: 14px;
 	line-height: 16px;
+	text-align: center;
 }
 body#site-index div.highlight div.info-wrapper {
 	float: right;
@@ -91,13 +92,42 @@ body#site-index div.highlight div.read-more a:hover {
 /* SERVICES */
 body#site-index div#services {
 	height: 410px;
-	line-height: 70px;
 	background: url(../images/services-bg-150x410.jpg) repeat-x;
 }
 body#site-index div#services h3 {
 	text-align: center;
+	line-height: 70px;
 	color: #fff;
 	text-shadow: 0 1px 1px #000;
+}
+body#site-index div#services-wrapper {
+	margin: 0 0 0 30px;
+}
+body#site-index div#services div.service-detail {
+	width: 280px;
+	height: 320px;
+	float: left;
+	margin: 0 0 0;
+	color: #fff;
+	background: url(../images/shadow-v-10x960.png) no-repeat right bottom;
+	padding: 70px 0 0 25px;
+}
+body#site-index div#services div.service-detail h4 {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+body#site-index div#services div.service-detail img {
+	float: left;
+	margin: -10px 10px 0 0;
+}
+body#site-index div#services div.service-detail p {
+	font-size: 14px;
+	text-align: justify;
+	text-justify: newspaper;
+	width: 250px;
+}
+body#site-index div#services div#service-support {
+	background: none;
 }
 /* NEWS-UPDATES */
 body#site-index div#news-updates {
@@ -148,7 +178,8 @@ body#site-index div#news div.published-date span.month {
 body#site-index div#news div.published-date span.day {
 	font-size: 30px;
 	color: #0199AE;
-	padding: 10px 0 3px;
+	font-weight: bold;
+	padding: 4px 0 6px;
 }
 body#site-index div#news div.published-date span.year {
 	font-size: 14px;

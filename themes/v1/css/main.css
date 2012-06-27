@@ -16,7 +16,10 @@ html {
 body {
 	font-size: 62.5%;
 	font-family: Tahoma, Geneva, sans-serif;
-	letter-spacing: -1px;
+	font-family: 'Share';
+}
+p {
+	line-height: 1.35em;
 }
 hr {
 	clear: both;
@@ -127,10 +130,10 @@ div#footer h3 {
 }
 /* CONTACT */
 div#footer div#contact {
-	width: 650px;
+	width: 640px;
 	float: left;
 	padding-top: 30px;
-	background: url(../images/footer-shadow-v-10x50.jpg) repeat-y right;
+	background: url(../images/shadow-v-10x960.png) no-repeat bottom right;
 }
 /* CONTACT-DETAILS */
 div#footer ul#contact-details {	
@@ -156,7 +159,7 @@ div#footer div#map {
 div#footer div.form-wrapper {
 	float: right;
 	width: 280px;
-	margin: -313px 30px 20px 0;
+	margin: -313px 20px 20px 0;
 }
 div#footer div.form-wrapper.with-errors {
 }
