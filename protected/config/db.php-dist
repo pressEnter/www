@@ -6,8 +6,7 @@
 // This is the main Web application configuration. Any writable
 // CWebApplication properties can be configured here.
 return array(
-//  'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
-    'connectionString' => 'mysql:host=localhost;dbname=reservas',
+    'connectionString' => 'mysql:host=localhost;dbname=pressenter',
     'username' => 'usuario',
     'password' => 'clave',
     'charset' => 'utf8',
