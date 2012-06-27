@@ -243,8 +243,11 @@ body#site-index div#technologies h3 {
 body#site-index div#technologies ul {
 	padding-top: 30px;
 	padding-bottom: 20px;
-	background: url(../images/shadow-h-960x10.png) no-repeat top;
 	margin: 0 0 0 12px;
+	clear: both;
+}
+body#site-index div#technologies ul.first {
+	background: url(../images/shadow-h-960x10.png) no-repeat top;
 }
 body#site-index div#technologies li {
 	float: left;
