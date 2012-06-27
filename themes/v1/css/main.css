@@ -15,8 +15,7 @@ html {
 }
 body {
 	font-size: 62.5%;
-	font-family: Tahoma, Geneva, sans-serif;
-	font-family: 'Share';
+	font-family: 'Share', Tahoma, Geneva, sans-serif;
 }
 p {
 	line-height: 1.35em;
