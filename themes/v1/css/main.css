@@ -216,6 +216,9 @@ div#footer div#links {
 	padding-top: 30px;
 	position: relative;
 }
+div#footer div#links h4 {
+	font-size: 1.2em;
+}
 div#footer div#links ul {
 	width: 140px;
 	float: left;
