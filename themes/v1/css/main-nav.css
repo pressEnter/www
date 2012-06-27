@@ -64,14 +64,17 @@ div#main-nav ul {
 	float: right;
 }
 div#main-nav ul ul {
-	border-top: 1px transparent solid;
 }
 div#main-nav li {
 	float: left;
 	background: #4D4D4D;
 }
+div#main-nav ul.sf-menu li:hover {
+	background: #C8C8C8;
+}
 div#main-nav li li {
-	background: #4D4D4D;
+	background: #C8C8C8;
+	border-top: 1px #B8B8B8 solid;
 }
 div#main-nav a {
 	padding: .75em 1em;
@@ -80,4 +83,19 @@ div#main-nav a:link,
 div#main-nav a:visited {
 	color: #fff;
 	text-decoration: none;
+}
+div#main-nav a:hover {
+	color: #4D4D4D;
+}
+div#main-nav li.sfHover a:link,
+div#main-nav li.sfHover a:visited,
+div#main-nav li li a:link,
+div#main-nav li li a:visited {
+	color: #4D4D4D;
+	text-decoration: none;
+}
+
+div#main-nav li.sfHover a:hover,
+div#main-nav li li a:hover {
+	color: #000;
 }

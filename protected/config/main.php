@@ -8,7 +8,7 @@
 return array(
 	'basePath'=>dirname(__FILE__).DIRECTORY_SEPARATOR.'..',
 	'name'=>'PressEnter',
-	'language' => 'es_es',
+	'language' => 'es_ar',
 	// preloading 'log' component
 	'preload'=>array('log'),
 
@@ -76,13 +76,6 @@ return array(
 				*/
 			),
 		),
-		// Custom jquery version 
-		// http://www.yiiframework.com/forum/index.php/topic/6953-update-von-jquery-auf-1-41/page__p__35545#entry35545
-		//'clientScript'=>array(
-		//	'scriptMap' => array(
-		//		'jquery.js'=>false,
-		//	),
-		//),
 	),
 
 	// application-level parameters that can be accessed

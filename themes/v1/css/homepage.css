@@ -109,7 +109,7 @@ body#site-index div#news {
 	height: 390px;
 	float: left;
 	background: url(../images/shadow-v-10x960.png) no-repeat bottom right;
-	padding-bottom: 20px;
+	padding: 0 0 0;
 }
 body#site-index div#news h3 {
 	color: #323232;
@@ -121,24 +121,48 @@ body#site-index div#news div#posts-wrapper {
 	margin: 0 20px 0;
 }
 body#site-index div#news div.post {
-	margin: 10px 0 60px;
+	clear: both;
+	margin: 20px 0 30px;
+}
+body#site-index div#news div.post.last {
+	margin-bottom: 0;
 }
 body#site-index div#news div.published-date {
 	font-size: 12px;
-	background: #FFAD00;
+	font-family: Arial, sans-serif;
+	background: url(../images/shadow-v-7x100.jpg) no-repeat right top;
 	float: left;
-	padding: 5px;
-	height: 40px;
+	width: 40px;
+	height: 90px;
+	margin: -20px 0 0;
+	padding: 23px 20px 0 0;
+	text-align: right;
+}
+body#site-index div#news div.published-date span {
+	display: block;
+}
+body#site-index div#news div.published-date span.month {
+	font-size: 14px;
+	text-transform: uppercase;
+}
+body#site-index div#news div.published-date span.day {
+	font-size: 30px;
+	color: #0199AE;
+	padding: 10px 0 3px;
+}
+body#site-index div#news div.published-date span.year {
+	font-size: 14px;
 }
 body#site-index div#news h4 {
 	font-size: 18px;
 	color: #F01800;
-	margin: 0 0 0 100px;
+	margin: 0 0 0 80px;
 }
 body#site-index div#news div.body {
-	margin: 10px 0 0 100px;
+	margin: 10px 0 0 80px;
 	color: #222;
 	font-size: 14px;
+	line-height: 18px;
 }
 body#site-index div#news div.read-more {
 	margin: 10px 10px 0 0;
@@ -167,8 +191,8 @@ body#site-index div#updates h3 {
 	font-weight: bold;
 }
 body#site-index div#updates div#twtr-widget-1 {
-	width: 310px; /* MATCHS WIDGET WIDTH */
-	margin: 30px 0 0 25px;
+	width: 280px; /* MATCHS WIDGET WIDTH */
+	margin: 10px 0 0 22px;
 }
 /* TECHNOLOGIES */
 body#site-index div#technologies {
@@ -180,7 +204,6 @@ body#site-index div#technologies h3 {
 	height: 36px;
 	text-align: center;
 	line-height: 30px;
-	/*background: url(../images/technologies-shadow-h-960x10.png) no-repeat top;*/
 	background: #DDDAD8 url(../images/news-updates-bg-150x172.jpg) repeat;
 	padding-bottom: 10px;
 }
@@ -188,6 +211,7 @@ body#site-index div#technologies ul {
 	padding-top: 30px;
 	padding-bottom: 20px;
 	background: url(../images/shadow-h-960x10.png) no-repeat top;
+	margin: 0 0 0 12px;
 }
 body#site-index div#technologies li {
 	float: left;
@@ -199,10 +223,10 @@ body#site-index div#technologies li {
 	height: 62px;
 	margin: 5px 2px;
 }
-body#site-index div#technologies img {
-	width: 100px;
-}
 body#site-index div#technologies li.last {
 	clear: both;
 	height: 1px;
+}
+body#site-index div#technologies img {
+	width: 100px;
 }

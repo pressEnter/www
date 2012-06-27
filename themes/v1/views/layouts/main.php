@@ -42,12 +42,12 @@
 	</div><!-- header -->
 	
 	<div id="main-nav">
-		<?php $this->renderPartial('webroot.themes.v1.views._main_nav'); ?>
+		<?php $this->renderPartial('webroot.themes.v1.views.partials._main_nav'); ?>
 	</div><!-- main-nav -->
 	
 	<div id="content">
 		<div id="inner-content">
-		<?php $this->renderPartial('webroot.themes.v1.views._flashes'); ?>
+		<?php $this->renderPartial('application.views.partials._flashes'); ?>
 		<?php echo $content; ?>
 		</div>
 	</div>
@@ -74,11 +74,11 @@
 				?>
 			</div> <!-- map -->
 			<div id="site-contact-form-wrapper">
-				<?php $this->renderPartial('webroot.themes.v1.views._site_contact_form'); ?>
+				<?php $this->renderPartial('webroot.themes.v1.views.partials._site_contact_form'); ?>
 			</div>
 		</div> <!-- contact -->
 		<div id="links">
-				<?php $this->renderPartial('webroot.themes.v1.views._links'); ?>
+				<?php $this->renderPartial('webroot.themes.v1.views.partials._links'); ?>
 		</div><!-- links -->
 		<hr />
 		<div id="copyleft">

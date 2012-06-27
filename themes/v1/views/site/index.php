@@ -31,17 +31,18 @@
 		
 		<?php $this->widget('Posts', array(
 			'minimal' => true,
-			'limit' => 2
+			'limit' => 2,
+			'showSocialLinks' => false
 		)); ?>
 	</div>
 	<div id="updates">
 		<h3>Actualizaciones</h3>
-		<?php $this->renderPartial('webroot.themes.v1.views._last_tweets'); ?>
+		<?php $this->renderPartial('application.views.partials._last_tweets'); ?>
 	</div>
 </div>
 <div id="technologies">
 	<?php $technologies_url = Yii::app()->request->getBaseUrl(true) . '/images/technologies/150x93/'; ?>
-	<h3>Tecnologías <span>utilizadas</span></h3>
+	<h3>Tecnologías <span>preferidas</span></h3>
 	<ul>
 		<li><?php echo CHtml::image($technologies_url.'apache.png', 'Apache', array('title' => 'Apache')); ?></li>
 		<li><?php echo CHtml::image($technologies_url.'django.png', 'Django', array('title' => 'Django')); ?></li>
