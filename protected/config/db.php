@@ -7,8 +7,8 @@
 // CWebApplication properties can be configured here.
 return array(
 //  'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
-    'connectionString' => 'mysql:host=localhost;dbname=pressenter',
-    'username' => 'root',
-    'password' => '1234',
+    'connectionString' => 'mysql:host=localhost;dbname=pressenter_www',
+    'username' => 'ragnarok',
+    'password' => 'demo',
     'charset' => 'utf8',
 );

@@ -48,15 +48,8 @@ return array(
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
 			),
 		),
-        //'db' => require(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'db.php'),
+    'db' => require(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'db.php'),
 		// uncomment the following to use a MySQL database
-		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=pressenter_www',
-			'emulatePrepare' => true,
-			'username' => 'root',
-			'password' => '1234',
-			'charset' => 'utf8',
-		),
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
             'errorAction'=>'site/error',
