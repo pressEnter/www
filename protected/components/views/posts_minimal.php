@@ -17,19 +17,19 @@
 		<span class='day'>{$date_parts['mday']}</span>
 		<span class='year'>{$date_parts['year']}</span>
 		";
+		$url = Yii::app()->getBaseUrl(true).'/news/read/'.$post->id . '/' .$post->slug;
 		?>
 		<div class="published-date"><?php echo $date_out; ?></div>
 		
-		<h2><?php echo CHtml::link($post->title, 'news/read/'.$post->id . '/' .$post->slug); ?></h2>
+		<h2><?php echo CHtml::link($post->title, $url); ?></h2>
 		<div class="body">
-			<p><?php echo strip_tags(substr($post->body, 0, 300), '<strong><em>'); ?>...</p>
+			<p><?php echo strip_tags(substr($post->body, 0, 300)); ?>...</p>
 		</div><!--
 		<div class="read-more">
-			<?php echo CHtml::link('Leer más', 'news/read/'.$post->id . '/' .$post->slug); ?>
+			<?php echo CHtml::link('Leer más', $url); ?>
 		</div>
 		-->
 		<?php if($showSocialLinks): ?>
-		<?php $url = Yii::app()->getBaseUrl(true).'news/read/'.$post->id . '/' .$post->slug; ?>
 		<?php Yii::app()->controller->renderPartial('application.views.partials._social_links', array('url' => $url, 'title' => $post->title)); ?>
 		<?php endif; ?>
 		<hr />
