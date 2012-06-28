@@ -38,7 +38,7 @@ class QuickContactForm extends CFormModel
 			'name' => 'Nombre',
 			'email' => 'Email',
 			'body' => 'Mensaje',
-			'verifyCode' => 'Código',
+			'verifyCode' => 'Código de verificación',
 		);
 	}
 }

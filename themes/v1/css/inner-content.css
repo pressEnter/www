@@ -10,11 +10,12 @@ div#inner-content {
 	min-height: 200px;
 }
 div#inner-content h1 {
-	font-size: 1.4em;
+	font-size: 1.6em;
 	font-weight: bold;
-	color: #F01800;
 	width: 920px;
 	margin: 10px auto 0;
+	color: #008080;
+	text-transform: uppercase;
 }
 
 /*

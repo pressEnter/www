@@ -40,7 +40,7 @@ class ContactForm extends CFormModel
 			'subject' => 'Asunto',
 			'email' => 'Email',
 			'body' => 'Mensaje',
-			'verifyCode' => 'Código',
+			'verifyCode' => 'Código de verificación',
 		);
 	}
 }

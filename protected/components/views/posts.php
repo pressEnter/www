@@ -24,7 +24,7 @@
 		<?php echo $post->body; ?>
 		</div>
 		<?php if($showSocialLinks): ?>
-		<?php $url = Yii::app()->getBaseUrl(true).'/news/read/'.$post->id . '/' .$post->slug; ?>
+		<?php $url = Yii::app()->getBaseUrl(true).'news/read/'.$post->id . '/' .$post->slug; ?>
 		<?php Yii::app()->controller->renderPartial('application.views.partials._social_links', array('url' => $url, 'title' => $post->title)); ?>
 		<?php endif; ?>
 		<hr />
