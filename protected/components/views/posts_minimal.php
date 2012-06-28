@@ -17,7 +17,7 @@
 		<span class='day'>{$date_parts['mday']}</span>
 		<span class='year'>{$date_parts['year']}</span>
 		";
-		$url = Yii::app()->getBaseUrl(true).'/news/read/'.$post->id . '/' .$post->slug;
+		$url = Yii::app()->createUrl('news/read', array('id' => $post->id, 'slug' => $post->slug));
 		?>
 		<div class="published-date"><?php echo $date_out; ?></div>
 		

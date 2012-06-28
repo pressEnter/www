@@ -71,6 +71,7 @@ div#inner-content div.body {
 }
 div#inner-content div.social-links {
 	margin: 10px 0;
+	background: #898989;
 }
 div#inner-content div.social-links li {
 	float: left;

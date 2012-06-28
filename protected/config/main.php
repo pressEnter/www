@@ -46,7 +46,7 @@ return array(
 				// training, services, projects
 				'<controller:(training|services|projects)>/<item:[a-z0-9\-]+>' => '<controller>/details/item/<item>',
 				// news
-				'news/read/<id:\d+>/<slug:[0-9a-zA-Z\-]+>' => 'news/read/id/<id>/slug/<slug>',
+				'news/read/<id:\d+>/<slug:[0-9a-zA-Z\-]+>' => 'news/read',
 				//
 				// default rules
 				'<controller:\w+>/<id:\d+>' => '<controller>/view',
