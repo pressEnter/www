@@ -154,6 +154,7 @@ body#site-index div#news div#posts-wrapper {
 body#site-index div#news div.post {
 	clear: both;
 	margin: 20px 0 30px;
+	background: none;
 }
 body#site-index div#news div.body {
 	width: 520px;
