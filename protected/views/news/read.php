@@ -16,5 +16,4 @@
 	</div>
 	<?php $url = Yii::app()->getBaseUrl(true).'/news/read/'.$post->id . '/' .$post->slug; ?>
 	<?php Yii::app()->controller->renderPartial('application.views.partials._social_links', array('url' => $url, 'title' => $post->title)); ?>
-
 </div> <!-- post -->
