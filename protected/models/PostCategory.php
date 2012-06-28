@@ -13,6 +13,9 @@
  */
 class PostCategory extends CActiveRecord
 {
+	const TYPE_NEWS = 'novedades';
+	const TYPE_TRAINING = 'capacitacion';
+	const TYPE_PROJECTS = 'proyectos';
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.

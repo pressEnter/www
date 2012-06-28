@@ -1,4 +1,4 @@
-<div id="social-links">
+<div class="social-links">
 	<ul>
 		<li class="share-fb">
 			<iframe 

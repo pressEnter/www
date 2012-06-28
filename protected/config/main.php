@@ -35,7 +35,6 @@ return array(
 			// enable cookie-based authentication
 			'allowAutoLogin' => true,
 		),
-		
 		// uncomment the following to enable URLs in path-format
 		'urlManager' => array(
 			'urlFormat' => 'path',
@@ -46,12 +45,8 @@ return array(
 				'about-us' => 'site/page/view/about-us',
 				// training, services, projects
 				'<controller:(training|services|projects)>/<item:[a-z0-9\-]+>' => '<controller>/details/item/<item>',
-				//'training/<item:[a-z0-9\-]+>' => 'training/details/item/<item>',
-				// services
-				//'services/<item:[a-z0-9\-]+>' => 'services/details/item/<item>',
-				//
-				// projects
-				//'projects/<item:[a-z0-9\-]+>' => 'projects/details/item/<item>',
+				// news
+				'news/read/<id:\d+>/<slug:[0-9a-zA-Z\-]+>' => 'news/read/id/<id>/slug/<slug>',
 				//
 				// default rules
 				'<controller:\w+>/<id:\d+>' => '<controller>/view',
@@ -60,11 +55,10 @@ return array(
 			),
 		),
 		'db' => require(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'db.php'),
-		// uncomment the following to use a MySQL database
 		'errorHandler' => array(
 			// use 'site/error' action to display errors
-            'errorAction' => 'site/error',
-        ),
+            'errorAction' => 'site/error', // http://www.yiiframework.com/forum/index.php/topic/3856-custom-404-page-not-found-in-yii/
+        ), 
 		'log' => array(
 			'class' => 'CLogRouter',
 			'routes' => array(
@@ -72,12 +66,11 @@ return array(
 					'class' => 'CFileLogRoute',
 					'levels' => 'error, warning',
 				),
-				// uncomment the following to show log messages on web pages
-				/*
+				// uncomment the following to show log messages on web pages				
 				array(
 					'class' => 'CWebLogRoute',
 				),
-				*/
+				
 			),
 		),
 	),

@@ -4,7 +4,7 @@
  *
  */
 body#site-index div#content {
-	background: url(../images/content-bg-970x465.png) no-repeat center top;
+	background: url(../images/content-bg-homepage-970x465.png) no-repeat center top;
 }
 body#site-index div#inner-content {
 	width: 960px;
@@ -45,13 +45,11 @@ body#site-index div.highlight div.info-wrapper h3 {
 }
 body#site-index div.highlight div.info-wrapper h2 {
 	font-size: 2.4em;
-	letter-spacing: -2px;
 	color: #F01800;
 }
 body#site-index div.highlight div.info-wrapper h3 {
 	font-size: 1.4em;
 	margin-top: 7px;
-	letter-spacing: -1px;
 	color: #008080;
 }
 body#site-index div.highlight div.info-wrapper p {
@@ -157,6 +155,9 @@ body#site-index div#news div.post {
 	clear: both;
 	margin: 20px 0 30px;
 }
+body#site-index div#news div.body {
+	width: 520px;
+}
 body#site-index div#news div.post.last {
 	margin-bottom: 0;
 }
@@ -186,9 +187,7 @@ body#site-index div#news div.published-date span.day {
 body#site-index div#news div.published-date span.year {
 	font-size: 1.0em;
 }
-body#site-index div#news h4 {
-	font-size: 1.4em;
-	color: #F01800;
+body#site-index div#news h2 {
 	margin: 0 0 0 80px;
 }
 body#site-index div#news div.body {

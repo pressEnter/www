@@ -70,7 +70,7 @@ div#header h1 {
 	background: url(../images/logo-200x55.png) no-repeat;
 	position: absolute;
 	top: 50px;
-	left: 40px;
+	left: 50px;
 }
 div#header h1 a {
 	display: block;
@@ -84,7 +84,7 @@ div#header h1 span {
 div#header h2 {
 	position: absolute;
 	top: 100px;
-	left: 70px;
+	left: 80px;
 	color: #fff;
 	text-shadow: 0 1px 1px #000;
 }
@@ -99,17 +99,6 @@ div#content {
 	position: relative;
 	margin-top: -35px;
 	padding-top: .1px;
-}
-
-/*
- *
- *=INNER-CONTENT
- *
- */
-div#inner-content {
-	width: 960px;
-	margin: 40px auto 0;
-	background: #fff;
 }
 /*
  *
@@ -258,7 +247,6 @@ div#footer div#copyleft {
 	padding: 20px 0 0;
 	text-align: center;
 	background: url(../images/footer-shadow-h-140x10.jpg) repeat-x top;
-	letter-spacing: 1px;
 }
 div#footer div#copyleft a:link,
 div#footer div#copyleft a:visited {

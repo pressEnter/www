@@ -7,9 +7,21 @@ class NewsController extends Controller
 		$this->render('index');
 	}
 
-	public function actionRead()
+	public function actionRead($id, $slug)
 	{
-		$this->render('read');
+		$id = (int)$id;
+		
+		$post = Post::model()->with('category')->find(array(
+			'condition' => 't.id=:id AND t.slug=:slug',
+			'params' => array(
+				':id' => $id,
+				':slug' => $slug
+			)
+		));
+		if(is_null($post)){
+			throw new CHttpException(404, 'No se encuentra la noticia solicitada.');
+		}
+		$this->render('read', array('post' => $post));
 	}
 
 	// Uncomment the following methods and override them if needed

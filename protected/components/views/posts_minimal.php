@@ -20,16 +20,17 @@
 		?>
 		<div class="published-date"><?php echo $date_out; ?></div>
 		
-		<h4><?php echo $post->title; ?></h4>
+		<h2><?php echo CHtml::link($post->title, '/news/read/'.$post->id . '/' .$post->slug); ?></h2>
 		<div class="body">
 			<p><?php echo strip_tags(substr($post->body, 0, 300), '<strong><em>'); ?>...</p>
-		</div>
+		</div><!--
 		<div class="read-more">
 			<?php echo CHtml::link('Leer más', '/news/read/'.$post->id . '/' .$post->slug); ?>
 		</div>
+		-->
 		<?php if($showSocialLinks): ?>
 		<?php $url = Yii::app()->getBaseUrl(true).'/news/read/'.$post->id . '/' .$post->slug; ?>
-		<?php Yii::app()->controller->renderPartial('application.views._social_links', array('url' => $url, 'title' => $post->title)); ?>
+		<?php Yii::app()->controller->renderPartial('application.views.partials._social_links', array('url' => $url, 'title' => $post->title)); ?>
 		<?php endif; ?>
 		<hr />
 	</div>

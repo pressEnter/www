@@ -1,0 +1,77 @@
+/*
+ *
+ *=INNER-CONTENT
+ *
+ */
+div#inner-content {
+	width: 960px;
+	margin: 40px auto 0;
+	background: #E7E7E7;
+	min-height: 200px;
+}
+div#inner-content h1 {
+	font-size: 1.4em;
+	font-weight: bold;
+	color: #F01800;
+	width: 920px;
+	margin: 10px auto 0;
+}
+
+/*
+ *
+ *=POSTS
+ *
+ */
+div#inner-content div#posts-wrapper {
+	margin: 20px 0 0;
+	padding-bottom: 30px;
+}
+/*
+ *
+ *=POST
+ *
+ */
+div#inner-content div.post {
+	margin: 30px 20px 0;
+	width: 600px;
+	background: url(../images/shadow-h-960x10.png) no-repeat bottom right;
+	padding-bottom: 30px;
+}
+div#inner-content div.post.full {
+	background: none;
+}
+div#inner-content div.post h1, /* FULL DISPLAY */
+div#inner-content div.post h2 { /* LIST DISPLAY */
+	margin: 10px 0 10px;
+	font-size: 1.4em;
+	font-weight: bold;
+}
+div#inner-content div.post h2 a:link,
+div#inner-content div.post h2 a:visited {
+	color: #F01800;
+	text-decoration: none;
+}
+div#inner-content div.post h2 a:hover {
+	color: #FFAD00;
+}
+div#inner-content div.published-date {
+	font-size: 1.0em;
+	color: #898989;
+	padding: 10px 0 5px 30px;
+	background: url(../images/icons/once-calander-24x24.png) no-repeat left;
+}
+div#inner-content div.published-date span.month {
+	text-transform: capitalize;
+}
+div#inner-content div.published-date span {
+	font-weight: bold;
+}
+div#inner-content div.body {
+}
+div#inner-content div.social-links {
+	margin: 10px 0;
+}
+div#inner-content div.social-links li {
+	float: left;
+	width: 130px;
+}

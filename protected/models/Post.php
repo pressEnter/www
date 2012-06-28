@@ -47,8 +47,8 @@ class Post extends CActiveRecord
 		return array(
 			array('title, slug, body', 'required'),
 			array('category_id, published, author_id', 'numerical', 'integerOnly'=>true),
-			array('title', 'length', 'max'=>99),
-			array('slug', 'length', 'max'=>255),
+			array('title', 'length', 'max' => 99),
+			array('slug', 'length', 'max' => 255),
 			array('published_date', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
