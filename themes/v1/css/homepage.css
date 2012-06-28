@@ -44,8 +44,16 @@ body#site-index div.highlight div.info-wrapper h3 {
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; 
 }
 body#site-index div.highlight div.info-wrapper h2 {
-	font-size: 2.4em;
+	font-size: 2.2em;
 	color: #F01800;
+}
+body#site-index div.highlight div.info-wrapper h2 a:link,
+body#site-index div.highlight div.info-wrapper h2 a:visited {
+	color: #F01800;
+	text-decoration: none;
+}
+body#site-index div.highlight div.info-wrapper h2 a:hover {
+	color: #FFAD00;
 }
 body#site-index div.highlight div.info-wrapper h3 {
 	font-size: 1.4em;
@@ -56,6 +64,17 @@ body#site-index div.highlight div.info-wrapper p {
 	margin-top: 10px;
 	color: #898989;
 	font-size: 1.0em;
+}
+body#site-index div.highlight div.check-list {
+	margin: 15px 10px 0 0;
+	font-size: 1.2em;
+}
+body#site-index div.highlight div.check-list ul {
+}
+body#site-index div.highlight div.check-list li {
+	margin: 5px 0 0;
+	padding: 1px 0 1px 30px;
+	background: url(../images/icons/eleganticons-checkmark-24x24.png) no-repeat left;
 }
 body#site-index div.highlight div.gallery {
 	position: absolute;

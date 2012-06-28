@@ -1,8 +1,16 @@
 <div class="highlight" id="highlight-alba">
     <div class="info-wrapper">
-        <h2>Proyecto ALBA</h2>
+        <h2><?php echo CHtml::link('Proyecto ALBA', array('projects/details', 'item' => 'alba')); ?></h2>
         <h3>Sistema Libre de Gestión Educativa</h3>
-        <p>Sed elit felis, ornare in eleifend et, gravida ut risus. Vestibulum dictum egestas quam eu faucibus. Vestibulum ante dui, hendrerit vel cursus id, fringilla at ligula. Donec interdum vehicula tempus. Maecenas faucibus volutpat risus vitae blandit. Proin ut urna vitae nisl dignissim mattis. Proin sed enim ac turpis ultricies gravida sit amet at urna.</p>
+        <div class="check-list">
+			<ul>
+				<li>Gestión de alumnos</li>
+				<li>Control de asistencias</li>
+				<li>Notas</li>
+				<li>Administración de secciones</li>
+				<li>Múltiples establecimientos</li>
+			</ul>
+        </div>
     </div>
     <div class="image-wrapper">
         <?php echo CHtml::image(Yii::app()->request->getBaseUrl(true).'/images/highlights/alba/pizarron-533x335.jpg'); ?>
@@ -16,9 +24,6 @@
             <img src="<?php echo Yii::app()->request->getBaseUrl(true).'/images/highlights/alba/notas-boletin-thumb.jpg'; ?>" alt="Boletín de notas" title="Boletín de notas" />
         </a>
         <hr />
-    </div>
-    <div class="read-more">
-        <?php echo CHtml::link('<span>Leer más</span>', 'projects/alba'); ?>
     </div>
 </div>
 <div id="services">
@@ -77,6 +82,7 @@
         <li><?php echo CHtml::image($technologies_url.'joomla.png', 'Joomla', array('title' => 'Joomla')); ?></li>
         <li><?php echo CHtml::image($technologies_url.'wordpress.png', 'Wordpress', array('title' => 'Wordpress')); ?></li>
         <li><?php echo CHtml::image($technologies_url.'jquery.png', 'jQuery', array('title' => 'jQuery')); ?></li>
+        <li><?php echo CHtml::image($technologies_url.'moodle.png', 'jQuery', array('title' => 'Moodle')); ?></li>
         <li class="last">&nbsp;</li>
     </ul>
     <hr />

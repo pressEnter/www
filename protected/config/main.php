@@ -44,7 +44,7 @@ return array(
 				'contact' => 'site/contact',
 				'about-us' => 'site/page/view/about-us',
 				// training, services, projects
-				'<controller:(training|services|projects)>/<item:[a-z0-9\-]+>' => '<controller>/details/item/<item>',
+				'<controller:(training|services|projects)>/<item:[a-z0-9\-]+>' => '<controller>/details',
 				// news
 				'news/read/<id:\d+>/<slug:[0-9a-zA-Z\-]+>' => 'news/read',
 				//
