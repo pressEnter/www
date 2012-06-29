@@ -63,8 +63,10 @@
 				<li><strong>Dirección</strong> <span>Belgrano 748 1ro Of. 13</span></li>
 			</ul>
 			<div id="map">
+<!--
 				<iframe width="280" height="210" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.ar/maps?f=q&amp;source=s_q&amp;hl=es-419&amp;geocode=&amp;q=Avenida+Belgrano+748,+Ciudad+Aut%C3%B3noma+de+Buenos+Aires&amp;aq=0&amp;oq=Avenida+Belgrano+748,+Ciudad&amp;sll=-38.341656,-63.28125&amp;sspn=34.935993,86.572266&amp;ie=UTF8&amp;hq=&amp;hnear=Av+Belgrano+748,+Monserrat,+Buenos+Aires&amp;t=m&amp;ll=-34.612796,-58.376799&amp;spn=0.014834,0.025663&amp;z=14&amp;output=embed"></iframe>
 				<br />
+-->
 				<!--
 				<small>
 					<a href="https://maps.google.com.ar/maps?f=q&amp;source=embed&amp;hl=es-419&amp;geocode=&amp;q=Avenida+Belgrano+748,+Ciudad+Aut%C3%B3noma+de+Buenos+Aires&amp;aq=0&amp;oq=Avenida+Belgrano+748,+Ciudad&amp;sll=-38.341656,-63.28125&amp;sspn=34.935993,86.572266&amp;ie=UTF8&amp;hq=&amp;hnear=Av+Belgrano+748,+Monserrat,+Buenos+Aires&amp;t=m&amp;ll=-34.612796,-58.376799&amp;spn=0.014834,0.025663&amp;z=14" style="color:#0000FF;text-align:left">Ver mapa más grande</a>

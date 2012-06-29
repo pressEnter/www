@@ -16,6 +16,7 @@
 			array('label' => 'Desarrollo web', 'url' => array('/services/web-development')),
 			array('label' => 'Actividades SUGAR', 'url' => array('/services/sugar-activities')),
 			array('label' => 'Soporte técnico', 'url' => array('/services/tech-support')),
+			array('label' => 'Hosting', 'url' => array('/services/hosting')),
 		)),
 		array('label' => 'Nosotros', 'url' => array('/about-us')),
 		array('label' => 'Contacto', 'url' => array('/contact')),
