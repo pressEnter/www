@@ -68,7 +68,7 @@ div#header {
 div#header h1 {
 	width: 200px;
 	height: 55px;
-	background: url(../images/logo-200x55.png) no-repeat;
+	background: url(../../../images/logo-200x55.png) no-repeat;
 	position: absolute;
 	top: 50px;
 	left: 50px;

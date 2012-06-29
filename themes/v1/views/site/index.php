@@ -53,7 +53,8 @@
         <?php $this->widget('Posts', array(
             'minimal' => true,
             'limit' => 2,
-            'showSocialLinks' => false
+            'showSocialLinks' => false,
+            //'category' =>  PostCategory::TYPE_NEWS,
         )); ?>
     </div>
     <div id="updates">
@@ -98,6 +99,6 @@
             imageBlank:             '<?php echo $lightbox_url; ?>images/lightbox-blank.gif',            // (string) Path and the name of a blank image (one pixel)
             txtImage:               'Imagen',   // (string) Specify text "Image"
             txtOf:                  'de',       // (string) Specify text "of"
-        }); 
+        });
     }); 
 </script>
