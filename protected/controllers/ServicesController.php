@@ -9,9 +9,18 @@ class ServicesController extends Controller
 
 	public function actionDetails($item)
 	{
-		$this->render('details', array(
-			'item' => $item,
-		));
+
+    $valid = array(
+      'tech-support', 
+      'web-development',
+      'sugar-activities',
+      'hosting',
+    );
+
+    if (!in_array($item,$valid)) {
+      throw new CHttpException(404);
+    } 
+		$this->render($item);
 	}
 	
 	// Uncomment the following methods and override them if needed
