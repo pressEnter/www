@@ -4,18 +4,29 @@
  *
  */
 body#site-index div#content {
-	background: url(../images/content-bg-homepage-970x465.png) no-repeat center top;
+	/*background: url(../images/content-bg-homepage-970x465.png) no-repeat center top;*/ 
 }
 body#site-index div#inner-content {
 	width: 960px;
-	margin: 40px auto 0;
+	margin: 0 auto 0;
 	background: none;
 }
 /* HIGHLIGHT */
 body#site-index div.highlight {
 	height: 425px;
-	background: none;
+	background: #E7E7E7;
 	position: relative;
+}
+body#site-index div.highlight div#highlight-message {
+	width: 113px;
+	height: 67px;
+	background: url(../images/highlight-ribbon-113x67.png) no-repeat top left;
+	position: absolute;
+	top: -25px;
+	left: 0;
+}
+body#site-index div.highlight div#highlight-message span {
+	display: none;
 }
 body#site-index div.highlight div.image-wrapper {
 	float: left;

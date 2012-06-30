@@ -1,4 +1,5 @@
 <div class="highlight" id="highlight-alba">
+	<div id="highlight-message"><span>Destacado!</span></div>
     <div class="info-wrapper">
         <h2><?php echo CHtml::link('Proyecto ALBA', array('projects/details', 'item' => 'alba')); ?></h2>
         <h3>Sistema Libre de Gestión Educativa</h3>

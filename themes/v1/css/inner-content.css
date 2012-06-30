@@ -5,7 +5,7 @@
  */
 div#inner-content {
 	width: 960px;
-	margin: 40px auto 0;
+	margin: 0 auto 0;
 	background: #E7E7E7;
 	min-height: 200px;
 }

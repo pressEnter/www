@@ -60,9 +60,9 @@ div#wrapper {
  *
  */
 div#header {
-	width: 960px;
+	width: 970px;
 	height: 204px;
-	background: url(../images/header-bg-960x204.jpg) no-repeat;
+	background: url(../images/header-bg-970x204.jpg) no-repeat;
 	position: relative;
 }
 div#header h1 {
@@ -96,9 +96,8 @@ div#header h2 {
  */
 div#content {
 	width: 970px;
-	background: url(../images/content-bg-970x205.png) no-repeat center top;
+	background: url(../images/content-bg-970x204.jpg) no-repeat center top;
 	position: relative;
-	margin-top: -35px;
 	padding-top: .1px;
 }
 /*
