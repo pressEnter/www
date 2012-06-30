@@ -9,9 +9,19 @@ class TrainingController extends Controller
 
 	public function actionDetails($item)
 	{
-		$this->render('details', array(
-			'item' => $item,
-		));
+		$valid = array(
+			'symfony', 
+			'drupal',
+			'python-django',
+			'xhtml-css',
+			'gnu-linux',
+		);
+
+		if (!in_array($item, $valid)) {
+			throw new CHttpException(404);
+		}
+		
+		$this->render('details', array('item' => $item));
 	}
 	
 	// Uncomment the following methods and override them if needed

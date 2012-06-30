@@ -2,9 +2,9 @@
 				<li><h4>Capacitación</h4></li>
 				<li><?php echo CHtml::link('Symfony', 'training/symfony'); ?></li>
 				<li><?php echo CHtml::link('Drupal', 'training/drupal'); ?></li>
-				<li><?php echo CHtml::link('Python/DJango', 'training/django'); ?></li>
+				<li><?php echo CHtml::link('Python/DJango', 'training/python-django'); ?></li>
 				<li><?php echo CHtml::link('XHTML/CSS', 'training/xhtml-css'); ?></li>
-				<li><?php echo CHtml::link('GNU/Linux', 'training/gnulinux'); ?></li>
+				<li><?php echo CHtml::link('GNU/Linux', 'training/gnu-linux'); ?></li>
 			</ul>
 			<ul>
 				<li><h4>Servicios</h4></li>

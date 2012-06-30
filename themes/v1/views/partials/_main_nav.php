@@ -9,9 +9,9 @@
 		array('label' => 'Capacitación', 'url' => array('/training'), 'items' => array(
 			array('label' => 'Symfony', 'url' => array('/training/symfony')),
 			array('label' => 'Drupal', 'url' => array('/training/drupal')),
-			array('label' => 'Python/DJango', 'url' => array('/training/django')),
+			array('label' => 'Python/DJango', 'url' => array('/training/python-django')),
 			array('label' => 'XHTML/CSS', 'url' => array('/training/xhtml-css')),
-			array('label' => 'GNU/Linux', 'url' => array('/training/gnulinux')),
+			array('label' => 'GNU/Linux', 'url' => array('/training/gnu-linux')),
 		)),
 		array('label' => 'Servicios', 'url' => array('/services'), 'items' => array(
 			array('label' => 'Desarrollo web', 'url' => array('/services/web-development')),
