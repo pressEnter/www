@@ -16,13 +16,55 @@
         <?php echo CHtml::image(Yii::app()->request->getBaseUrl(true).'/images/highlights/alba/pizarron-533x335.jpg'); ?>
         <p>El Proyecto Alba, es un proyecto de desarrollo de Software para la realización de un <strong>“Sistema Informático Abierto de Gestión Unificada para Unidades Educacionales”</strong>, que brindará una herramienta realizada en <strong>software libre</strong>, para el trabajo cotidiano en estas unidades. Por su tipo de licenciamiento bajo la <strong>GNU/GPL</strong>, el sistema permitirá una reutilización y actualización constante, como así también la posibilidad de aprovechamiento de módulos ya realizados por otros emprendedores (siempre que sean compatibles con esta licencia).</p>
     </div>
-    <div class="gallery">
-        <a href="<?php echo Yii::app()->request->getBaseUrl(true).'/images/highlights/alba/entrada-legajo-pedagogico.jpg'; ?>">
-            <img src="<?php echo Yii::app()->request->getBaseUrl(true).'/images/highlights/alba/entrada-legajo-pedagogico-thumb.jpg'; ?>" alt="Legajo pedagógico" title="Legajo pedagógico" />
-        </a>        
-        <a href="<?php echo Yii::app()->request->getBaseUrl(true).'/images/highlights/alba/notas-boletin.jpg'; ?>">
-            <img src="<?php echo Yii::app()->request->getBaseUrl(true).'/images/highlights/alba/notas-boletin-thumb.jpg'; ?>" alt="Boletín de notas" title="Boletín de notas" />
-        </a>
+    <div class="gallery carousel" id="highlihght-alba-gallery">
+		<?php $images_url = Yii::app()->request->getBaseUrl(true).'/images/highlights/alba/'; ?>
+		<ul>
+			<li>
+				<a href="<?php echo $images_url. 'inicio.jpg'; ?>">
+					<img src="<?php echo $images_url . 'thumbs/inicio.jpg'; ?>" alt="Pantalla de inicio" title="Pantalla de inicio" />
+				</a>        
+			</li>
+			<li>
+				<a href="<?php echo $images_url. 'admin-cuentas.jpg'; ?>">
+					<img src="<?php echo $images_url . 'thumbs/admin-cuentas.jpg'; ?>" alt="Administración de cuentas" title="Administración de cuentas" />
+				</a>        
+			</li>
+			<li>
+				<a href="<?php echo $images_url. 'admin-horarios.jpg'; ?>">
+					<img src="<?php echo $images_url . 'thumbs/admin-horarios.jpg'; ?>" alt="Administración de horarios" title="Administración de horarios" />
+				</a>        
+			</li>
+			<li>
+				<a href="<?php echo $images_url. 'datos-alumno.jpg'; ?>">
+					<img src="<?php echo $images_url . 'thumbs/datos-alumno.jpg'; ?>" alt="Datos del alumno" title="Datos del alumno" />
+				</a>        
+			</li>
+			<li>
+				<a href="<?php echo $images_url. 'entrada-legajo-pedagogico.jpg'; ?>">
+					<img src="<?php echo $images_url . 'thumbs/entrada-legajo-pedagogico.jpg'; ?>" alt="Legajo pedagógico" title="Legajo pedagógico" />
+				</a>        
+			</li>
+			<li>
+				<a href="<?php echo $images_url. 'horarios-division.jpg'; ?>">
+					<img src="<?php echo $images_url . 'thumbs/horarios-division.jpg'; ?>" alt="Horarios en la división" title="Horarios en la división" />
+				</a>        
+			</li>
+			<li>
+				<a href="<?php echo $images_url. 'locaciones.jpg'; ?>">
+					<img src="<?php echo $images_url . 'thumbs/locaciones.jpg'; ?>" alt="Locaciones" title="Locaciones" />
+				</a>        
+			</li>
+			<li>
+				<a href="<?php echo $images_url. 'materias.jpg'; ?>">
+					<img src="<?php echo $images_url . 'thumbs/materias.jpg'; ?>" alt="Materias" title="Materias" />
+				</a>        
+			</li>
+			<li>
+				<a href="<?php echo $images_url. 'notas-boletin.jpg'; ?>">
+					<img src="<?php echo $images_url . 'thumbs/notas-boletin.jpg'; ?>" alt="Entrada de notas" title="Entrada de notas" />
+				</a>        
+			</li>
+		</ul>
         <hr />
     </div>
 </div>
@@ -100,5 +142,20 @@
             txtImage:               'Imagen',   // (string) Specify text "Image"
             txtOf:                  'de',       // (string) Specify text "of"
         });
+        $("div#highlihght-alba-gallery ul").bxSlider({
+			auto: true,
+			pause: 3000,
+			autoDelay: 1000,
+			autoControls: false,
+			autoHover: true,
+			visible: 1,
+			controls: false,
+			pager: true,
+			pagerType: 'full',
+			pagerLocation: 'top',
+			pagerActiveClass: 'pager-active',
+			//captions: true
+			easing: 'easeOutCubic'
+		});
     }); 
 </script>

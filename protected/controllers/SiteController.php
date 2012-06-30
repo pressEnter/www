@@ -40,9 +40,10 @@ class SiteController extends Controller
 		Yii::app()->clientScript->registerCssFile(Yii::app()->theme->baseUrl.'/css/homepage.css', 'screen, projection');
 		Yii::app()->clientScript->registerCssFile(Yii::app()->theme->baseUrl.'/js/jquery-lightbox-0.5/css/jquery.lightbox-0.5.css', 'screen, projection');
 		Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl.'/js/jquery-lightbox-0.5/js/jquery.lightbox-0.5.min.js', CClientScript::POS_BEGIN);
-		Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl.'/js/thomaslanciaux.pro/jquery.carousel.min.js', CClientScript::POS_BEGIN);
-		// renders the view file 'protected/views/site/index.php'
-		// using the default layout 'protected/views/layouts/main.php'
+		// Carousel
+		Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl.'/js/jquery.bxSlider/jquery.easing.1.3.js', CClientScript::POS_BEGIN);
+		Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl.'/js/jquery.bxSlider/jquery.bxSlider.min.js', CClientScript::POS_BEGIN);
+		//
 		$this->render('index');
 	}
 

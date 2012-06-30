@@ -76,17 +76,44 @@ body#site-index div.highlight div.check-list li {
 	padding: 1px 0 1px 30px;
 	background: url(../images/icons/eleganticons-checkmark-24x24.png) no-repeat left;
 }
-body#site-index div.highlight div.gallery {
+/* GALLERY */
+/* http://www.bxslider.com/ */
+body#site-index div.highlight div#highlihght-alba-gallery {
 	position: absolute;
-	bottom: 60px;
-	right: 40px;
+	bottom: 80px;
+	right: 45px;
+	width: 315px;
+	height: 90px;
 }
-body#site-index div.highlight div.gallery img {
-	display: block;
-	float: left;
-	margin: 0 0 0 20px;
-	border: 5px #fff solid;
-} 
+body#site-index div.highlight div#highlihght-alba-gallery div.bx-wrapper {
+	border: 5px #008080 solid;
+}
+body#site-index div.highlight div#highlihght-alba-gallery div.bx-pager {
+	position: absolute;
+	right: -5px;
+	top: -22px;
+}
+body#site-index div.highlight div#highlihght-alba-gallery div.bx-pager a.pager-link {
+	padding: 2px 5px;
+	margin: 0 0 0 5px;
+	background: #fff;
+	font-size: 0.9em;
+}
+body#site-index div.highlight div#highlihght-alba-gallery div.bx-pager a.pager-active {
+	background: #008080;
+}
+body#site-index div.highlight div#highlihght-alba-gallery div.bx-pager a:link,
+body#site-index div.highlight div#highlihght-alba-gallery div.bx-pager a:visited {
+	color: #008080;
+	text-decoration: none;
+}
+body#site-index div.highlight div#highlihght-alba-gallery div.bx-pager a.pager-active:link,
+body#site-index div.highlight div#highlihght-alba-gallery div.bx-pager a.pager-active:visited {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* 
 body#site-index div.highlight div.read-more {
 	float: left;
 }
@@ -109,6 +136,7 @@ body#site-index div.highlight div.read-more a:visited {
 body#site-index div.highlight div.read-more a:hover {
 	color: #E7E7E7;
 }
+*/
 /* SERVICES */
 body#site-index div#services {
 	height: 410px;
