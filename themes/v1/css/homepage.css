@@ -167,6 +167,9 @@ body#site-index div#services div.service-detail a:visited {
 body#site-index div#services div.service-detail a:hover {
 	color: #FFAD00;
 }
+body#site-index div#services div#service-support {
+	background: none;
+}
 /* NEWS-UPDATES */
 body#site-index div#news-updates {
 	height: 410px;

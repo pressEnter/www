@@ -84,8 +84,14 @@
 		<div id="copyleft">
 			<p><strong>pressEnter &copy;</strong> <span>Cooperativa de Software Libre</span> <?php echo date('Y'); ?> - <?php echo CHtml::link('Licencia', 'http://www.gnu.org/copyleft/gpl.html', array('target' => '_blank')); ?></p>
 		</div>
-		<div id="powered">
-			<p>Gracefully developed with <?php echo CHtml::link('Yii Framework', 'http://yiiframework.com', array('target' => '_blank')); ?></p>
+		<div id="extra">
+			<p id="powered">Gracefully developed with <?php echo CHtml::link('Yii Framework', 'http://yiiframework.com', array('target' => '_blank')); ?>  | </p>
+			<p class="valid-button">
+				<a href="http://validator.w3.org/check?uri=referer" target="_blank"><?php echo CHtml::image('/images/PixelButton-valid-xhtml.gif', 'Valid XHTML 1.0 Transitional'); ?></a>
+			</p>
+			<p class="valid-button">
+				<a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3" target="_blank"><?php echo CHtml::image('/images/PixelButton-valid-css.gif', 'Valid CSS'); ?></a>
+			</p>
 		</div>
 	</div><!-- footer -->
 

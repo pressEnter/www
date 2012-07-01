@@ -244,11 +244,30 @@ div#footer div#social-links li {
 div#footer div#copyleft {
 	font-size: 1.0em;
 	margin: -8px auto 0;
-	padding: 20px 0 0;
+	padding: 20px 0;
 	text-align: center;
 	background: url(../images/footer-shadow-h-140x10.jpg) repeat-x top;
 }
 div#footer div#copyleft a:link,
 div#footer div#copyleft a:visited {
+	color: #fff;
+}
+/* POWERED */
+div#footer div#extra {
+	font-size: 0.9em;
+	text-align: center;
+	margin: 0 auto 10px;
+	width: 420px;
+	height: 20px;
+}
+div#footer div#extra p {
+	float: left;
+	margin: 0 0 0 5px;
+}
+div#footer div#extra p.valid-button {
+	padding-top: 3px;
+}
+div#footer div#extra a:link,
+div#footer div#extra a:visited {
 	color: #fff;
 }
