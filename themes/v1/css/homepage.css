@@ -123,31 +123,6 @@ body#site-index div.highlight div#highlihght-alba-gallery div.bx-pager a.pager-a
 	color: #fff;
 	text-decoration: none;
 }
-
-/* 
-body#site-index div.highlight div.read-more {
-	float: left;
-}
-body#site-index div.highlight div.read-more a {
-	display: block;
-	position: relative;
-	width: 103px;
-	height: 38px;
-	background: url(../images/button-blue-bg-103x38.png) no-repeat;
-	margin: -70px 0 0 420px;
-	text-align: center;
-	line-height: 38px;
-	text-transform: uppercase;
-}
-body#site-index div.highlight div.read-more a:link,
-body#site-index div.highlight div.read-more a:visited {
-	color: #fff;
-	text-decoration: none;
-}
-body#site-index div.highlight div.read-more a:hover {
-	color: #E7E7E7;
-}
-*/
 /* SERVICES */
 body#site-index div#services {
 	height: 410px;
@@ -185,8 +160,12 @@ body#site-index div#services div.service-detail p {
 	text-justify: newspaper;
 	width: 250px;
 }
-body#site-index div#services div#service-support {
-	background: none;
+body#site-index div#services div.service-detail a:link,
+body#site-index div#services div.service-detail a:visited {
+	color: #fff;
+}
+body#site-index div#services div.service-detail a:hover {
+	color: #FFAD00;
 }
 /* NEWS-UPDATES */
 body#site-index div#news-updates {
