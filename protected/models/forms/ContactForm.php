@@ -13,6 +13,17 @@ class ContactForm extends CFormModel
 	public $body;
 	public $verifyCode;
 
+	public static $subjectOptions = array(
+		0 => '',
+		'Capacitación',
+		'Enviar CV',
+		'Hosting',
+		'Proyecto Alba',
+		'Solicitud de presupuesto',
+		'Soporte técnico',
+		'Otro motivo',
+	);
+
 	/**
 	 * Declares the validation rules.
 	 */

@@ -44,6 +44,12 @@ h4 span {
 strong {
 	font-weight: bold;
 }
+em {
+	font-style: italic;
+}
+form label span.required {
+	color: #F01800;
+}
 /*
  * 
  *=WRAPPER 
@@ -155,9 +161,6 @@ div#footer div.form-wrapper.with-errors {
 div#footer div.form-wrapper label {
 	font-weight: bold;
 	color: #DDDAD8;
-}
-div#footer div.form-wrapper label span.required {
-	color: #F01800;
 }
 div#footer div.form-wrapper label.error {
 	background: url(../images/icons/warning-icon-16x16.png) no-repeat top right;

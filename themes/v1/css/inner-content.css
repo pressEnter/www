@@ -11,11 +11,27 @@ div#inner-content {
 }
 div#inner-content h1 {
 	font-size: 1.6em;
+	color: #008080;
+	text-transform: uppercase;
+}
+div#inner-content h2 {
+	font-size: 1.4em;
+	color: #F01800;
+}
+div#inner-content h3 {
+	font-size: 1.2em;
+}
+div#inner-content h4 {
+	font-size: 1.0em;
+}
+
+div#inner-content h1,
+div#inner-content h2,
+div#inner-content h3,
+div#inner-content h4 {
 	font-weight: bold;
 	width: 920px;
 	margin: 10px auto 0;
-	color: #008080;
-	text-transform: uppercase;
 }
 
 /*
@@ -76,4 +92,85 @@ div#inner-content div.social-links {
 div#inner-content div.social-links li {
 	float: left;
 	width: 130px;
+}
+/*
+ *
+ *=CONTACT
+ *
+ */
+div#contact-text {
+	width: 600px;
+	margin: 20px 0 0 20px;
+}
+div#contact-text p {
+	margin: 5px 0 0;
+}
+div#contact-form-wrapper {
+	width: 620px;
+	margin: 20px 0 0 20px;
+	padding-bottom: 30px;
+}
+div#contact-form-wrapper label {
+}
+div#contact-form-wrapper fieldset {
+	width: 300px;
+}
+div#contact-form-wrapper fieldset#fieldset-main-data {
+	float: left;
+	margin: 10px 0 0 0;
+}
+div#contact-form-wrapper fieldset#fieldset-main-data div.form-row {
+	margin: 10px 0 0;
+	height: 30px;
+}
+div#contact-form-wrapper fieldset#fieldset-main-data label {
+	float: left;
+	width: 90px;
+	padding-top: 4px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+div#contact-form-wrapper fieldset#fieldset-main-data input,
+div#contact-form-wrapper fieldset#fieldset-main-data select {
+	width: 200px;
+	float: left;
+}
+div#contact-form-wrapper fieldset#fieldset-message {
+	float: right;
+	margin: 10px 0 0 0;
+}
+div#contact-form-wrapper fieldset#fieldset-message textarea {
+	margin-top: 10px;
+	width: 300px;
+	height: 200px;
+}
+div#contact-form-wrapper div.captcha {
+	float: left;
+	width: 300px;
+	margin-top: 30px;
+	position: relative;
+	height: 70px;
+}
+div#contact-form-wrapper div.captcha label {
+	display: block;
+}
+div#contact-form-wrapper div.captcha input {
+	width: 190px;
+	margin-top: 5px;
+}
+div#contact-form-wrapper div.captcha div a {
+	position: absolute;
+	top: 44px;
+	right: 105px;
+}
+div#contact-form-wrapper div.captcha img {
+	border: 2px #F01800 solid;
+	position: absolute;
+	top: 20px;
+	right: 0;
+}
+div#contact-form-wrapper div.input-submit {
+	margin-top: 20px;
+	clear: both;
+	text-align: right;
 }
