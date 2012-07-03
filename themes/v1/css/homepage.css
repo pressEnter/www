@@ -53,9 +53,11 @@ body#site-index div.highlight div.info-wrapper {
 body#site-index div.highlight div.info-wrapper h2,
 body#site-index div.highlight div.info-wrapper h3 {
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; 
+	margin: 0;
+	width: 350px;
 }
 body#site-index div.highlight div.info-wrapper h2 {
-	font-size: 2.2em;
+	font-size: 2.0em;
 	color: #F01800;
 }
 body#site-index div.highlight div.info-wrapper h2 a:link,
@@ -67,7 +69,7 @@ body#site-index div.highlight div.info-wrapper h2 a:hover {
 	color: #FFAD00;
 }
 body#site-index div.highlight div.info-wrapper h3 {
-	font-size: 1.4em;
+	font-size: 1.2em;
 	margin-top: 7px;
 	color: #008080;
 }
@@ -182,11 +184,13 @@ body#site-index div#news {
 	background: url(../images/shadow-v-10x960.png) no-repeat bottom right;
 	padding: 0 0 0;
 }
-body#site-index div#news h3 {
+body#site-index div#content div#news h3 {
 	color: #323232;
 	text-align: center;
 	font-weight: bold;
 	line-height: 60px;
+	width: 640px;
+	margin: 10px 0 0;
 }
 body#site-index div#news div#posts-wrapper {
 	margin: 0 20px 0;
@@ -237,21 +241,7 @@ body#site-index div#news div.body {
 	font-size: 1.0em;
 	line-height: 18px;
 }
-body#site-index div#news div.read-more {
-	margin: 10px 10px 0 0;
-	float: right;
-}
-body#site-index div#news div.read-more a {
-}
-body#site-index div#news div.read-more a:link,
-body#site-index div#news div.read-more a:visited {
-	color: #008080;
-	text-decoration: none;
-	font-weight: bold;
-}
-body#site-index div#news div.read-more a:hover {
-	text-decoration: underline;
-}
+/* =UPDATES */
 body#site-index div#updates {
 	width: 320px;
 	height: 390px;
@@ -259,9 +249,11 @@ body#site-index div#updates {
 }
 body#site-index div#updates h3 {
 	line-height: 60px;
+	width: 320px;
 	color: #323232;
 	text-align: center;
 	font-weight: bold;
+	margin: 10px 0 0;
 }
 body#site-index div#updates div#twtr-widget-1 {
 	width: 280px; /* MATCHS WIDGET WIDTH */
@@ -274,11 +266,13 @@ body#site-index div#technologies {
 }
 body#site-index div#technologies h3 {
 	color: #323232;
+	width: 960px;
 	height: 36px;
 	text-align: center;
 	line-height: 30px;
 	background: #DDDAD8 url(../images/news-updates-bg-150x172.jpg) repeat;
 	padding-bottom: 10px;
+	margin: 0;
 }
 body#site-index div#technologies ul {
 	padding-top: 30px;

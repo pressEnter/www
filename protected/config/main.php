@@ -72,6 +72,9 @@ return array(
 				),
 				
 			),
+		), // END log
+		'coreMessages' => array(
+			'basePath' => 'protected/messages',
 		),
 	),
 

@@ -14,8 +14,8 @@ class ContactForm extends CFormModel
 	public $verifyCode;
 
 	public static $subjectOptions = array(
-		0 => '',
-		'Capacitación',
+		null => '',
+		0 => 'Capacitación',
 		'Enviar CV',
 		'Hosting',
 		'Proyecto Alba',

@@ -9,59 +9,64 @@
 <?php 
 $form = $this->beginWidget('CActiveForm', array(
 	'id' => 'contact-form',
-	'enableClientValidation' => true,
+	'enableClientValidation' => false,
 	'clientOptions' => array(
-		'validateOnSubmit' => true,
+		'validateOnSubmit' => false,
 	),
 )); 
 ?>
 	<?php echo $form->errorSummary($model); ?>
+	<div id="contact-form-widgets">
+		<fieldset id="fieldset-main-data">
+			<legend>Datos principales</legend>
+			<div class="form-row input-text">
+				<?php echo $form->labelEx($model, 'name'); ?>
+				<?php echo $form->textField($model, 'name'); ?>
+				<?php echo $form->error($model, 'name'); ?>
+				<hr />
+			</div>
 
-	<fieldset id="fieldset-main-data">
-		<legend>Datos principales</legend>
-		<div class="form-row input-text">
-			<?php echo $form->labelEx($model, 'name'); ?>
-			<?php echo $form->textField($model, 'name'); ?>
-			<?php echo $form->error($model, 'name'); ?>
-		</div>
+			<div class="form-row input-text">
+				<?php echo $form->labelEx($model, 'email'); ?>
+				<?php echo $form->textField($model, 'email'); ?>
+				<?php echo $form->error($model, 'email'); ?>
+				<hr />
+			</div>
 
-		<div class="form-row input-text">
-			<?php echo $form->labelEx($model, 'email'); ?>
-			<?php echo $form->textField($model, 'email'); ?>
-			<?php echo $form->error($model, 'email'); ?>
-		</div>
+			<div class="form-row input-select">
+				<?php echo $form->labelEx($model, 'subject'); ?>
+				<?php echo $form->dropDownList($model, 'subject', ContactForm::$subjectOptions); ?>
+				<?php echo $form->error($model, 'subject'); ?>
+				<hr />
+			</div>
+		
+			<?php if(CCaptcha::checkRequirements()): ?>
+			<div class="form-row captcha">
+				<?php echo $form->labelEx($model, 'verifyCode'); ?>
+				<div>
+				<?php $this->widget('CCaptcha'); ?>
+				<?php echo $form->textField($model, 'verifyCode'); ?>
+				</div>
+				<?php echo $form->error($model, 'verifyCode'); ?>
+				<hr />
+			</div>
+			<?php endif; ?>
+		</fieldset>
+		
+		<fieldset id="fieldset-message">
+			<div class="form-row input-textarea">
+				<?php echo $form->labelEx($model, 'body'); ?>
+				<?php echo $form->textArea($model, 'body', array('rows' => 6, 'cols' => 50)); ?>
+				<?php echo $form->error($model, 'body'); ?>
+				<hr />
+			</div>
+		</fieldset>
 
-		<div class="form-row input-select">
-			<?php echo $form->labelEx($model, 'subject'); ?>
-			<?php echo $form->dropDownList($model, 'subject', ContactForm::$subjectOptions); ?>
-			<?php echo $form->error($model, 'subject'); ?>
+		<div class="form-row input-submit">
+			<?php echo CHtml::submitButton('Enviar'); ?>
 		</div>
-	
-	</fieldset>
-	
-	<fieldset id="fieldset-message">
-		<div class="form-row input-textarea">
-			<?php echo $form->labelEx($model, 'body'); ?>
-			<?php echo $form->textArea($model, 'body', array('rows' => 6, 'cols' => 50)); ?>
-			<?php echo $form->error($model, 'body'); ?>
-		</div>
-	</fieldset>
-	<?php if(CCaptcha::checkRequirements()): ?>
-	<div class="form-row captcha">
-		<?php echo $form->labelEx($model, 'verifyCode'); ?>
-		<div>
-		<?php $this->widget('CCaptcha'); ?>
-		<?php echo $form->textField($model, 'verifyCode'); ?>
-		</div>
-		<?php echo $form->error($model, 'verifyCode'); ?>
-	</div>
-	<?php endif; ?>
-
-	<div class="form-row input-submit">
-		<?php echo CHtml::submitButton('Enviar'); ?>
-	</div>
-	<hr />
+		<hr />
 <?php $this->endWidget(); ?>
-
+	</div>
 </div><!-- form-wrapper -->
 
