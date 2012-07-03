@@ -62,8 +62,10 @@ div#main-nav {
 }
 div#main-nav ul {
 	float: right;
+	border: 2px #ddf solid;
 }
 div#main-nav ul ul {
+	border-top: none;
 }
 div#main-nav li {
 	float: left;
