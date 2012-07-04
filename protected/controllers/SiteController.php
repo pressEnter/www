@@ -66,7 +66,7 @@ class SiteController extends Controller
 	 * Displays the contact page
 	 */
 	public function actionContact()
-	{
+	{	
 		Yii::import('forms.ContactForm');
 		$model = new ContactForm;
 		if(isset($_POST['ContactForm']))
@@ -75,12 +75,14 @@ class SiteController extends Controller
 			if($model->validate())
 			{
 				$headers="From: {$model->email}\r\nReply-To: {$model->email}";
-				mail(Yii::app()->params['adminEmail'],$model->subject,$model->body,$headers);
-				Yii::app()->user->setFlash('contact','Thank you for contacting us. We will respond to you as soon as possible.');
+				mail(Yii::app()->params['adminEmail'], $model->subject, $model->body, $headers);
+				Yii::app()->user->setFlash('success', 'Thank you for contacting us. We will respond to you as soon as possible.');
 				$this->refresh();
+			} else {
+				Yii::app()->user->setFlash('error', 'Hay algún error en el formulario. Por favor chequeálo y enviálo nuevamente.');
 			}
 		}
-		$this->render('contact',array('model'=>$model));
+		$this->render('contact', array('model'=>$model));
 	}
 
 	/**

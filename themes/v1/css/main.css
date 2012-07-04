@@ -274,3 +274,21 @@ div#footer div#extra a:link,
 div#footer div#extra a:visited {
 	color: #fff;
 }
+/*
+ *
+ *=MESSAGES
+ *
+ */
+div#messages {
+	width: 920px;
+	margin: 20px auto;
+	text-align: center;
+}
+div#messages div {
+	padding: 10px;
+}
+div#messages div.error {
+	background: #F01800;
+	color: #fff;
+	border: 2px #ffd solid;
+}

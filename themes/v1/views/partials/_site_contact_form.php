@@ -3,7 +3,7 @@
 	'id'=>'site-contact-form',
 	'enableClientValidation' => false,
 	'clientOptions' => array(
-		'validateOnSubmit' => true,
+		'validateOnSubmit' => false,
 	),
 )); ?>
 	<div class="form-row input-text">

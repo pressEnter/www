@@ -15,7 +15,7 @@ $form = $this->beginWidget('CActiveForm', array(
 	),
 )); 
 ?>
-	<?php echo $form->errorSummary($model); ?>
+	<?php //echo $form->errorSummary($model); ?>
 	<div id="contact-form-widgets">
 		<fieldset id="fieldset-main-data">
 			<legend>Datos principales</legend>
@@ -44,9 +44,14 @@ $form = $this->beginWidget('CActiveForm', array(
 			<div class="form-row captcha">
 				<?php echo $form->labelEx($model, 'verifyCode'); ?>
 				<div>
-				<?php $this->widget('CCaptcha'); ?>
-				<?php echo $form->textField($model, 'verifyCode'); ?>
+				<?php $this->widget('CCaptcha', array(
+					'buttonType' => 'button',
+					'buttonOptions' => array(
+						'value' => 'Cambiar imagen'
+					),
+				)); ?>
 				</div>
+				<?php echo $form->textField($model, 'verifyCode'); ?>
 				<?php echo $form->error($model, 'verifyCode'); ?>
 				<hr />
 			</div>
@@ -69,4 +74,3 @@ $form = $this->beginWidget('CActiveForm', array(
 <?php $this->endWidget(); ?>
 	</div>
 </div><!-- form-wrapper -->
-

@@ -6,6 +6,7 @@
 div#inner-content {
 	width: 960px;
 	margin: 0 auto 0;
+	padding-bottom: 20px;
 	background: #E7E7E7;
 	min-height: 200px;
 }
@@ -110,104 +111,101 @@ div#contact-text p {
 div#contact-form-wrapper {
 	width: 740px;
 	margin: 40px auto 0;
-	padding-bottom: 30px;
-	background: #ccc;
+	border: 1px #ddf solid;
 }
 div#contact-form-widgets {
 	width: 700px;
-	margin: 0 auto 0;
-	padding-bottom: 30px;
-	background: #222;
+	margin: 20px auto 0;
 }
-div#contact-form-wrapper label {
+form#contact-form label {
 }
-div#contact-form-wrapper input,
-div#contact-form-wrapper select,
-div#contact-form-wrapper textarea {
+form#contact-form input,
+form#contact-form select,
+form#contact-form textarea {
 	border: 1px #898989 solid;
 }
-div#contact-form-wrapper input {
+form#contact-form input {
 	height: 1.6em;
 }
-div#contact-form-wrapper select {
+form#contact-form select {
 	height: 2.0em;
 }
-div#contact-form-wrapper fieldset {
+form#contact-form fieldset {
 	width: 350px;
 }
-div#contact-form-wrapper fieldset#fieldset-main-data {
+form#contact-form fieldset#fieldset-main-data {
 	float: left;
-	background: #fff;
 }
-div#contact-form-wrapper fieldset#fieldset-main-data div.form-row {
-	margin: 15px 0 0;
+form#contact-form fieldset#fieldset-main-data div.form-row {
+	margin: 10px 0 5px;
 	height: auto;
+	width: 330px
 }
-div#contact-form-wrapper fieldset#fieldset-main-data label {
+form#contact-form fieldset#fieldset-main-data label {
 	float: left;
 	width: 100px;
 	padding-top: 4px;
 	text-transform: uppercase;
 	font-weight: bold;
 }
-div#contact-form-wrapper fieldset#fieldset-main-data input,
-div#contact-form-wrapper fieldset#fieldset-main-data select {
-	width: 230px;
+form#contact-form fieldset#fieldset-main-data input,
+form#contact-form fieldset#fieldset-main-data select {
+	width: 228px;
 	float: left;
 }
-div#contact-form-wrapper fieldset#fieldset-message {
-	background: #bbb;
-	float: right;
-}
-div#contact-form-wrapper fieldset#fieldset-message textarea {
-	margin-top: 10px;
-	width: 300px;
-	height: 200px;
-}
-/*
-div#contact-form-wrapper div.captcha {
-	float: left;
-	width: 300px;
+/*  */
+
+form#contact-form fieldset#fieldset-main-data div.captcha {
 	margin-top: 30px;
 	position: relative;
 	height: 70px;
 }
-div#contact-form-wrapper div.captcha label {
+form#contact-form fieldset#fieldset-main-data div.captcha label {
 	display: block;
+	width: 300px;
+	margin-top: 20px;
+	margin-bottom: 5px;
 }
-div#contact-form-wrapper div.captcha input {
-	width: 190px;
-	margin-top: 5px;
+form#contact-form div.captcha input {
+	clear: both;
 }
-div#contact-form-wrapper div.captcha div a {
+form#contact-form fieldset#fieldset-main-data div.captcha div input { /* REFRESH BUTTON */
+	width: 94px;
 	position: absolute;
 	top: 0;
 	right: 0;
 }
-div#contact-form-wrapper div.captcha img {
+form#contact-form div.captcha div a {
+}
+form#contact-form div.captcha img {
 	border: 2px #F01800 solid;
 	position: absolute;
 	top: 20px;
 	right: 0;
 }
-*/ 
-div#contact-form-wrapper div.input-submit {
+/*  */
+form#contact-form fieldset#fieldset-message {
+	float: right;
+}
+form#contact-form fieldset#fieldset-message textarea {
+	margin-top: 10px;
+	width: 348px;
+	height: 200px;
+}
+form#contact-form div.input-submit {
 	margin-top: 20px;
 	clear: both;
 	text-align: right;
 }
 /* ERROR */
-div#contact-form-wrapper div.errorMessage {
+form#contact-form div.errorMessage {
 	text-align: right;
 	font-style: italic;
 	font-size: 1.0em;
 	color: #F01800;
 	clear: both;
 }
-div#contact-form-wrapper fieldset#fieldset-main-data div.errorMessage {
-	margin-right: 5px;
-	margin-bottom: 20px;
-}
-div#contact-form-wrapper div.captcha div.errorMessage {
-	margin-right: 105px;
+form#contact-form  div.errorMessage {
+	padding-top: 4px;
+	margin-right: 3px;
 }

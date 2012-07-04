@@ -17,7 +17,7 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'category_id'); ?>
-		<?php echo $form->textField($model,'category_id'); ?>
+		<?php echo $form->dropDownList($model, 'category_id', CHtml::listData(PostCategory::model()->findAll(array('order' => 'description asc')), 'id', 'description')); ?>
 		<?php echo $form->error($model,'category_id'); ?>
 	</div>
 
@@ -41,7 +41,7 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'published'); ?>
-		<?php echo $form->textField($model,'published'); ?>
+		<?php echo $form->checkBox($model,'published'); ?>
 		<?php echo $form->error($model,'published'); ?>
 	</div>
 
