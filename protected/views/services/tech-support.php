@@ -1,3 +1,4 @@
+<?php $this->pageTitle = 'Pressenter | Soporte Técnico'; ?>
 <h1>Soporte Técnico</h1>
 <div class="details service-details">
 	<p>Nuestro servicio de asistencia técnica (LEVEL1/LEVEL4) proprociona a la empresas la robustez y seguridad necesaria para que su negocio funcione sin interrupciones los 365 días del año. </p>

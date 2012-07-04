@@ -1,3 +1,4 @@
+<?php $this->pageTitle = 'Pressenter | Cooperativa de Software Libre'; ?>
 <div class="highlight" id="highlight-alba">
 	<div id="highlight-message"><span>Destacado!</span></div>
     <div class="info-wrapper">

@@ -1,3 +1,4 @@
+<?php $this->pageTitle = 'Pressenter | Contacto'; ?>
 <h1>Contacto</h1>
 <h2>Get in touch!</h2>
 <div id="contact-text">

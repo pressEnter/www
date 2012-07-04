@@ -4,6 +4,7 @@ class ProjectsController extends Controller
 {
 	public function actionIndex()
 	{
+		$this->pageTitle = 'Pressenter | Proyectos';
 		$this->render('index');
 	}
 	

@@ -36,7 +36,6 @@ class SiteController extends Controller
 	 */
 	public function actionIndex()
 	{
-		$this->pageTitle = 'Pressenter - Cooperativa de Software Libre';
 		Yii::app()->clientScript->registerCssFile(Yii::app()->theme->baseUrl.'/css/homepage.css', 'screen, projection');
 		Yii::app()->clientScript->registerCssFile(Yii::app()->theme->baseUrl.'/js/jquery-lightbox-0.5/css/jquery.lightbox-0.5.css', 'screen, projection');
 		Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl.'/js/jquery-lightbox-0.5/js/jquery.lightbox-0.5.min.js', CClientScript::POS_BEGIN);

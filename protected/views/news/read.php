@@ -1,3 +1,4 @@
+<?php $this->pageTitle = 'Pressenter | ' . $post->title; ?>
 <div class="post full">
 	<div class="published-date">
 		<?php 
