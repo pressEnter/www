@@ -15,6 +15,9 @@
 	
 	<?php Yii::app()->clientScript->registerscriptFile(Yii::app()->theme->baseUrl . "/js/superfish-1.4.8/js/hoverIntent.js"); ?>
 	<?php Yii::app()->clientScript->registerscriptFile(Yii::app()->theme->baseUrl . "/js/superfish-1.4.8/js/superfish.js"); ?>
+	
+	<?php Yii::app()->clientScript->registerscriptFile(Yii::app()->theme->baseUrl . "/js/jquery-ui-1.8.21/development-bundle/ui/minified/jquery.effects.core.min.js"); ?>
+	<?php Yii::app()->clientScript->registerscriptFile(Yii::app()->theme->baseUrl . "/js/jquery-ui-1.8.21/development-bundle/ui/minified/jquery.effects.highlight.min.js"); ?> <!-- Flash messages -->
 
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
 </head>
@@ -28,6 +31,7 @@
 				autoArrows:  false,                            // disable generation of arrow mark-up
 				dropShadows: false                             // disable drop shadows
 			}); 
+			$('div#messages div.error').animate({ backgroundColor: "#AA0000" }, 3000);
 		}); 
 	</script>
 <div id="wrapper">

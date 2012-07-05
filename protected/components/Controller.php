@@ -16,13 +16,17 @@ class Controller extends CController
 		Yii::setPathOfAlias('forms', Yii::getPathOfAlias('application').'/models/forms');
 		Yii::import('forms.QuickContactForm');
 		$this->contact_form_model = new QuickContactForm;
+		
 		if(isset($_POST['QuickContactForm'])){
 			$this->contact_form_model->attributes = $_POST['QuickContactForm'];
+			
 			if($this->contact_form_model->validate()){
 				$headers = "From: {$this->contact_form_model->email}\r\nReply-To: {$this->contact_form_model->email}";
 				mail(Yii::app()->params['adminEmail'], 'Contacto desde el sitio', $this->contact_form_model->body, $headers);
 				Yii::app()->user->setFlash('success', 'Gracias por contactarse! Estaremos respondiendo.');
 				$this->refresh();
+			} else {
+				Yii::app()->user->setFlash('error', 'Hay algún error en el formulario. Por favor chequeálo y enviálo nuevamente.');
 			}
 		}		
 		return parent::beforeAction($action);

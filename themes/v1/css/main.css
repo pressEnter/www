@@ -195,7 +195,7 @@ div#footer div.form-wrapper div.captcha img {
 	margin-left: 10px;
 }
 div#footer div.form-wrapper div.errorMessage {
-	font-size: 1.2em;
+	font-size: 1.0em;
 	margin-top: 3px;
 	font-style: italic;
 	text-align: right;
@@ -284,11 +284,17 @@ div#messages {
 	margin: 20px auto;
 	text-align: center;
 }
+body#site-index div#messages {
+	position: absolute;
+	top: -35px;
+	left: 25px;
+	z-index: 1;
+}
 div#messages div {
 	padding: 10px;
 }
 div#messages div.error {
-	background: #F01800;
+	background: #fff url(../images/icons/warning-icon-16x16.png) no-repeat 10px 10px; /* background color animated */
 	color: #fff;
-	border: 2px #ffd solid;
+	border: 5px #ffd solid;
 }

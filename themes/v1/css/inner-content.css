@@ -98,6 +98,9 @@ div#inner-content div.social-links li {
  *=CONTACT
  *
  */
+body#site-contact div#inner-content {
+	padding-bottom: 0;
+}
 div#contact-text {
 	width: 600px;
 	margin: 20px 0 0 20px;
@@ -111,7 +114,6 @@ div#contact-text p {
 div#contact-form-wrapper {
 	width: 740px;
 	margin: 40px auto 0;
-	border: 1px #ddf solid;
 }
 div#contact-form-widgets {
 	width: 700px;
@@ -208,4 +210,38 @@ form#contact-form div.errorMessage {
 form#contact-form  div.errorMessage {
 	padding-top: 4px;
 	margin-right: 3px;
+}
+/* CONTACT-OTHER */
+div#contact-other-wrapper {
+	width: 960px;
+	margin: 20px auto 0;
+	padding-top: 10px;
+	background: #DDDAD8 url(../images/shadow-h-960x10.png) no-repeat top;
+}
+div#contact-other-wrapper h4 {
+	font-size: 1.6em;
+	margin: 0;
+	text-align: center;
+	padding: 10px 0;
+}
+div#contact-other-inner {
+	width: 600px;
+	margin: 0 auto;
+	padding-bottom: 30px;
+	margin-bottom: -30px;
+}
+div#contact-other-inner p.contact-detail {
+	height: 48px;
+	padding: 5px 0 10px 70px;
+	line-height: 60px;
+	margin: 2px 0 0;
+}
+div#contact-other-inner p#contact-email {
+	background: url(../images/icons/once-mail.png) no-repeat 10px 10px;
+}
+div#contact-other-inner p#contact-phone {
+	background: url(../images/icons/once-phone.png) no-repeat 10px 10px;
+}
+div#contact-other-inner p#contact-person {
+	background: url(../images/icons/once-home.png) no-repeat 10px 10px;
 }

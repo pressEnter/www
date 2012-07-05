@@ -22,7 +22,7 @@
 						</a>
 					</li>
 					<li>
-						<a href="http://www.facebook.com/pages/PressEnter-Soluciones-Inform%C3%A1ticas/105554509534761" target="_blank">
+						<a href="http://www.facebook.com/pages/PressEnter-Cooperativa-de-desarrollo-de-Software-Libre/105554509534761" target="_blank">
 							<img src="<?php echo $images_dir; ?>/icons/facebook-logo-square-24x24.png" alt="" title="" />
 						</a>
 					</li>

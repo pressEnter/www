@@ -75,3 +75,12 @@ $form = $this->beginWidget('CActiveForm', array(
 <?php $this->endWidget(); ?>
 	</div>
 </div><!-- form-wrapper -->
+<div id="contact-other-wrapper">
+	<div id="contact-other-inner">
+		<h4>Otros medios de contacto</h4>
+		<p id='contact-email' class='contact-detail'><strong>Email:</strong> <span>info@pressenter.com.ar</span></p>
+		<p id='contact-phone' class='contact-detail'><strong>Teléfono:</strong> <span>15-3475-1407</span></p>
+		<p id='contact-person' class='contact-detail'><strong>Personalmente (concretar previamente):</strong> <span>Avenida Belgrano 748, 1ro Of. 13</span></p>
+	</div>
+</div>
+<hr />
