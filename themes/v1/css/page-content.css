@@ -342,8 +342,10 @@ body#training-details div.instructor-details {
 	float: left;
 	margin: 50px 0 0 20px;
 	color: #fff;
-	padding-bottom: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 	background: #222;
+	border-radius: 20px;
 }
 body#training-details div.instructor-details h3 {
 	text-align: center;
@@ -366,6 +368,7 @@ body#training-details div.instructor-details div.figure {
 	height: 60px;
 	margin: -10px 20px 10px;
 	border-color: #F01800;
+	padding: 0;
 }
 body#training-details div.instructor-details div.figure img {
 	width: 60px;
