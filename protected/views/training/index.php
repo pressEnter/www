@@ -7,11 +7,11 @@
 	
 	<div class="section" id="training-items">
 		
-		<div class="article item">
+		<div class="article">
 			<div class="header">
 				<h2><?php echo CHtml::link('Symfony Framework', '/training/symfony'); ?></h2>
 			</div>
-			<div class="figure image-wrapper">
+			<div class="figure">
 				<?php echo CHtml::link(
 					CHtml::image(Yii::app()->request->getBaseUrl(true).'/images/training/symfony-logo-100x100.png', 'Symfony logo', array()),
 					'/training/symfony',
@@ -27,11 +27,11 @@
 		</div>
 		<hr />
 		
-		<div class="article item">
+		<div class="article">
 			<div class="header">
 				<h2><?php echo CHtml::link('Drupal CMS', '/training/drupal'); ?></h2>
 			</div>
-			<div class="figure image-wrapper">
+			<div class="figure">
 				<?php echo CHtml::link(
 					CHtml::image(Yii::app()->request->getBaseUrl(true).'/images/training/drupal-logo-100x100.png', 'Drupal logo', array()),
 					'/training/drupal',
@@ -47,11 +47,11 @@
 		</div>
 		<hr />
 		
-		<div class="article item">
+		<div class="article">
 			<div class="header">
 				<h2><?php echo CHtml::link('Python / Django', '/training/python-django'); ?></h2>
 			</div>
-			<div class="figure image-wrapper">
+			<div class="figure">
 				<?php echo CHtml::link(
 					CHtml::image(Yii::app()->request->getBaseUrl(true).'/images/training/django-logo-100x100.png', 'Python/Django logos', array()),
 					'/training/python-django',
@@ -67,11 +67,11 @@
 		</div>
 		<hr />
 		
-		<div class="article item">
+		<div class="article">
 			<div class="header">
 				<h2><?php echo CHtml::link('XHTML/CSS', '/training/xhtml-css'); ?></h2>
 			</div>
-			<div class="figure image-wrapper">
+			<div class="figure">
 				<?php echo CHtml::link(
 					CHtml::image(Yii::app()->request->getBaseUrl(true).'/images/training/css-logo-100x100.png', 'CSS logo', array()),
 					'/training/xhtml-css',
@@ -87,11 +87,11 @@
 		</div>
 		<hr />
 		
-		<div class="article item">
+		<div class="article">
 			<div class="header">
 				<h2><?php echo CHtml::link('GNU/Linux', '/training/gnu-linux'); ?></h2>
 			</div>
-			<div class="figure image-wrapper">
+			<div class="figure">
 				<?php echo CHtml::link(
 					CHtml::image(Yii::app()->request->getBaseUrl(true).'/images/training/linux-logo-100x100.png', 'CSS logo', array()),
 					'/training/gnu-linux',
@@ -106,3 +106,4 @@
 		<hr />
 	
 </div>
+<p>Ver: http://www.savoirfairelinux.com para los speechs</p>

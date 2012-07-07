@@ -6,6 +6,7 @@
 div#page-content {
 	width: 920px;
 	margin: 0 auto 0;
+	padding-top: 1px; /* CHROMIUM BUG */
 }
 div#page-content h1,
 div#page-content h2,
@@ -266,7 +267,12 @@ div#training-items {
 	width: 880px;
 	margin: 30px auto 0;
 }
-div#training-items div.image-wrapper {
+div#training-items div.article {
+	width: 800px;
+	margin: 20px 0 0 0;
+	background: url(../images/shadow-h-960x10.png) no-repeat bottom right;
+}
+div#training-items div.figure {
 	background: #aaa;
 	float: left;
 	width: 100px;
@@ -275,10 +281,89 @@ div#training-items div.image-wrapper {
 	margin: 10px 10px 10px 0;
 	padding: 1px;
 }
-div#training-items div.image-wrapper img {
+div#training-items div.figure img {
 	display: block;
 	background: #fff;
 }
 div#training-items div.body {
 	margin-top: 10px;
+}
+
+div#training-items div.article div.footer {
+	clear: both;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+/*  */
+body#training-details div.article {
+	width: 620px;
+	float: left;
+	margin-bottom: -30px;
+}
+body#training-details div.article h3 {
+	margin-top: 40px;
+}
+body#training-details div.article div.footer {
+	margin-bottom: 20px;
+}
+body#training-details div.figure {
+	background: #aaa;
+	float: left;
+	width: 100px;
+	height: 100px;
+	border: 5px #bbb solid;
+	margin: 3px 10px 10px 0;
+	padding: 1px;
+}
+body#training-details div.figure img {
+	display: block;
+	background: #fff;
+}
+body#training-details div.syllabus {
+	margin: 20px 0 0;
+}
+body#training-details div.syllabus ul {
+	list-style: square;
+	list-style-position: inside; 
+	margin: 10px 0 0 5px;
+}
+body#training-details div.syllabus ul li {
+	margin: 10px 0 0;
+}
+body#training-details div.instructor-details {
+	width: 300px;
+	float: left;
+	margin: 50px 0 0 0px;
+	color: #fff;
+	padding-bottom: 10px;
+	background: #222;
+}
+body#training-details div.instructor-details h3 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+body#training-details div.instructor-details h4 {
+	margin-left: 110px;
+	color: #0199AE;
+}
+body#training-details div.instructor-details h4 a:link,
+body#training-details div.instructor-details h4 a:visited {
+	color: #0199AE;
+	text-decoration: none;
+}
+body#training-details div.instructor-details h4 a:hover {
+	color: #FFAD00;
+}
+body#training-details div.instructor-details div.figure {
+	width: 60px;
+	height: 60px;
+	margin: -10px 20px 10px;
+	border-color: #F01800;
+}
+body#training-details div.instructor-details div.figure img {
+	width: 60px;
+	height: 60px;
+}
+body#training-details div.instructor-details p {
+	margin: 10px 20px;
 }
