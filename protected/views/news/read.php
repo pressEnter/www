@@ -1,5 +1,5 @@
 <?php $this->pageTitle = 'Pressenter | ' . $post->title; ?>
-<div class="article post full">
+<div class="article full">
 	<div class="header">
 		<div class="published-date">
 			<?php 

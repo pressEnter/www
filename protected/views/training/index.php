@@ -87,7 +87,7 @@
 		</div>
 		<hr />
 		
-		<div class="article">
+		<div class="article last">
 			<div class="header">
 				<h2><?php echo CHtml::link('GNU/Linux', '/training/gnu-linux'); ?></h2>
 			</div>

@@ -171,7 +171,11 @@ body#site-index div#services div.article a:hover {
 body#site-index div#services div#service-support {
 	background: none;
 }
-/* NEWS-UPDATES */
+/*
+ *
+ *=NEWS-UPDATES
+ *
+ */
 body#site-index div#news-updates {
 	height: 410px;
 	background: #DDDAD8 url(../images/news-updates-bg-150x172.jpg) repeat;
@@ -182,6 +186,9 @@ body#site-index div#news {
 	float: left;
 	background: url(../images/shadow-v-10x960.png) no-repeat bottom right;
 	padding: 0 0 0;
+}
+body#site-index div#content div#news h2 {
+	font-size: 1.2em;
 }
 body#site-index div#content div#news h3 {
 	color: #323232;
@@ -198,6 +205,14 @@ body#site-index div#news div.article {
 	clear: both;
 	margin: 20px 0 30px;
 	background: none;
+}
+body#site-index div#news div.article h2 a:link,
+body#site-index div#news div.article h2 a:visited {
+	color: #F01800;
+	text-decoration: none;
+}
+body#site-index div#news div.article h2 a:hover {
+	color: #FFAD00;
 }
 body#site-index div#news div.body {
 	width: 520px;
