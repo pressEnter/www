@@ -1,4 +1,5 @@
 <?php $this->pageTitle = 'Pressenter | Capacitación en Python/Django'; ?>
-<h1>Python/Django</h1>
-<div class="details training-details">
+<div class="article">
+	<h1>Python/Django</h1>
+	<div class="body training-details"></div>
 </div>

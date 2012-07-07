@@ -1,7 +1,7 @@
 
 <?php $this->widget('zii.widgets.CMenu',array(
 	'htmlOptions' => array(
-		'class' => 'sf-menu',
+		'class' => 'nav sf-menu',
 	),
 	'items' => array(
 		array('label' => 'Inicio', 'url' => array('/site/index')),

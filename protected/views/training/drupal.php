@@ -1,4 +1,6 @@
 <?php $this->pageTitle = 'Pressenter | Capacitación en Drupal'; ?>
-<h1>Drupal</h1>
-<div class="details training-details">
+<div class="article">
+	<h1>Drupal</h1>
+	<div class="body training-details">
+	</div>
 </div>

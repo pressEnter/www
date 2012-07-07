@@ -1,4 +1,5 @@
 <?php $this->pageTitle = 'Pressenter | Capacitación en Symfony Framework'; ?>
-<h1>Symfony</h1>
-<div class="details training-details">
+<div class="article">
+	<h1>Symfony</h1>
+	<div class="body training-details"></div>
 </div>

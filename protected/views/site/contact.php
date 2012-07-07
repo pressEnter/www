@@ -1,6 +1,8 @@
 <?php $this->pageTitle = 'Pressenter | Contacto'; ?>
-<h1>Contacto</h1>
-<h2>Get in touch!</h2>
+<div class="hgroup">
+	<h1>Contacto</h1>
+	<h2>Get in touch!</h2>
+</div>
 <div id="contact-text">
 	<p>Si estás buscando <strong>desarrolladores</strong> para un proyecto, capacitar a tus empleados en <strong>tecnologías libres</strong> o simplemente saber <strong>cómo podemos ayudarte</strong>, contactáte con nosotros.</p>
 	<h4>Estamos creciendo...</h4>

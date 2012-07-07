@@ -1,5 +1,9 @@
-<?php $this->pageTitle = 'Pressenter | Actividades Sugar'; ?>
-<h1>Actividades Sugar</h1>
-<div class="details service-details">
-	<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumyeirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diamvoluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.Lorem i</p>
+<?php $this->pageTitle = 'Pressenter | SUGAR Activities'; ?>
+<div class="article">
+	<div class="header">
+		<h1>SUGAR Activities</h1>
+	</div>
+	<div class="body service-details">
+		<p></p> 
+	</div>
 </div>

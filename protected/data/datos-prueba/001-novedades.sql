@@ -3,7 +3,7 @@ BEGIN;
 
 INSERT INTO posts (published_date, category_id, title, slug, body, published) VALUES 
 ('2012-05-15', 1, 'Rediseño del sitio Web', 'rediseno-del-sitio-web', '
-<p>Estamos orgullosos de anunciar el relanzamiento del sitio web de <strong>Pressenter<strong>.<p>
+<p>Estamos orgullosos de anunciar el relanzamiento del sitio web de <strong>Pressenter</strong>.<p>
 <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumyeirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diamvoluptua.</p>
 <p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
 ', 1),

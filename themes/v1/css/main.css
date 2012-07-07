@@ -106,6 +106,13 @@ div#content {
 	position: relative;
 	padding-top: .1px;
 }
+div#inner-content {
+	width: 960px;
+	margin: 0 auto 0;
+	padding-bottom: 20px;
+	background: #E7E7E7;
+	min-height: 200px;
+}
 /*
  *
  *=FOOTER

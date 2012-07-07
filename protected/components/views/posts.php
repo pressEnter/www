@@ -1,5 +1,5 @@
 <?php if(count($posts) > 0): ?>
-	<div id="posts-wrapper" class="<?php echo $extraWrapperClasses; ?>">
+<div id="news-wrapper" class="articles-wrapper<?php echo $extraWrapperClasses; ?>">
 	<?php $count = 0; foreach($posts as $post): $count++; ?>
 	<?php 
 	$position_class = '';
@@ -9,7 +9,7 @@
 		$position_class .= ' last';
 	} 
 	?>
-	<div class="post<?php echo $extraItemClasses . $position_class; ?>">
+	<div class="article<?php echo $extraItemClasses . $position_class; ?>">
 		<?php 
 		$date_parts = getdate(strtotime($post->published_date));
 		$date_out = "
@@ -19,21 +19,27 @@
 		";
 		$url = Yii::app()->createUrl('news/read', array('id' => $post->id, 'slug' => $post->slug));
 		?>
-		<div class="published-date"><?php echo $date_out; ?></div>
-		<h2><?php echo $post->title; ?></h2>
+		<div class="header">
+			<div class="published-date"><?php echo $date_out; ?></div>
+			<h2><?php echo $post->title; ?></h2>
+		</div>
 		<div class="body">
 		<?php echo $post->body; ?>
 		</div>
 		<?php if($showSocialLinks): ?>
+		<div class="footer">
 		<?php Yii::app()->controller->renderPartial('application.views.partials._social_links', array('url' => $url, 'title' => $post->title)); ?>
+		</div>
 		<?php endif; ?>
 		<hr />
 	</div>
 	<?php endforeach; ?>
 	</div>
 	<?php if($showPagination && $pages->pageCount > 1): ?>
-	<div class="pagination">
-	<?php $this->widget('CLinkPager', array('pages' => $pages)); ?>
+	<div class="footer">
+		<div class="pagination">
+		<?php $this->widget('CLinkPager', array('pages' => $pages)); ?>
+		</div>
 	</div>
 	<?php elseif($showNoResults): ?>
 	<div class="no-results">

@@ -1,37 +1,41 @@
 /*
  *
- *=INNER-CONTENT
+ *=page-content
  *
  */
-div#inner-content {
-	width: 960px;
+div#page-content {
+	width: 920px;
 	margin: 0 auto 0;
-	padding-bottom: 20px;
-	background: #E7E7E7;
-	min-height: 200px;
 }
-div#inner-content h1 {
+div#page-content h1,
+div#page-content h2,
+div#page-content h3,
+div#page-content h4 {
+	font-weight: bold;
+	margin: 10px 0 0;
+}
+div#page-content h1 {
 	font-size: 1.6em;
 	color: #008080;
 	text-transform: uppercase;
+	margin-bottom: 15px;
 }
-div#inner-content h2 {
+div#page-content h2 {
 	font-size: 1.4em;
 	color: #F01800;
+	margin-top: 15px;
 }
-div#inner-content h3 {
+div#page-content h3 {
 	font-size: 1.2em;
+	margin-top: 15px;
 }
-div#inner-content h4 {
+div#page-content h4 {
 	font-size: 1.0em;
+	margin-top: 15px;
 }
 
-div#inner-content h1,
-div#inner-content h2,
-div#inner-content h3,
-div#inner-content h4 {
-	font-weight: bold;
-	margin: 10px 20px 0;
+div#page-content p {
+	margin: 5px auto 0;
 }
 
 /*
@@ -39,7 +43,7 @@ div#inner-content h4 {
  *=POSTS
  *
  */
-div#inner-content div#posts-wrapper {
+div#page-content div#posts-wrapper {
 	margin: 20px 0 0;
 	padding-bottom: 30px;
 }
@@ -48,48 +52,56 @@ div#inner-content div#posts-wrapper {
  *=POST
  *
  */
-div#inner-content div.post {
-	margin: 30px 20px 0;
+div#page-content div.articles-wrapper div.article {
+	margin: 30px 0 0;
 	width: 600px;
 	background: url(../images/shadow-h-960x10.png) no-repeat bottom right;
 	padding-bottom: 30px;
 }
-div#inner-content div.post.full {
+div#page-content div.articles-wrapper div.article.full {
 	background: none;
 }
-div#inner-content div.post h1, /* FULL DISPLAY */
-div#inner-content div.post h2 { /* LIST DISPLAY */
+div#page-content div.articles-wrapper div.article h1, /* FULL DISPLAY */
+div#page-content div.articles-wrapper div.article h2 { /* LIST DISPLAY */
 	margin: 10px 0 10px;
 	font-size: 1.4em;
 	font-weight: bold;
 }
-div#inner-content div.post h2 a:link,
-div#inner-content div.post h2 a:visited {
+div#page-content div.articles-wrapper div.article p {
+	margin: 0;
+	width: 540px;
+}
+div#page-content div.articles-wrapper div.article.full p {
+	margin: 0;
+	width: 600px;
+}
+div#page-content div.article h2 a:link,
+div#page-content div.article h2 a:visited {
 	color: #F01800;
 	text-decoration: none;
 }
-div#inner-content div.post h2 a:hover {
+div#page-content div.article h2 a:hover {
 	color: #FFAD00;
 }
-div#inner-content div.published-date {
+div#page-content div.published-date {
 	font-size: 1.0em;
 	color: #898989;
 	padding: 10px 0 5px 30px;
 	background: url(../images/icons/once-calander-24x24.png) no-repeat left;
 }
-div#inner-content div.published-date span.month {
+div#page-content div.published-date span.month {
 	text-transform: capitalize;
 }
-div#inner-content div.published-date span {
+div#page-content div.published-date span {
 	font-weight: bold;
 }
-div#inner-content div.body {
+div#page-content div.body {
 }
-div#inner-content div.social-links {
+div#page-content div.social-links {
 	margin: 10px 0;
 	background: #898989;
 }
-div#inner-content div.social-links li {
+div#page-content div.social-links li {
 	float: left;
 	width: 130px;
 }
@@ -98,15 +110,15 @@ div#inner-content div.social-links li {
  *=CONTACT
  *
  */
-body#site-contact div#inner-content {
+body#site-contact div#page-content {
 	padding-bottom: 0;
 }
 div#contact-text {
 	width: 600px;
-	margin: 20px 0 0 20px;
+	margin: 20px 0 0;
 }
 div#contact-text h4 {
-	margin: 10px 0 0 0;
+	margin: 10px 0 0;
 }
 div#contact-text p {
 	margin: 5px 0 0;
@@ -213,10 +225,10 @@ form#contact-form  div.errorMessage {
 }
 /* CONTACT-OTHER */
 div#contact-other-wrapper {
-	width: 960px;
+	width: 920px;
 	margin: 20px auto 0;
 	padding-top: 10px;
-	background: #DDDAD8 url(../images/shadow-h-960x10.png) no-repeat top;
+	background: #DDDAD8 url(../images/shadow-h-960x10.png) no-repeat top center;
 }
 div#contact-other-wrapper h4 {
 	font-size: 1.6em;
@@ -228,7 +240,7 @@ div#contact-other-inner {
 	width: 600px;
 	margin: 0 auto;
 	padding-bottom: 30px;
-	margin-bottom: -30px;
+	margin-bottom: -35px;
 }
 div#contact-other-inner p.contact-detail {
 	height: 48px;
@@ -244,4 +256,29 @@ div#contact-other-inner p#contact-phone {
 }
 div#contact-other-inner p#contact-person {
 	background: url(../images/icons/once-home.png) no-repeat 10px 10px;
+}
+/*
+ *
+ *=TRAINING
+ *
+ */
+div#training-items {
+	width: 880px;
+	margin: 30px auto 0;
+}
+div#training-items div.image-wrapper {
+	background: #aaa;
+	float: left;
+	width: 100px;
+	height: 100px;
+	border: 5px #bbb solid;
+	margin: 10px 10px 10px 0;
+	padding: 1px;
+}
+div#training-items div.image-wrapper img {
+	display: block;
+	background: #fff;
+}
+div#training-items div.body {
+	margin-top: 10px;
 }
