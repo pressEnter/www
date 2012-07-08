@@ -46,6 +46,14 @@ div#page-content h4 {
 div#page-content p {
 	margin: 5px auto 0;
 }
+div#page-content a:link,
+div#page-content a:visited {
+	color: #F01800;
+	text-decoration: none;
+}
+div#page-content a:hover {
+	text-decoration: underline;
+}
 
 /*
  *
@@ -70,6 +78,7 @@ body#news-read div.article {
 }
 body#news-read div.article {
 	padding-bottom: 60px;
+	background: none;
 }
 div#page-content div.articles-wrapper div.article.last {
 	background: none;
@@ -279,6 +288,9 @@ div#training-items div.article {
 	margin: 20px 0 0 0;
 	background: url(../images/shadow-h-960x10.png) no-repeat bottom right;
 }
+div#training-items div.article.last {
+	background: none;
+}
 div#training-items div.figure {
 	background: #aaa;
 	float: left;
@@ -376,4 +388,147 @@ body#training-details div.instructor-details div.figure img {
 }
 body#training-details div.instructor-details p {
 	margin: 10px 20px;
+}
+/*
+ *
+ *=SERVICES
+ *
+ */
+body#services-index div.articles-wrapper {
+	margin-top: 30px;
+}
+/*
+ *
+ *=HOSTING
+ *
+ */
+div#hosting-plans {
+	padding: 15px 0;
+	margin: 20px auto 0;
+}
+div#hosting-plans table {
+	border: 1px #ddd solid;
+	width: 800px;
+	margin: 0 auto;
+}
+div#hosting-plans caption {
+	margin: 0 0 10px;
+	font-size: 1.8em;
+	font-weight: bold;
+	color: #F01800;
+}
+div#hosting-plans th,
+div#hosting-plans td {
+	border: 1px #B9B9B9 solid;
+}
+div#hosting-plans th {
+	font-weight: bold;
+}
+div#hosting-plans tbody th {
+	text-align: right;
+	padding-right: 10px;
+	background: #CFCFCF;
+}
+div#hosting-plans tbody td {
+	width: 200px;
+	text-align: center;
+	padding: 10px 0;
+	font-weight: bold;
+}
+div#hosting-plans tbody tr.odd td {
+	background: #fff;
+}
+div#hosting-plans tbody tr.even td {
+	background: #e5eeef;
+}
+div#hosting-plans thead th {
+	background: #222;
+	color: #fff;
+	padding: 90px 0 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+div#hosting-plans tfoot td {
+	background: #fff;
+	height: 30px;
+}
+/* HEADERS */
+div#hosting-plans th#header-first-plan {
+	background: #222 url(../images/icons/stickers-user_comment-64x64.png) no-repeat center 20px;
+}
+div#hosting-plans th#header-second-plan {
+	background: #222 url(../images/icons/stickers-process-64x64.png) no-repeat center 20px;
+}
+div#hosting-plans th#header-third-plan {
+	background: #222 url(../images/icons/stickers-world_globe-64x64.png) no-repeat center 20px;
+}
+/* PRICE */
+div#hosting-plans div.price {
+	position: relative;
+}
+div#hosting-plans tr#cost td {
+	background: #fff;
+}
+div#hosting-plans div.price span.currency {
+	position: absolute;
+	right: 35px;
+	top: 0px;
+	font-weight: bold;
+	font-size: 2.6em;
+}
+div#hosting-plans div.price span.int {
+	display: block;
+	float: left;
+	font-size: 2.8em;
+	text-align: right;
+	width: 50%;
+	font-weight: bold;
+	letter-spacing: -.15em;
+	color: #0199AE;
+}
+div#hosting-plans div.price span.decimal {
+	display: block;
+	float: left;
+	width: 80px;
+	font-weight: bold;
+	text-align: left;
+	margin: 3px 0 0 10px;
+	color: #0199AE;
+}
+div#hosting-plans div.price span.periodicity {
+	display: block;
+	float: left;
+	width: 80px;
+	text-align: left;
+	font-style: italic;
+	font-weight: normal;
+	margin: 3px 0 0 5px;
+	letter-spacing: .2em;
+}
+/* MEASURMENT UNIT */
+div#hosting-plans span.measurement-unit {
+	padding-left: 5px;
+}
+/* TRUE-FALSE */
+div#hosting-plans table tr td.true {
+	background-image: url(../images/icons/coquette-accept-16x16.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+div#hosting-plans table tr td.false {
+	background-image: url(../images/icons/coquette-delete-16x16.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+div#hosting-plans table tr td.true span,
+div#hosting-plans table tr td.false span {
+	visibility: hidden;
+}
+/* FOOTER */
+div#hosting-plans div.footer {
+	margin: 20px 0 0;
+}
+div#hosting-plans div.footer a:link,
+div#hosting-plans div.footer a:visited {
 }

@@ -11,7 +11,7 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/main.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/page-content.css" />
 	<link rel="stylesheet" media="screen" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/main-nav.css" /> 
-	<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Overlock" />
+	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Overlock' />
 	
 	<?php Yii::app()->clientScript->registerscriptFile(Yii::app()->theme->baseUrl . "/js/superfish-1.4.8/js/hoverIntent.js"); ?>
 	<?php Yii::app()->clientScript->registerscriptFile(Yii::app()->theme->baseUrl . "/js/superfish-1.4.8/js/superfish.js"); ?>
@@ -37,12 +37,14 @@
 	<div id="wrapper">
 	
 		<div class="section header" id="header">
-			<h1>
-				<a href="<?php echo Yii::app()->request->getBaseUrl(true); ?>">
-					<span><?php echo CHtml::encode(Yii::app()->name); ?></span>
-				</a>
-			</h1>
-			<h2><span>Cooperativa de Software {Libre}</span></h2>
+			<div class="hgroup">
+				<h1>
+					<a href="<?php echo Yii::app()->request->getBaseUrl(true); ?>">
+						<span><?php echo CHtml::encode(Yii::app()->name); ?></span>
+					</a>
+				</h1>
+				<h2><span>Cooperativa de Software {Libre}</span></h2>
+			</div>
 			<div class="footer">
 			</div>
 		</div><!-- header -->
@@ -98,6 +100,9 @@
 				<p class="valid-button">
 					<a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3" target="_blank"><?php echo CHtml::image('/images/PixelButton-valid-css.gif', 'Valid CSS'); ?></a>
 				</p>
+				<div id="icons-copyright">
+					<p>Icons by <a href="http://dryicons.com" target="_blank">Dryicons</a>, <a href="http://www.elegantthemes.com/" target="_blank">Nicholas Roach</a>, <a href="http://delacro.deviantart.com/" target="_blank">Delacro</a>, <a href="http://mysitemyway.com/" target="_blank">Mysitemyway</a></p>
+				</div>
 			</div>
 		</div><!-- footer -->
 

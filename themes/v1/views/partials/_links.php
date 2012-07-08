@@ -18,17 +18,17 @@
 				<ul>
 					<li>
 						<a href="https://twitter.com/#!/PressEnterComAr" target="_blank">
-							<img src="<?php echo $images_dir; ?>/icons/twitter-logo-square-24x24.png" alt="" title="" />
+							<img src="<?php echo $images_dir; ?>/icons/infocus-twitter-logo-square-24x24.png" alt="" title="" />
 						</a>
 					</li>
 					<li>
 						<a href="http://www.facebook.com/pages/PressEnter-Cooperativa-de-desarrollo-de-Software-Libre/105554509534761" target="_blank">
-							<img src="<?php echo $images_dir; ?>/icons/facebook-logo-square-24x24.png" alt="" title="" />
+							<img src="<?php echo $images_dir; ?>/icons/infocus-facebook-logo-square-24x24.png" alt="" title="" />
 						</a>
 					</li>
 					<li>
 						<a href="http://www.linkedin.com/company/2532858" target="_blank">
-							<img src="<?php echo $images_dir; ?>/icons/linkedin-logo-square2-24x24.png" alt="" title="" />
+							<img src="<?php echo $images_dir; ?>/icons/infocus-linkedin-logo-square2-24x24.png" alt="" title="" />
 						</a>
 					</li>
 				</ul>
