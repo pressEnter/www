@@ -4,7 +4,6 @@
  *
  */
 body#site-index div#content {
-	/*background: url(../images/content-bg-homepage-970x465.png) no-repeat center top;*/ 
 }
 body#site-index div#page-content {
 	width: 960px;
@@ -12,7 +11,6 @@ body#site-index div#page-content {
 /* HIGHLIGHT */
 body#site-index div.highlight {
 	height: 425px;
-	background: #E7E7E7;
 	position: relative;
 }
 body#site-index div.highlight div#highlight-message {
@@ -28,8 +26,8 @@ body#site-index div.highlight div#highlight-message span {
 }
 body#site-index div.highlight div.image-wrapper {
 	float: left;
-	width: 533px;
-	height: 335px;
+	width: 535px;
+	height: 340px;
 	margin: 30px 0 0 40px;
 	position: relative;
 	overflow: hidden;
