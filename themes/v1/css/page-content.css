@@ -532,3 +532,41 @@ div#hosting-plans div.footer {
 div#hosting-plans div.footer a:link,
 div#hosting-plans div.footer a:visited {
 }
+/*
+ *
+ *=ABOUT-US
+ *
+ */
+div#about-us div.articles-wrapper {
+	margin-top: 10px;
+}
+body#site-page div#about-us div.article {
+	margin-top: 50px;
+	width: 600px;
+}
+div#about-us div.article div.figure {
+	background: #aaa;
+	float: left;
+	width: 103px;
+	height: 103px;
+	border: 5px #bbb solid;
+	margin: 10px 20px 10px 0;
+	padding: 1px;
+}
+div#about-us div.article div.figure img {
+	display: block;
+	background: #ddd;
+	padding: 1px;
+}
+div#about-us div.article div.footer {
+	padding-top: 3px;
+	background: url(../images/about-us/article-footer-top-900x13.png) no-repeat top right;
+	padding-top: 13px;
+}
+div#about-us div.article div.footer-inner {
+	background: #F4F4F4;
+	border: 1px #ddd solid;
+	border-top: none;
+	margin: 0 0 0;
+	padding: 5px;
+}

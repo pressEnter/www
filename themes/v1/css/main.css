@@ -4,6 +4,7 @@
  * 
  *  CELESTE			#0199AE
  *  AZUL VERDOSO 	#008080
+ *  GRIS SUPERCLARO	#F4F4F4
  *  GRIS CLARO		#DDDAD8
  *  GRIS OSCURO		#898989
  *  NARANJA			#FFAD00
@@ -292,6 +293,10 @@ div#footer div#icons-copyright p {
 div#footer div#icons-copyright a:link,
 div#footer div#icons-copyright a:visited {
 	color: #0199AE;
+	text-decoration: none;
+}
+div#footer div#icons-copyright a:hover {
+	text-decoration: underline;
 }
 /*
  *
