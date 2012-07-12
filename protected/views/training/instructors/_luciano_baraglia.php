@@ -1,7 +1,7 @@
 <div class="details instructor-details">
 	<div class="hgroup">
 		<h3>Acerca del instructor</h3>
-		<h4><?php echo CHtml::link('Luciano Baraglia', array('/about-us', '#' => 'luciano-baraglia')); ?></h4>
+		<h4><?php echo CHtml::link('Luciano Abel Baraglia', array('/about-us', '#' => 'luciano-baraglia')); ?></h4>
 	</div>
 	<div class="figure">
 		<?php echo CHtml::link(
@@ -9,5 +9,10 @@
 			array('/about-us', '#' => 'luciano-baraglia')
 		); ?>
 	</div>
-	<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mauris tellus, convallis id placerat quis, viverra id neque. Vestibulum malesuada pellentesque magna eu fringilla. Sed non rhoncus libero. Integer ullamcorper felis non quam malesuada interdum. Etiam vel mauris nec felis commodo egestas. Donec ultricies mauris vitae lectus condimentum accumsan. Phasellus pharetra ipsum quis magna posuere et laoreet orci aliquam. Donec laoreet feugiat sapien eu luctus. Fusce ac faucibus magna. Morbi sed erat id velit pharetra rhoncus blandit eu dui. Nulla facilisi. Donec in mi eget leo ullamcorper pharetra. Aliquam id turpis pretium dui lacinia suscipit. Nullam nunc mi, posuere id vehicula vitae, imperdiet vel velit.</p>
+	<p>Desarrollador Web autodidacta desde hace más de 10 años. Defensor de la <a href="http://en.wikipedia.org/wiki/Semantic_HTML" target="_blank">web semántica</a>, los <a href="http://www.w3.org/standards/" target="_blank">estándares de la W3C</a> y proclamado entre los suyos como <strong>GURÚ del CSS</strong>.</p>
+	<p>Especializado en maquetación, <strong>SEO</strong> y optimización de sitios web para buscadores.</p>
+	<p>Posee vasta experiencia programando en <strong>PHP</strong>, tanto para el mercado local como para clientes y empresas del exterior, principalmente España y Japón.</p>
+	<p>Es un desarrollador avanzado de módulos y themes para <a href="http://drupal.org" target="_blank">Drupal</a> aunque prefiere utilizar frameworks como <a href="http://yiiframework.com" target="_blank">YII</a>, <a href="http://symfony-project.org" target="_blank">Symfony</a>, y <a href="https://www.djangoproject.com/" target="_blank">Django</a>.</p>
+	<p>Actualmente ansioso en la espera de mejor soporte de <strong>HTML5</strong> y <strong>CSS 3</strong> de los navegadores para poder experimentar más en esa área.</p>
+			
 </div>

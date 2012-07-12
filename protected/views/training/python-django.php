@@ -23,9 +23,9 @@
 			<li>How to get and install Django</li>
 			<li>About the 3 Core Files:
 				<ul>
-					<li>models.py
-					<li>urls.py
-					<li>views.py
+					<li>models.py</li>
+					<li>urls.py</li>
+					<li>views.py</li>
 				</ul>
 			</li>
 			<li>Setting up database connections</li>
@@ -43,7 +43,7 @@
 	</div>
 	<div class="prerequisites">
 		<h3>Pre requisitos</h3>
-		<p>Conocimientos básicos de PHP</p>
+		<p>Conocimientos básicos de Python</p>
 	</div>
 	<div class="footer"></div>
 </div>

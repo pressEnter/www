@@ -563,6 +563,7 @@ div#about-us div.article div.footer {
 	padding-top: 3px;
 	background: url(../images/about-us/article-footer-top-900x13.png) no-repeat top right;
 	padding-top: 13px;
+	clear: both;
 }
 div#about-us div.article div.footer-inner {
 	background: #F4F4F4;
