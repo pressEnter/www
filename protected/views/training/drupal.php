@@ -14,22 +14,24 @@
 	<div class="syllabus">
 		<h2>Temario del curso</h2>
 		<ul>
-			<li>Introduction</li>
-			<li>Installation and configuration</li>
-			<li>Nodes</li>
-			<li>Content creation</li>
-			<li>Menu system</li>
-			<li>Rights management</li>
-			<li>VIEWS and CCK modules</li>
-			<li>Module creation</li>
-			<li>Users</li>
-			<li>Forms</li>
-			<li>Themes</li>
+			<li>¿Qué es un CMS?</li>
+			<li>Introducción a Drupal</li>
+			<li>Instalación y configuración</li>
+			<li>Concepto de Nodo</li>
+			<li>Creación de contenido</li>
+			<li>Sistema de menú</li>
+			<li>Usuarios y permisos</li>
+			<li>Instalación de módulos de terceros</li>
+			<li>CCK y VIEWS, el corazón de Drupal</li>
+			<li>Desarrollo de módulos propios</li>
+			<li>HOOKS y API de formularios</li>
+			<li>Creación de un Theme desde cero</li>
+			<li>Diferencias entre Drupal 6 y Drupal 7</li>
 		</ul>
 	</div>
 	<div class="audience">
 		<h3>A quién está dirigido?</h3>
-		<p>Desarrolladores web - programadores</p>
+		<p>Desarrolladores web - Programadores</p>
 	</div>
 	<div class="prerequisites">
 		<h3>Pre requisitos</h3>

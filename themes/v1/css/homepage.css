@@ -90,12 +90,12 @@ body#site-index div.highlight div.check-list li {
 body#site-index div.highlight div#highlihght-alba-gallery {
 	position: absolute;
 	bottom: 80px;
-	right: 45px;
+	right: 50px;
 	width: 315px;
 	height: 90px;
 }
 body#site-index div.highlight div#highlihght-alba-gallery div.bx-wrapper {
-	border: 5px #008080 solid;
+	border: 5px #BDBDBD solid;
 }
 body#site-index div.highlight div#highlihght-alba-gallery div.bx-pager {
 	position: absolute;
@@ -109,7 +109,7 @@ body#site-index div.highlight div#highlihght-alba-gallery div.bx-pager a.pager-l
 	font-size: 0.9em;
 }
 body#site-index div.highlight div#highlihght-alba-gallery div.bx-pager a.pager-active {
-	background: #008080;
+	background: #BDBDBD;
 }
 body#site-index div.highlight div#highlihght-alba-gallery div.bx-pager a:link,
 body#site-index div.highlight div#highlihght-alba-gallery div.bx-pager a:visited {
