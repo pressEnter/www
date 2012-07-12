@@ -38,11 +38,15 @@
 		</div>
 		
 		<div class="article" id="miguel-garcia">
-			<h2>Miguel García</h2>
+			<h2>Miguel Ángel García</h2>
 			<div class="figure">
 				<?php echo CHtml::image(Yii::app()->request->getBaseUrl(true).'/images/about-us/miguel-garcia-100x100-color.jpg', 'Miguel García', array('title' => 'Miguel García')); ?>
 			</div>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mauris tellus, convallis id placerat quis, viverra id neque. Vestibulum malesuada pellentesque magna eu fringilla. Sed non rhoncus libero. Integer ullamcorper felis non quam malesuada interdum. Etiam vel mauris nec felis commodo egestas. Donec ultricies mauris vitae lectus condimentum accumsan. Phasellus pharetra ipsum quis magna posuere et laoreet orci aliquam. Donec laoreet feugiat sapien eu luctus. Fusce ac faucibus magna. Morbi sed erat id velit pharetra rhoncus blandit eu dui. Nulla facilisi. Donec in mi eget leo ullamcorper pharetra. Aliquam id turpis pretium dui lacinia suscipit. Nullam nunc mi, posuere id vehicula vitae, imperdiet vel velit.</p>
+			<p>Arquitecto de software, con amplia experiencia en gestión de proyectos y desarrollo de aplicaciones web y de escritorio utilizando tecnologías <strong>libres</strong>: Python, PHP5, C++ y SQL.</p>
+      <p>Especializado en diseño <strong>OOP</strong>, metodologías <strong>ágiles</strong>, optimización de aplicaciones e integración con librerias y servicios de terceros.</p>
+      <p>Ha participado en varios proyectos complejos, creando soluciones tecnológicas para empresas y organizaciones de Argentina, Canada y USA</p>
+      <p>Está interesado en la utilización de <strong>best practices</strong> para mejorar la calidad del proceso de desarrollo y del software creado, minimizando los costos.
+      </p>
 			<div class="footer">
 				<div class="footer-inner">
 				<?php echo CHtml::link(
