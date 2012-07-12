@@ -1,7 +1,7 @@
-<?php $this->pageTitle = 'Pressenter | Quiénes somos'; ?>
+<?php $this->pageTitle = 'pressEnter | Quiénes somos'; ?>
 <h1>Nosotros</h1>
 
-<p><strong>PressEnter</strong> es una empresa Argentina con más de 10 años de experiencia brindando servicios en el mercado de las tecnologías de información y comunicaciones.</p>
+<p><strong>pressEnter</strong> es una empresa Argentina con más de 10 años de experiencia brindando servicios en el mercado de las tecnologías de información y comunicaciones.</p>
 <div id="about-us" class="section">
 	<div class="articles-wrapper">
 		

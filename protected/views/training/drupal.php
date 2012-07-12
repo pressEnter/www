@@ -1,4 +1,4 @@
-<?php $this->pageTitle = 'Pressenter | Capacitación en Drupal'; ?>
+<?php $this->pageTitle = 'pressEnter | Capacitación en Drupal'; ?>
 <div class="article">
 	<div class="header">
 		<h1>Drupal CMS</h1>

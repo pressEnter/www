@@ -4,7 +4,6 @@ class NewsController extends Controller
 {
 	public function actionIndex()
 	{
-		$this->pageTitle = 'Pressenter | Noticias';
 		$this->render('index');
 	}
 
@@ -22,7 +21,6 @@ class NewsController extends Controller
 		if(is_null($post)){
 			throw new CHttpException(404, 'No se encuentra la noticia solicitada.');
 		}
-		$this->pageTitle = 'Pressenter | ' . $post->title;
 		$this->render('read', array('post' => $post));
 	}
 

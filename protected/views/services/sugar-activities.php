@@ -1,4 +1,4 @@
-<?php $this->pageTitle = 'Pressenter | SUGAR Activities'; ?>
+<?php $this->pageTitle = 'pressEnter | SUGAR Activities'; ?>
 <div class="article">
 	<div class="header">
 		<h1>SUGAR Activities</h1>

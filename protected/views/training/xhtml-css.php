@@ -1,4 +1,4 @@
-<?php $this->pageTitle = 'Pressenter | Capacitación en XHTML/CSS'; ?>
+<?php $this->pageTitle = 'pressEnter | Capacitación en XHTML/CSS'; ?>
 <div class="article">
 	<div class="header">
 		<h1>XHTML/CSS</h1>

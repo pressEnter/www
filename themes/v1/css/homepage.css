@@ -79,6 +79,7 @@ body#site-index div.highlight div.check-list {
 	font-size: 1.2em;
 }
 body#site-index div.highlight div.check-list ul {
+	list-style: none;
 }
 body#site-index div.highlight div.check-list li {
 	margin: 5px 0 0;
@@ -89,7 +90,7 @@ body#site-index div.highlight div.check-list li {
 /* http://www.bxslider.com/ */
 body#site-index div.highlight div#highlihght-alba-gallery {
 	position: absolute;
-	bottom: 80px;
+	bottom: 90px;
 	right: 50px;
 	width: 315px;
 	height: 90px;

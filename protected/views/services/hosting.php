@@ -1,4 +1,4 @@
-<?php $this->pageTitle = 'Pressenter | Servicio de Hosting'; ?>
+<?php $this->pageTitle = 'pressEnter | Servicio de Hosting'; ?>
 <div class="article">
 	<div class="header">
 		<h1>Hosting</h1>
@@ -7,7 +7,7 @@
 		<p>Brindamos alojamiento web para aplicaciones que necesite acceder desde cualquier parte de mundo.</p> 
 	</div>
 	<div id="hosting-plans">
-		<table summary="Planes de Hosting disponibles en Pressenter">
+		<table summary="Planes de Hosting disponibles en pressEnter">
 			<caption>Planes de Hosting</caption>
 			<colgroup>
 				<col />
