@@ -24,33 +24,6 @@
 				</tr>
 			</thead>
 			<tbody>
-				<tr id="cost" class="odd">
-					<th scope="row">Costo</th>
-					<td>
-						<div class="price"> 
-							<span class="currency">$</span>
-							<span class="int">29</span>
-							<span class="decimal">.99</span>
-							<span class="periodicity">/mes</span>
-						</div>
-					</td>
-					<td>
-						<div class="price"> 
-							<span class="currency">$</span>
-							<span class="int">49</span>
-							<span class="decimal">.99</span>
-							<span class="periodicity">/mes</span>
-						</div>
-					</td>
-					<td>
-						<div class="price"> 
-							<span class="currency">$</span>
-							<span class="int">134</span>
-							<span class="decimal">.99</span>
-							<span class="periodicity">/mes</span>
-						</div>
-					</td>
-				</tr>
 				<tr id="disk-space" class="even">
 					<th scope="row">Espacio en disco</th>
 					<td>100<span class="measurement-unit">MB</span></td>

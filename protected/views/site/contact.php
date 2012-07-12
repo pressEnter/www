@@ -1,12 +1,11 @@
 <?php $this->pageTitle = 'Pressenter | Contacto'; ?>
 <div class="hgroup">
 	<h1>Contacto</h1>
-	<h2>Get in touch!</h2>
 </div>
 <div id="contact-text">
 	<p>Si estás buscando <strong>desarrolladores</strong> para un proyecto, capacitar a tus empleados en <strong>tecnologías libres</strong> o simplemente saber <strong>cómo podemos ayudarte</strong>, contactáte con nosotros.</p>
 	<h4>Estamos creciendo...</h4>
-	<p>Si lo tuyo es la <strong>programación</strong> o la <strong>administración de servidores</strong>, te sentís identificado con el espíritu del <strong>Software Libre</strong> y simpatizás con <strong>Pressenter</strong>, enviános tu <strong>CV</strong>. Podríamos trabajar juntos!</p>
+	<p>Si lo tuyo es la <strong>programación</strong> o la <strong>administración de servidores</strong>, te sentís identificado con el espíritu del <strong>Software Libre</strong> y simpatizás con <strong>pressEnter</strong>, enviános tu <strong>CV</strong>. Podríamos trabajar juntos!</p>
 </div>
 <div id="contact-form-wrapper" class="form-wrapper">
 <?php 
