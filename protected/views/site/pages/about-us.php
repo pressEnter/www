@@ -1,16 +1,19 @@
 <?php $this->pageTitle = 'Pressenter | Quiénes somos'; ?>
 <h1>Nosotros</h1>
 
-<p><strong>PressEnter</strong> es una empresa Argentina con más de 10 años de experiencia brindando servicios en el mercado de las tecnologías de información y comunicaciones.</p>
+<p><strong>pressEnter</strong> es una cooperativa de trabajo Argentina con más de 10 años de experiencia brindando servicios en el mercado de las tecnologías de información y comunicaciones.</p>
 <div id="about-us" class="section">
 	<div class="articles-wrapper">
 		
 		<div class="article" id="hector-sanchez">
-			<h2>Héctor "Karucha" Sanchez</h2>
+			<h2>Héctor Sanchez</h2>
 			<div class="figure">
-				<?php echo CHtml::image(Yii::app()->request->getBaseUrl(true).'/images/about-us/hector-sanchez-100x100-color.jpg', 'Héctor Sánchez', array('title' => 'Héctor Sánchez')); ?>
-			</div>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mauris tellus, convallis id placerat quis, viverra id neque. Vestibulum malesuada pellentesque magna eu fringilla. Sed non rhoncus libero. Integer ullamcorper felis non quam malesuada interdum. Etiam vel mauris nec felis commodo egestas. Donec ultricies mauris vitae lectus condimentum accumsan. Phasellus pharetra ipsum quis magna posuere et laoreet orci aliquam. Donec laoreet feugiat sapien eu luctus. Fusce ac faucibus magna. Morbi sed erat id velit pharetra rhoncus blandit eu dui. Nulla facilisi. Donec in mi eget leo ullamcorper pharetra. Aliquam id turpis pretium dui lacinia suscipit. Nullam nunc mi, posuere id vehicula vitae, imperdiet vel velit.</p>
+				<?php echo CHtml::image(Yii::app()->request->getBaseUrl(true).'/images/about-us/hector-sanchez-100x100-color.jpg', 'Héctor Sanchez', array('title' => 'Héctor Sanchez')); ?>
+            </div><p>Analista de sistemas, graduado en la Universidad Tecnológica Nacional (UTN). Tiene conocimiento en diferentes lenguajes de programación como Python, PHP, Perl, C y C++ entre otros, y mucha experiencia en desarrollos Web utilizando los frameworks Symfony y Django.</p>
+<p>
+Activista de Software Libre, participó en el dictado de cursos y conferencias nacionales e internacionales, actualmente participa activamente de organizaciones como LANUX, SOLAR, PYAR y SugarLabsArgentina, dedicadas a la difusión del Software Libre tanto en el aspecto social como técnico.</p>
+<p>
+Participó del equipo Falabracman ganador de la competencia OLPC Game Jam 2008 en Porto Alegre - Brasil en FISL, que consite en desarrollar un video juego educativo "actividad" en 32hs, que funcione en una computadora OLPC en el entorno Sugar.</p>
 			<div class="footer">
 				<div class="footer-inner">
 				<?php echo CHtml::link(
