@@ -13,8 +13,6 @@
 	</div>
 	<div class="syllabus">
 		<h2>Temario del curso</h2>
-		<br />
-		http://www.frameworktraining.co.uk/django-training-course-uk/
         <ul>
             <li>Introducción a Python</li>
 			<li>Introducción a Django</li>
