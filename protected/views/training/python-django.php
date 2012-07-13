@@ -15,26 +15,26 @@
 		<h2>Temario del curso</h2>
 		<br />
 		http://www.frameworktraining.co.uk/django-training-course-uk/
-		<ul>
-			<li>Introduction to Django</li>
-			<li>What is Django?</li>
-			<li>Django and Python</li>
-			<li>Django’s take on MVC: Model, View and Template</li>
-			<li>How to get and install Django</li>
-			<li>About the 3 Core Files:
+        <ul>
+            <li>Introducción a Python</li>
+			<li>Introducción a Django</li>
+			<li>Django como MVC: Model, View y Templates</li>
+			<li>Obtener y configurar Django</li>
+			<li>Estructura de Django:
 				<ul>
 					<li>models.py</li>
 					<li>urls.py</li>
 					<li>views.py</li>
 				</ul>
 			</li>
-			<li>Setting up database connections</li>
-			<li>Django URL Patterns and Views</li>
+			<li>Configurando las conexiones a la DB</li>
+			<li>Django URL Patterns y Views</li>
 			<li>Django Forms</li>
 			<li>Form classes</li>
-			<li>Validation</li>
-			<li>Authentication</li>
-			<li>Advanced Forms processing techniques</li>
+			<li>Validaciones</li>
+			<li>CRUD con el Admin</li>
+			<li>Autenticación y gestión de usuarios</li>
+			<li>Forms y Vistas </li>
 		</ul>
 	</div>
 	<div class="audience">
