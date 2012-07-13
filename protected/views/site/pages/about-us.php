@@ -1,3 +1,7 @@
+<?php 
+// Tooltip library
+Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl.'/js/jquerytools.org/jquery.tools.min.js', CClientScript::POS_BEGIN); 
+?>
 <?php $this->pageTitle = 'pressEnter | Quiénes somos'; ?>
 <h1>Nosotros</h1>
 
@@ -68,10 +72,21 @@
 			<p>Actualmente ansioso en la espera de mejor soporte de <strong>HTML5</strong> y <strong>CSS 3</strong> de los navegadores para poder experimentar más en esa área.</p>
 			<div class="footer">
 				<div class="footer-inner">
-				<?php echo CHtml::link(
-					CHtml::image(Yii::app()->theme->baseUrl.'/images/icons/infocus-linkedin-logo-square2-24x24.png', 'Ver perfil de Luciano Baraglia en Linkedin', array('title' => 'Ver perfil de Luciano Baraglia en Linkedin')),
-					'http://www.linkedin.com/in/lucianobaraglia', array('target' => '_blank')
-				); ?>
+					<?php 
+					echo CHtml::link(
+						CHtml::image(Yii::app()->theme->baseUrl.'/images/icons/infocus-linkedin-logo-square2-24x24.png', 'Ver perfil de Luciano Baraglia en Linkedin', array('title' => 'Ver perfil de Luciano Baraglia en Linkedin')),
+						'http://www.linkedin.com/in/lucianobaraglia', array('target' => '_blank')
+					); 
+					echo CHtml::link(
+						CHtml::image(Yii::app()->theme->baseUrl.'/images/icons/infocus-facebook-logo-square-24x24.png', 'Luciano Baraglia en Facebook', array('title' => 'Luciano Baraglia en Facebook')),
+						'http://www.facebook.com/luciano.baraglia', array('target' => '_blank')
+					); 
+					echo CHtml::link(
+						CHtml::image(Yii::app()->theme->baseUrl.'/images/icons/infocus-twitter-logo-square-24x24.png', 'Cuenta de Twitter', array('title' => 'Cuenta de Twitter')),
+						'https://twitter.com/lucianobaraglia', array('target' => '_blank')
+					);
+					echo CHtml::image(Yii::app()->theme->baseUrl.'/images/icons/infocus-gmail-24x24.png', 'GTalk: luciano.baraglia@gmail.com', array('class' => 'gtalk-info', 'title' => 'GTalk: luciano.baraglia@gmail.com'));
+					?>
 				</div>
 			</div>
 		</div>
@@ -79,7 +94,16 @@
 	</div> <!-- articles-wrapper -->
 	<hr />
 </div>
-
+<script type="text/javascript">
+$(document).ready(function(){ 
+	$("div.footer img.gtalk-info").tooltip({
+		effect: 'slide',
+		delay: 700,
+		tipClass: 'gtalk-info-tooltip',
+		position: 'top center'
+	});
+}); 
+</script>
 
 
 
