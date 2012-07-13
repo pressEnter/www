@@ -287,8 +287,10 @@ body#site-index div#technologies h3 {
 	text-align: center;
 	line-height: 30px;
 	background: #DDDAD8 url(../images/news-updates-bg-150x172.jpg) repeat;
+	padding-top: 50px;
 	padding-bottom: 10px;
 	margin: 0;
+	font-weight: normal;
 }
 body#site-index div#technologies ul {
 	padding-top: 30px;
@@ -305,7 +307,7 @@ body#site-index div#technologies li {
 	width: 150px;
 	height: 93px;
 	*/
-	width: 100px;
+	width: 110px;
 	height: 62px;
 	margin: 5px 2px;
 }
