@@ -90,13 +90,19 @@ body#site-index div.highlight div.check-list li {
 /* http://www.bxslider.com/ */
 body#site-index div.highlight div#highlihght-alba-gallery {
 	position: absolute;
-	bottom: 90px;
+	bottom: 80px;
 	right: 50px;
 	width: 315px;
 	height: 90px;
 }
 body#site-index div.highlight div#highlihght-alba-gallery div.bx-wrapper {
 	border: 5px #BDBDBD solid;
+	height: 90px;
+	padding: 1px;
+	background: #666;
+}
+body#site-index div.highlight div#highlihght-alba-gallery div.bx-wrapper li {
+	margin: 0;
 }
 body#site-index div.highlight div#highlihght-alba-gallery div.bx-pager {
 	position: absolute;
@@ -106,7 +112,7 @@ body#site-index div.highlight div#highlihght-alba-gallery div.bx-pager {
 body#site-index div.highlight div#highlihght-alba-gallery div.bx-pager a.pager-link {
 	padding: 2px 5px;
 	margin: 0 0 0 5px;
-	background: #fff;
+	background: #666;
 	font-size: 0.9em;
 }
 body#site-index div.highlight div#highlihght-alba-gallery div.bx-pager a.pager-active {
@@ -114,7 +120,7 @@ body#site-index div.highlight div#highlihght-alba-gallery div.bx-pager a.pager-a
 }
 body#site-index div.highlight div#highlihght-alba-gallery div.bx-pager a:link,
 body#site-index div.highlight div#highlihght-alba-gallery div.bx-pager a:visited {
-	color: #008080;
+	color: #fff;
 	text-decoration: none;
 }
 body#site-index div.highlight div#highlihght-alba-gallery div.bx-pager a.pager-active:link,
