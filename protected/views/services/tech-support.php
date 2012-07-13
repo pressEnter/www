@@ -1,4 +1,4 @@
-<?php $this->pageTitle = 'Pressenter | Soporte Técnico'; ?>
+<?php $this->pageTitle = 'pressEnter | Soporte Técnico'; ?>
 <div class="article">
 	<h1>Soporte Técnico</h1>
 	<div class="body service-details">

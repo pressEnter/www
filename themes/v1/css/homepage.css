@@ -79,6 +79,7 @@ body#site-index div.highlight div.check-list {
 	font-size: 1.2em;
 }
 body#site-index div.highlight div.check-list ul {
+	list-style: none;
 }
 body#site-index div.highlight div.check-list li {
 	margin: 5px 0 0;
@@ -96,6 +97,12 @@ body#site-index div.highlight div#highlihght-alba-gallery {
 }
 body#site-index div.highlight div#highlihght-alba-gallery div.bx-wrapper {
 	border: 5px #BDBDBD solid;
+	height: 90px;
+	padding: 1px;
+	background: #666;
+}
+body#site-index div.highlight div#highlihght-alba-gallery div.bx-wrapper li {
+	margin: 0;
 }
 body#site-index div.highlight div#highlihght-alba-gallery div.bx-pager {
 	position: absolute;
@@ -105,7 +112,7 @@ body#site-index div.highlight div#highlihght-alba-gallery div.bx-pager {
 body#site-index div.highlight div#highlihght-alba-gallery div.bx-pager a.pager-link {
 	padding: 2px 5px;
 	margin: 0 0 0 5px;
-	background: #fff;
+	background: #666;
 	font-size: 0.9em;
 }
 body#site-index div.highlight div#highlihght-alba-gallery div.bx-pager a.pager-active {
@@ -113,7 +120,7 @@ body#site-index div.highlight div#highlihght-alba-gallery div.bx-pager a.pager-a
 }
 body#site-index div.highlight div#highlihght-alba-gallery div.bx-pager a:link,
 body#site-index div.highlight div#highlihght-alba-gallery div.bx-pager a:visited {
-	color: #008080;
+	color: #fff;
 	text-decoration: none;
 }
 body#site-index div.highlight div#highlihght-alba-gallery div.bx-pager a.pager-active:link,
@@ -286,8 +293,10 @@ body#site-index div#technologies h3 {
 	text-align: center;
 	line-height: 30px;
 	background: #DDDAD8 url(../images/news-updates-bg-150x172.jpg) repeat;
+	padding-top: 50px;
 	padding-bottom: 10px;
 	margin: 0;
+	font-weight: normal;
 }
 body#site-index div#technologies ul {
 	padding-top: 30px;
@@ -304,7 +313,7 @@ body#site-index div#technologies li {
 	width: 150px;
 	height: 93px;
 	*/
-	width: 100px;
+	width: 110px;
 	height: 62px;
 	margin: 5px 2px;
 }

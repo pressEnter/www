@@ -1,4 +1,4 @@
-<?php $this->pageTitle = 'Pressenter | Calandria Gestión - Sistema de Gestión Administrativa para Pymes'; ?>
+<?php $this->pageTitle = 'pressEnter | Calandria Gestión - Sistema de Gestión Administrativa para Pymes'; ?>
 <div class="article">
 	<div class="hgroup">
 		<h1>Calandria Gestión</h1>

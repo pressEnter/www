@@ -1,4 +1,4 @@
-<?php $this->pageTitle = 'Pressenter | Capacitación en Symfony Framework'; ?>
+<?php $this->pageTitle = 'pressEnter | Capacitación en Symfony Framework'; ?>
 <div class="article">
 	<div class="header">
 		<h1>Symfony Framework</h1>

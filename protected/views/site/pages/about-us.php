@@ -1,4 +1,8 @@
-<?php $this->pageTitle = 'Pressenter | Quiénes somos'; ?>
+<?php 
+// Tooltip library
+Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl.'/js/jquerytools.org/jquery.tools.min.js', CClientScript::POS_BEGIN); 
+?>
+<?php $this->pageTitle = 'pressEnter | Quiénes somos'; ?>
 <h1>Nosotros</h1>
 
 <p><strong>pressEnter</strong> es una cooperativa de trabajo Argentina con más de 10 años de experiencia brindando servicios en el mercado de las tecnologías de información y comunicaciones.</p>
@@ -9,11 +13,12 @@
 			<h2>Héctor Sanchez</h2>
 			<div class="figure">
 				<?php echo CHtml::image(Yii::app()->request->getBaseUrl(true).'/images/about-us/hector-sanchez-100x100-color.jpg', 'Héctor Sanchez', array('title' => 'Héctor Sanchez')); ?>
-            </div><p>Analista de sistemas, graduado en la Universidad Tecnológica Nacional (UTN). Tiene conocimiento en diferentes lenguajes de programación como Python, PHP, Perl, C y C++ entre otros, y mucha experiencia en desarrollos Web utilizando los frameworks Symfony y Django.</p>
+            </div><p>Analista de sistemas, graduado en la Universidad Tecnológica Nacional (UTN). Tiene conocimiento en diferentes lenguajes de programación, su preferido es Python.</p>
+ </p>Posee mucha experiencia en desarrollos Web utilizando los frameworks Symfony y Django.</p>
 <p>
-Activista de Software Libre, participó en el dictado de cursos y conferencias nacionales e internacionales, actualmente participa activamente de organizaciones como LANUX, SOLAR, PYAR y SugarLabsArgentina, dedicadas a la difusión del Software Libre tanto en el aspecto social como técnico.</p>
+Es un activista de Software Libre, que participó en el dictado de cursos y conferencias nacionales e internacionales, actualmente participa activamente de organizaciones como LANUX, SOLAR, PYAR y SugarLabsArgentina, dedicadas a la difusión del Software Libre tanto en el aspecto social como técnico.</p>
 <p>
-Participó del equipo Falabracman ganador de la competencia OLPC Game Jam 2008 en Porto Alegre - Brasil en FISL, que consite en desarrollar un video juego educativo "actividad" en 32hs, que funcione en una computadora OLPC en el entorno Sugar.</p>
+Formó parte del equipo Falabracman ganador de la competencia OLPC Game Jam 2008 en Porto Alegre - Brasil en FISL, que consite en desarrollar un video juego educativo "actividad" en 32hs, que funcione en una computadora OLPC en el entorno Sugar.</p>
 			<div class="footer">
 				<div class="footer-inner">
 				<?php echo CHtml::link(
@@ -41,11 +46,14 @@ Participó del equipo Falabracman ganador de la competencia OLPC Game Jam 2008 e
 		</div>
 		
 		<div class="article" id="miguel-garcia">
-			<h2>Miguel García</h2>
+			<h2>Miguel Ángel García</h2>
 			<div class="figure">
 				<?php echo CHtml::image(Yii::app()->request->getBaseUrl(true).'/images/about-us/miguel-garcia-100x100-color.jpg', 'Miguel García', array('title' => 'Miguel García')); ?>
 			</div>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce mauris tellus, convallis id placerat quis, viverra id neque. Vestibulum malesuada pellentesque magna eu fringilla. Sed non rhoncus libero. Integer ullamcorper felis non quam malesuada interdum. Etiam vel mauris nec felis commodo egestas. Donec ultricies mauris vitae lectus condimentum accumsan. Phasellus pharetra ipsum quis magna posuere et laoreet orci aliquam. Donec laoreet feugiat sapien eu luctus. Fusce ac faucibus magna. Morbi sed erat id velit pharetra rhoncus blandit eu dui. Nulla facilisi. Donec in mi eget leo ullamcorper pharetra. Aliquam id turpis pretium dui lacinia suscipit. Nullam nunc mi, posuere id vehicula vitae, imperdiet vel velit.</p>
+			<p>Arquitecto de software, con amplia experiencia en gestión de proyectos y desarrollo de aplicaciones web y de escritorio utilizando tecnologías <strong>libres</strong>: Python, PHP5, C++ y SQL.</p>
+			<p>Especializado en diseño <strong>OOP</strong>, metodologías <strong>ágiles</strong>, optimización de aplicaciones e integración con librerias y servicios de terceros.</p>
+			<p>Ha participado en varios proyectos complejos, creando soluciones tecnológicas para empresas y organizaciones de Argentina, Canada y USA.</p>
+			<p>Está interesado en la utilización de <strong>best practices</strong> para mejorar la calidad del proceso de desarrollo y del software creado, minimizando los costos.</p>
 			<div class="footer">
 				<div class="footer-inner">
 				<?php echo CHtml::link(
@@ -68,10 +76,21 @@ Participó del equipo Falabracman ganador de la competencia OLPC Game Jam 2008 e
 			<p>Actualmente ansioso en la espera de mejor soporte de <strong>HTML5</strong> y <strong>CSS 3</strong> de los navegadores para poder experimentar más en esa área.</p>
 			<div class="footer">
 				<div class="footer-inner">
-				<?php echo CHtml::link(
-					CHtml::image(Yii::app()->theme->baseUrl.'/images/icons/infocus-linkedin-logo-square2-24x24.png', 'Ver perfil de Luciano Baraglia en Linkedin', array('title' => 'Ver perfil de Luciano Baraglia en Linkedin')),
-					'http://www.linkedin.com/in/lucianobaraglia', array('target' => '_blank')
-				); ?>
+					<?php 
+					echo CHtml::link(
+						CHtml::image(Yii::app()->theme->baseUrl.'/images/icons/infocus-linkedin-logo-square2-24x24.png', 'Ver perfil de Luciano Baraglia en Linkedin', array('title' => 'Ver perfil de Luciano Baraglia en Linkedin')),
+						'http://www.linkedin.com/in/lucianobaraglia', array('target' => '_blank')
+					); 
+					echo CHtml::link(
+						CHtml::image(Yii::app()->theme->baseUrl.'/images/icons/infocus-facebook-logo-square-24x24.png', 'Luciano Baraglia en Facebook', array('title' => 'Luciano Baraglia en Facebook')),
+						'http://www.facebook.com/luciano.baraglia', array('target' => '_blank')
+					); 
+					echo CHtml::link(
+						CHtml::image(Yii::app()->theme->baseUrl.'/images/icons/infocus-twitter-logo-square-24x24.png', 'Cuenta de Twitter', array('title' => 'Cuenta de Twitter')),
+						'https://twitter.com/lucianobaraglia', array('target' => '_blank')
+					);
+					echo CHtml::image(Yii::app()->theme->baseUrl.'/images/icons/infocus-gmail-24x24.png', 'GTalk: luciano.baraglia@gmail.com', array('class' => 'gtalk-info', 'title' => 'GTalk: luciano.baraglia@gmail.com'));
+					?>
 				</div>
 			</div>
 		</div>
@@ -79,7 +98,13 @@ Participó del equipo Falabracman ganador de la competencia OLPC Game Jam 2008 e
 	</div> <!-- articles-wrapper -->
 	<hr />
 </div>
-
-
-
-
+<script type="text/javascript">
+$(document).ready(function(){ 
+	$("div.footer img.gtalk-info").tooltip({
+		effect: 'slide',
+		delay: 700,
+		tipClass: 'gtalk-info-tooltip',
+		position: 'top center'
+	});
+}); 
+</script>

@@ -1,4 +1,4 @@
-<?php $this->pageTitle = 'Pressenter | Capacitación en GNU/Linux'; ?>
+<?php $this->pageTitle = 'pressEnter | Capacitación en GNU/Linux'; ?>
 <div class="article">
 	<div class="header">
 		<h1>GNU/Linux</h1>

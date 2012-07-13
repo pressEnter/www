@@ -1,4 +1,4 @@
-<?php $this->pageTitle = 'Pressenter | Servicios'; ?>
+<?php $this->pageTitle = 'pressEnter | Servicios'; ?>
 <div class="section">
 	<h1>Servicios</h1>
 	<p>Nuestra empresa se enfoca principalmente en el desarrollo de software a medida basado en tecnologias libres e implementación de las mismas utilizando la fortaleza de GNU/Linux.</p>

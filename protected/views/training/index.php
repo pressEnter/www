@@ -1,4 +1,4 @@
-<?php $this->pageTitle = 'Pressenter | Capacitación'; ?>
+<?php $this->pageTitle = 'pressEnter | Capacitación'; ?>
 <div class="section">
 	<h1>Capacitación</h1>
 	<p>Brindamos capacitación profesional en temáticas de desarrollo de sistemas y coaching de proyectos, entre otros.</p>

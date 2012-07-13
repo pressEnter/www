@@ -1,4 +1,4 @@
-<?php $this->pageTitle = 'Pressenter | Desarrollo Web'; ?>
+<?php $this->pageTitle = 'pressEnter | Desarrollo Web'; ?>
 <div class="article">
 	<div class="article">
 		<h1>Desarrollo Web</h1>

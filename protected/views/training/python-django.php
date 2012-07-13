@@ -1,4 +1,4 @@
-<?php $this->pageTitle = 'Pressenter | Capacitación en Python/Django'; ?>
+<?php $this->pageTitle = 'pressEnter | Capacitación en Python/Django'; ?>
 <div class="article">
 	<div class="header">
 		<h1>Python/Django</h1>

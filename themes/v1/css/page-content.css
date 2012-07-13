@@ -46,6 +46,19 @@ div#page-content h4 {
 div#page-content p {
 	margin: 5px auto 0;
 }
+
+div#page-content ul {
+	list-style: square;
+	list-style-position: inside;
+}
+div#page-content div.gallery ul,
+div#page-content div.social-links ul {
+	list-style: none;
+}
+div#page-content ul li {
+	margin: 10px 0 0 0;
+}
+
 div#page-content a:link,
 div#page-content a:visited {
 	color: #F01800;
@@ -572,3 +585,49 @@ div#about-us div.article div.footer-inner {
 	margin: 0 0 0;
 	padding: 5px;
 }
+div#about-us div.article div.footer-inner img {
+	margin: 0 0 0 10px;
+}
+/* TOOLTIP */
+div.gtalk-info-tooltip {
+	font-family: Arial, sans-serif;
+	border-radius: 20px;
+	font-weight: bold;
+    font-size: 1.2em;
+    padding: 25px;
+    background: #313131;
+    color: #fff;
+ }
+/*
+ *
+ *=PROJECTS
+ *
+ */
+/* ALBA */
+div#alba-project {
+	
+}
+div#alba-project div.body {
+	margin-top: 30px;
+}
+div#alba-project div.gallery {
+	clear: both;
+	margin-top: 50px;
+}
+div#alba-project div.gallery ul {
+	margin-top: 10px;
+}
+div#alba-project div.gallery li {
+	border: 5px #BDBDBD solid;
+	float: left;
+	width: 150px;
+	margin: 10px 10px 0 0;
+	overflow: hidden;
+}
+div#alba-project div.footer {
+	margin-top: 30px;
+	background: #FDFEFE;
+	border: 1px #ddd solid;
+	padding: 10px;
+}
+
