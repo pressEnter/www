@@ -90,7 +90,7 @@
 			</div><!-- links -->
 			<hr />
 			<div id="copyleft">
-				<p><strong>pressEnter &copy;</strong> <span>Cooperativa de Software Libre</span> <?php echo date('Y'); ?> - <?php echo CHtml::link('Licencia', 'http://www.gnu.org/copyleft/gpl.html', array('target' => '_blank')); ?></p>
+				<p><strong>pressEnter &copy;</strong> <span>Cooperativa de Software Libre</span> <?php echo date('Y'); ?> - <?php echo CHtml::link('Licencia (CC BY-SA 2.5)', 'http://creativecommons.org/licenses/by-sa/2.5/ar/', array('target' => '_blank')); ?></p>
 			</div>
 			<div class="section" id="extra">
 				<p id="powered">Gracefully developed with <?php echo CHtml::link('Yii Framework', 'http://yiiframework.com', array('target' => '_blank')); ?>  | </p>
