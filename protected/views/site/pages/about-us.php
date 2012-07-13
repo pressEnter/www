@@ -13,10 +13,10 @@ Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl.'/js/jqu
 			<h2>Héctor Sanchez</h2>
 			<div class="figure">
 				<?php echo CHtml::image(Yii::app()->request->getBaseUrl(true).'/images/about-us/hector-sanchez-100x100-color.jpg', 'Héctor Sanchez', array('title' => 'Héctor Sanchez')); ?>
-            </div><p>Analista de sistemas, graduado en la Universidad Tecnológica Nacional (UTN). Tiene conocimiento en diferentes lenguajes de programación, su preferido es Python.</p>
+            </div><p>Analista de sistemas, graduado en la Universidad Tecnológica Nacional (UTN). Tiene conocimiento en diferentes lenguajes de programación, su preferido es <strong>Python</strong>.</p>
  </p>Posee mucha experiencia en desarrollos Web utilizando los frameworks Symfony y Django.</p>
 <p>
-Es un activista de Software Libre, que participó en el dictado de cursos y conferencias nacionales e internacionales, actualmente participa activamente de organizaciones como LANUX, SOLAR, PYAR y SugarLabsArgentina, dedicadas a la difusión del Software Libre tanto en el aspecto social como técnico.</p>
+Es un activista de <strong>Software Libre</strong>, que participó en el dictado de cursos y conferencias nacionales e internacionales, actualmente participa activamente de organizaciones como <a href="http://www.lanux.org.ar" target="_blank">LANUX</a>, <a href="http://www.solar.org.ar" target="_blank">SOLAR</a>, <a href="http://www.python.com.ar" target="_blank">PyAr</a> y <a href="http://ar.sugarlabs.org" target="_blank"> SugarLabs-Argentina </a>, dedicadas a la difusión del Software Libre tanto en el aspecto social como técnico.</p>
 <p>
 Formó parte del equipo Falabracman ganador de la competencia OLPC Game Jam 2008 en Porto Alegre - Brasil en FISL, que consite en desarrollar un video juego educativo "actividad" en 32hs, que funcione en una computadora OLPC en el entorno Sugar.</p>
 			<div class="footer">
