@@ -59,7 +59,8 @@ Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl.'/js/jqu
 				<?php echo CHtml::link(
 					CHtml::image(Yii::app()->theme->baseUrl.'/images/icons/infocus-linkedin-logo-square2-24x24.png', 'Ver perfil de Miguel García en Linkedin', array('title' => 'Ver perfil de Miguel García en Linkedin')),
 					'http://www.linkedin.com/in/zzmike', array('target' => '_blank')
-				); ?>
+				);
+				echo CHtml::link(CHtml::image(Yii::app()->theme->baseUrl.'/images/icons/twitter-bird-24x24.png', 'Cuenta de Twitter', array('title' => 'Cuenta de Twitter')),'https://twitter.com/MikezGarcia', array('target' => '_blank'));?>
 				</div>
 			</div>
 		</div>
