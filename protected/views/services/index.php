@@ -1,7 +1,7 @@
 <?php $this->pageTitle = 'pressEnter | Servicios'; ?>
 <div class="section">
 	<h1>Servicios</h1>
-	<p>Nuestra empresa se enfoca principalmente en el desarrollo de software a medida basado en tecnologias libres e implementación de las mismas utilizando la fortaleza de GNU/Linux.</p>
+	<p>Nuestra cooperativa está integrada por socios altamente capacitados, con una larga experiencia en la materia, y muy comprometidos con su trabajo.  <br/> Nos enfocamos principalmente en el desarrollo de software a medida basado en tecnologias libres e implementación de las mismas utilizando la fortaleza de GNU/Linux.</p>
 
 	<div class="articles-wrapper">
 		<div class="article">
@@ -10,7 +10,7 @@
 				<p>Actualmente es necesario disponer de sistemas On-Line, que permitan el acceso seguro, a clientes y al personal de la empresa.</p>
 				<p>Brindamos una solución en internet con la combinación de las tecnologías más adecuadas para sus necesidades.</p>
 			</div>
-			<div class="footer"></div>
+			<div class="footer"></div> 
 		</div>
 
 		<div class="article">
@@ -33,7 +33,8 @@
 
 		<div class="article">
 			<h2><?php echo CHtml::link('Hosting', 'services/hosting'); ?></h2>
-			<div class="body">		<p>Brindamos alojamiento web para aplicaciones que necesite acceder desde cualquier parte de mundo.</p> 
+            <div class="body">
+            <p>Brindamos alojamiento web para aplicaciones que necesite acceder desde cualquier parte de mundo. <b/> Viste los planes existentes o bien consulte por una solución a medida de sus necesidades.</p> 
 			</div>
 			<div class="footer"></div>
 		</div>
