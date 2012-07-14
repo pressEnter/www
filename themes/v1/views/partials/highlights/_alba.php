@@ -17,7 +17,8 @@
     </div>
     <div class="image-wrapper">
         <?php echo CHtml::image(Yii::app()->request->getBaseUrl(true).'/images/highlights/alba/pizarron-535x340.jpg'); ?>
-        <p>El Proyecto Alba, es un proyecto de desarrollo de Software para la realización de un <strong>“Sistema Informático Abierto de Gestión Unificada para Unidades Educacionales”</strong>, que brindará una herramienta realizada en <strong>software libre</strong>, para el trabajo cotidiano en estas unidades. Por su tipo de licenciamiento bajo la <strong>GNU/GPL</strong>, el sistema permitirá una reutilización y actualización constante, como así también la posibilidad de aprovechamiento de módulos ya realizados por otros emprendedores (siempre que sean compatibles con esta licencia).</p>
+        <p>El Proyecto ALBA, es un sistema web para la gestión de establecimientos educativos, éste facilitará la organización y administración de la escuela.</br>
+        Esta herramienta es <strong>Software Libre</strong>. Por su tipo de licenciamiento bajo la licencia <strong>GNU/GPL</strong>, el sistema permitirá una reutilización y actualización constante del sistema, como así también la posibilidad de aprovechamiento de módulos ya realizados por otros emprendedores.</p>
     </div>
 	<div id="alba-gallery-wrapper">
 		
