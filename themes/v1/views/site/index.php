@@ -5,7 +5,7 @@
     <div id="services-wrapper">
         <div class="article" id="service-development">
             <?php echo CHtml::image(Yii::app()->theme->baseUrl . '/images/icons/eleganticons-config.png'); ?>
-            <h4>Desarrollo</h4>
+            <h4>Desarrollo de Software</h4>
             <p>Brindamos soluciones de software ajustándonos a sus necesidades funcionales y técnicas, creando nuevos aplicativos o personalizando software preexistente.</p>
 			<p>Nos especializamos en la construcción de <strong><?php echo CHtml::link('aplicaciones web', array('services/details', 'item' => 'web-development')); ?></strong>, <strong>de escritorio</strong> y <strong><?php echo CHtml::link('actividades Sugar', array('services/details', 'item' => 'sugar-activities')); ?></strong>.</p>
 			<p>El uso de <strong>tecnologías libres</strong> y metodologías estandarizadas, sumado a nuestro equipo altamente capacitado y comprometido, nos permite garantizar la calidad del software que desarrollamos.</p>
@@ -13,14 +13,14 @@
         <div class="article service-detail" id="service-training">
             <?php echo CHtml::image(Yii::app()->theme->baseUrl . '/images/icons/eleganticons-questions.png'); ?>
             <h4>Capacitación</h4>
-            <p>Dictamos <strong>cursos abiertos</strong>, así como capacitaciones y entrenamiento a equipos en: desarrollo con herramientas <strong>open source</strong>, metodologías ágiles, uso de aplicativos, <strong>redes</strong> y <strong><?php echo CHtml::link('administración de servidores', array('training/details', 'item' => 'gnu-linux')); ?></strong>.</p>
+            <p>Dictamos capacitaciones y entrenamiento a equipos en: desarrollo con herramientas <strong>open source</strong>, frameworks como Django, Symfony, metodologías ágiles  y <strong><?php echo CHtml::link('administración de servidores', array('training/details', 'item' => 'gnu-linux')); ?></strong>.</p>
 			<p>Los cursos tienen una modalidad práctica y están enfocados a que los asistentes puedan utilizar los conocimientos adquiridos para abordar problemáticas de la vida real de manera inmediata.</p>
         </div>
         <div class="article service-detail" id="service-support">
             <?php echo CHtml::image(Yii::app()->theme->baseUrl . '/images/icons/eleganticons-piechart.png'); ?>
-            <h4>Soporte</h4>
-            <p>Proveemos servicios de <strong>mantenimiento de equipo técnico para empresas</strong>, puesta en marcha de oficinas y centros de cómputos, <strong>instalación y configuración de servidores</strong>, <strong>redes</strong>, <strong>VPN</strong> y soluciones <strong>VoIP</strong>.</p>
-			<p>Entendemos que la tecnología es una herramienta fundamental para las empresas de hoy en día, por eso nuestro equipo se esfuerza en dar una rápida respuesta ante los problemas de IT de nuestros clientes, ofreciendo un <strong><?php echo CHtml::link('servicio de monitoreo 24x7', array('services/details', 'item' => 'tech-support')); ?></strong>.</p>
+            <h4>Soporte Técnico</h4>
+            <p>Proveemos servicios de <strong>mantenimiento de equipo técnico para empresas</strong>, puesta en marcha de oficinas y centros de cómputos, <strong>instalación y configuración de servidores</strong>, <strong>NetWorking</strong>, <strong>VPN</strong> y soluciones <strong>VoIP</strong>.</p>
+			<p>Entendemos que la tecnología es una herramienta fundamental para las empresas de hoy en día, por eso nuestro equipo se esfuerza en dar una rápida respuesta ante los problemas de IT de nuestros clientes, ofreciendo servicios a su medida.<strong><?php echo CHtml::link(' Ver en detalle', array('services/details', 'item' => 'tech-support')); ?></strong>.</p>
         </div>
         <hr />
     </div> <!-- services-wrapper -->

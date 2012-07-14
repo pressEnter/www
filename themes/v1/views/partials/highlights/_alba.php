@@ -7,10 +7,12 @@
 		</div>
         <div class="check-list">
 			<ul>
-				<li>Gestión de alumnos</li>
+                <li>Gestión de alumnos</li>
+                <li>Gestión de docentes</li>
 				<li>Control de asistencias</li>
 				<li>Notas</li>
 				<li>Administración de secciones</li>
+				<li>Calendario escolar</li>
 				<li>Múltiples establecimientos</li>
 			</ul>
         </div>
