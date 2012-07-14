@@ -80,7 +80,7 @@ $form = $this->beginWidget('CActiveForm', array(
 	<div id="contact-other-inner">
 		<p id='contact-email' class='contact-detail'><strong>Email:</strong> <span>info@pressenter.com.ar</span></p>
 		<p id='contact-phone' class='contact-detail'><strong>Teléfono:</strong> <span>15-3475-1407</span></p>
-		<p id='contact-person' class='contact-detail'><strong>Personalmente (concretar previamente):</strong> <span>Avenida Belgrano 748, 1ro Of. 13</span></p>
+		<p id='contact-person' class='contact-detail'><strong>Personalmente (concertar previamente):</strong> <span>Avenida Belgrano 748, 1ro Of. 13</span></p>
 	</div>
 	<hr />
 </div>
