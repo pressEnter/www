@@ -6,15 +6,16 @@
 	</div>				
 	
 	<div class="body">
-		<p>El Proyecto Alba, es un proyecto de desarrollo de Software para la realización de un <strong>“Sistema Informático Abierto de Gestión Unificada para Unidades Educacionales”</strong>, que brindará una herramienta realizada en <strong>software libre</strong>, para el trabajo cotidiano en estas unidades. Por su tipo de licenciamiento bajo la <strong>GNU/GPL</strong>, el sistema permitirá una reutilización y actualización constante, como así también la posibilidad de aprovechamiento de módulos ya realizados por otros emprendedores (siempre que sean compatibles con esta licencia).</p>
+		<p>El Proyecto ALBA, es un proyecto de desarrollo de Software para la realización de un <strong>“Sistema Informático Abierto de Gestión Unificada para Unidades Educacionales”</strong>, que brindará una herramienta realizada en <strong>software libre</strong>, para el trabajo cotidiano en estas unidades. Por su tipo de licenciamiento bajo la <strong>GNU/GPL</strong>, el sistema permitirá una reutilización y actualización constante, como así también la posibilidad de aprovechamiento de módulos ya realizados por otros emprendedores.</p>
 		<p>Pensado para nuestras propias instituciones educativas a partir de información relevada mediante entrevistas a responsables del sector, el software propuesto contempla un conjunto de módulos que pueden clasificarse en:</p>
 		<ul>
 			<li>Gestión de las Unidades Educacionales (establecimientos, ciclos, calendarios, etc.)</li>
-			<li>Gestión de Alumnos (Legajos, seguimientos, consultas, etc.)</li>
+			<li>Gestión de Alumnos (Legajos, Notas, Asistencias, etc.)</li>
 			<li>Gestión de Docentes (Legajos, horarios, etc.)</li>
+			<li>Informes</li>
 		</ul>
 		
-		<h3>Objetivos generales</h3>
+		<h3>Objetivos generales del proyecto</h3>
 		<p>Producir un Sistema Abierto de Gestión Unificada para Unidades Educacionales, posible de ser modificado a las necesidades de la unidad, e implementado por diferentes Pymes de la Ciudad, dependiendo de la demanda del sector.</p>
 		<p>Generar nuevos emprendedores o Pymes para cumplir con la demanda de implementaciones y customización del producto para diferentes clientes (situación posible por contar con el Código Fuente).</p>
 		<p>Implementar, de manera transparente y documentada, el resultado del desarrollo en unidades educativas de la Ciudad de Bs.As., como resultado del apoyo de las entidades intervinientes en el proyecto, que actúen como casos ejemplares de réplica. (Esto a su vez, hará posible la formación sobre nuevas tecnologías y la apropiación de éstas, en el ámbito de las unidades educacionales).</p>

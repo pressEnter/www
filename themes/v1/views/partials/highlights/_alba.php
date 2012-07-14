@@ -19,7 +19,7 @@
     <div class="image-wrapper">
         <?php echo CHtml::image(Yii::app()->request->getBaseUrl(true).'/images/highlights/alba/pizarron-535x340.jpg'); ?>
         <p>El Proyecto ALBA, es un sistema web para la gestión de establecimientos educativos, éste facilitará la organización y administración de la escuela.</br>
-        Esta herramienta es <strong>Software Libre</strong>. Por su tipo de licenciamiento bajo la licencia <strong>GNU/GPL</strong>, el sistema permitirá una reutilización y actualización constante del sistema, como así también la posibilidad de aprovechamiento de módulos ya realizados por otros emprendedores.</p>
+        Esta herramienta es <strong>Software Libre</strong>, y por su tipo de licenciamiento bajo la licencia <strong>GNU/GPL</strong>, el sistema permitirá una reutilización y actualización constante del sistema, como así también la posibilidad de aprovechamiento de módulos ya realizados por otros emprendedores.</p>
     </div>
 	<div id="alba-gallery-wrapper">
 		

@@ -8,8 +8,8 @@
 			</ul>
 			<ul>
 				<li><h4>Servicios</h4></li>
-				<li><?php echo CHtml::link('Desarollos de apps', array('/services/web-development')); ?></li>
-				<li><?php echo CHtml::link('SUGAR Activities', array('/services/sugar-activities')); ?></li>
+				<li><?php echo CHtml::link('Desarollos web', array('/services/web-development')); ?></li>
+				<li><?php echo CHtml::link('Actividades SUGAR', array('/services/sugar-activities')); ?></li>
 				<li><?php echo CHtml::link('Soporte Técnico', array('/services/tech-support')); ?></li>
 				<li><?php echo CHtml::link('Hosting', array('/services/hosting')); ?></li>
 			</ul>
@@ -18,7 +18,7 @@
 				<ul>
 					<li>
 						<a href="https://twitter.com/#!/PressEnterComAr" target="_blank">
-							<img src="<?php echo $images_dir; ?>/icons/infocus-twitter-logo-square-24x24.png" alt="" title="" />
+							<img src="<?php echo $images_dir; ?>/icons/twitter-bird-24x24.png" alt="" title="" />
 						</a>
 					</li>
 					<li>
