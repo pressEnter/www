@@ -14,12 +14,12 @@
 			<div class="figure">
 				<?php echo CHtml::link(
 					CHtml::image(Yii::app()->request->getBaseUrl(true).'/images/training/symfony-logo-100x100.png', 'Symfony logo', array()),
-					'/training/symfony',
+					'training/symfony',
 					array('title' => 'Curso de Symfony')
 				); ?>
 			</div>
 			<div class="body">
-				<p>Symfony es un framework hiper-completo, una librería de clases cohesivas escrita en PHP.</p>
+				<p>Symfony es un framework hiper-completo, una librería de clases cohesivas escrita en <strong>PHP 5</strong>.</p>
 				<p>Provee una arquitectura, componentes y herramientas para que los desarrolladores puedan escribir aplicaciones complejas en segundos.</p>
 				<p>En el curso se aprende a desarrollar y mantener aplicaciones "correctamente" y a gran escala, así como el concepto de MVC, el corazón de todo framework.</p>
 			</div>
@@ -29,7 +29,7 @@
 		
 		<div class="article">
 			<div class="header">
-				<h2><?php echo CHtml::link('Drupal CMS', '/training/drupal'); ?></h2>
+				<h2><?php echo CHtml::link('Drupal CMS', 'training/drupal'); ?></h2>
 			</div>
 			<div class="figure">
 				<?php echo CHtml::link(
@@ -49,7 +49,7 @@
 		
 		<div class="article">
 			<div class="header">
-				<h2><?php echo CHtml::link('Python / Django', '/training/python-django'); ?></h2>
+				<h2><?php echo CHtml::link('Python / Django', 'training/python-django'); ?></h2>
 			</div>
 			<div class="figure">
 				<?php echo CHtml::link(
@@ -59,7 +59,7 @@
 				); ?>
 			</div>
 			<div class="body">
-				<p>Django es un framework de alto nivel hecho en Python que alienta un desarrollo limpio y un diseño pragmático.</p>
+				<p>Django es un framework de alto nivel hecho en <strong>Python</strong> que alienta un desarrollo limpio y un diseño pragmático.</p>
 				<p>Este framework se enfoca en automatizar las tareas lo más posible y así evitar código repetitivo y propenso al error.</p>
 				<p>Dictado por miembros activos de la comunidad de Python, el curso propone aprender a utilizar tanto el framework como el lenguaje en el que está basado.</p>
 			</div>
@@ -69,7 +69,7 @@
 		
 		<div class="article">
 			<div class="header">
-				<h2><?php echo CHtml::link('XHTML/CSS', '/training/xhtml-css'); ?></h2>
+				<h2><?php echo CHtml::link('XHTML/CSS', 'training/xhtml-css'); ?></h2>
 			</div>
 			<div class="figure">
 				<?php echo CHtml::link(
@@ -89,17 +89,18 @@
 		
 		<div class="article last">
 			<div class="header">
-				<h2><?php echo CHtml::link('GNU/Linux', '/training/gnu-linux'); ?></h2>
+				<h2><?php echo CHtml::link('GNU/Linux', 'training/gnu-linux'); ?></h2>
 			</div>
 			<div class="figure">
 				<?php echo CHtml::link(
 					CHtml::image(Yii::app()->request->getBaseUrl(true).'/images/training/linux-logo-100x100.png', 'CSS logo', array()),
-					'/training/gnu-linux',
+					'training/gnu-linux',
 					array('title' => 'Curso de GNU/Linux')
 				); ?>
 			</div>
 			<div class="body">
-				<p>GNU/Linux a Unix-like operating system, intiated by Linus Torvalds, in 1991. After it was released under GNU GPL, the support Free Software Foundation (FSF) and the community helped Linux establish as a a free/very low-cost operating system. Though Linux set off as a server OS, it has eventually evolved into various platforms, like desktops to super computers. Linux has also found its place in embedded devices and recently in handheld devices, with the introduction of Android.</p>
+                <p>Actualmente <strong>GNU/Linux</strong> es un sistema operativo muy utilizado en las empresas para brindar servicios, como así también en computadoras personales y dispositivos portátiles</p>
+            <p>Proponemos capacitarte para que puedas dominar este sistema, conociendo su funcionamiento interno, configuración, servicios y  hasta poder adaptarlo a tus necesides, acompañado por un profesional experto en el tema.</p>
 			</div>
 			<div class="footer"></div>
 		</div>
