@@ -5,7 +5,7 @@
 
 	<div class="articles-wrapper">
 		<div class="article">
-			<h2><?php echo CHtml::link('Web development', 'services/web-development'); ?></h2>
+			<h2><?php echo CHtml::link('Desarrollo Web', 'services/web-development'); ?></h2>
 			<div class="body">
 				<p>Actualmente es necesario disponer de sistemas On-Line, que permitan el acceso seguro, a clientes y al personal de la empresa.</p>
 				<p>Brindamos una solución en internet con la combinación de las tecnologías más adecuadas para sus necesidades.</p>
@@ -24,15 +24,15 @@
 		<div class="article">
 			<h2><?php echo CHtml::link('Soporte técnico', 'services/tech-support'); ?></h2>
 			<div class="body">
-				<p>Quisque nisi massa, rutrum eget eleifend ac, semper et mauris. Vestibulum magna ante, egestas sit amet molestie id, porttitor vitae quam. Donec porta ornare vehicula. Integer non leo non mauris suscipit scelerisque. Suspendisse eu lorem nec quam aliquam dictum nec ut ligula. Vestibulum sed justo dui. Aenean lobortis nisl ac eros auctor mollis. Sed semper ullamcorper congue. Proin porttitor, arcu id interdum imperdiet, dolor erat interdum libero, at accumsan ligula risus ac sem. Pellentesque fermentum tincidunt scelerisque. Nulla facilisi.</p>
+		<p> Nuestro servicio de asistencia técnica profesional, proprociona a la empresas la robustez y seguridad necesaria para que su negocio funcione sin interrupciones los 365 días del año. </p>
+		<p>Utilizamos las mejores herramientas tenologicas para realizar mantenimientos preventivos y correctivos resolviendo cualquier inconveniente que surga sobre la infraestructura que dispone su empresa.</p>
 			</div>
 			<div class="footer"></div>
 		</div>
 
 		<div class="article">
 			<h2><?php echo CHtml::link('Hosting', 'services/hosting'); ?></h2>
-			<div class="body">
-				<p>Integer aliquam magna lacus. In hendrerit lacus dapibus lorem cursus varius. Donec mi ante, venenatis eget molestie a, lacinia eget sem. Maecenas enim dolor, porta quis posuere sagittis, vehicula egestas eros.</p>
+			<div class="body">		<p>Brindamos alojamiento web para aplicaciones que necesite acceder desde cualquier parte de mundo.</p> 
 			</div>
 			<div class="footer"></div>
 		</div>

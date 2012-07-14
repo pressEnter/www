@@ -23,7 +23,8 @@ Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl.'/js/jqu
 				<?php echo CHtml::link(
 					CHtml::image(Yii::app()->theme->baseUrl.'/images/icons/infocus-linkedin-logo-square2-24x24.png', 'Ver perfil de Héctor Sánchez en Linkedin', array('title' => 'Ver perfil de Héctor Sánchez en Linkedin')),
 					'http://www.linkedin.com/in/karucha', array('target' => '_blank')
-				); ?>
+                );
+				echo CHtml::link(CHtml::image(Yii::app()->theme->baseUrl.'/images/icons/infocus-twitter-logo-square-24x24.png', 'Cuenta de Twitter', array('title' => 'Cuenta de Twitter')),'https://twitter.com/hectorksanchez', array('target' => '_blank'));?>
 				</div>
 			</div>
 		</div>
