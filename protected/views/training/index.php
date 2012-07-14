@@ -9,7 +9,7 @@
 		
 		<div class="article">
 			<div class="header">
-				<h2><?php echo CHtml::link('Symfony Framework', '/training/symfony'); ?></h2>
+				<h2><?php echo CHtml::link('Symfony Framework', 'training/symfony'); ?></h2>
 			</div>
 			<div class="figure">
 				<?php echo CHtml::link(
@@ -34,7 +34,7 @@
 			<div class="figure">
 				<?php echo CHtml::link(
 					CHtml::image(Yii::app()->request->getBaseUrl(true).'/images/training/drupal-logo-100x100.png', 'Drupal logo', array()),
-					'/training/drupal',
+					'training/drupal',
 					array('title' => 'Curso de Drupal')
 				); ?>
 			</div>
@@ -54,7 +54,7 @@
 			<div class="figure">
 				<?php echo CHtml::link(
 					CHtml::image(Yii::app()->request->getBaseUrl(true).'/images/training/django-logo-100x100.png', 'Python/Django logos', array()),
-					'/training/python-django',
+					'training/python-django',
 					array('title' => 'Curso de Python/Django')
 				); ?>
 			</div>
@@ -74,7 +74,7 @@
 			<div class="figure">
 				<?php echo CHtml::link(
 					CHtml::image(Yii::app()->request->getBaseUrl(true).'/images/training/css-logo-100x100.png', 'CSS logo', array()),
-					'/training/xhtml-css',
+					'training/xhtml-css',
 					array('title' => 'Curso de XHTML/CSS')
 				); ?>
 			</div>
