@@ -121,10 +121,10 @@ div#inner-content {
  */
 div#footer {
 	width: 960px;
-	margin: 0 5px;
+	height: 520px;
 	background: url(../images/footer-bg-140x520.jpg) repeat-x;
+	margin: 0 5px;
 	color: #fff;
-	padding-bottom: 10px;
 }
 div#footer h3 {
 	color: #0199AE;
@@ -230,12 +230,12 @@ div#footer div#links li {
 div#footer div#links a {
 	font-size: 1.0em;
 }
-div#footer div#links a:link,
-div#footer div#links a:visited {
+div#footer a:link,
+div#footer a:visited {
 	color: #0199AE;
 	text-decoration: none;
 }
-div#footer div#links a:hover {
+div#footer a:hover {
 	color: #FFAD00;
 }
 /* SOCIAL-LINKS */
@@ -255,48 +255,39 @@ div#footer div#social-links li {
 div#footer div#copyleft {
 	font-size: 1.0em;
 	margin: -8px auto 0;
-	padding: 20px 0;
+	padding: 20px 0 10px;
 	text-align: center;
 	background: url(../images/footer-shadow-h-140x10.jpg) repeat-x top;
-}
-div#footer div#copyleft a:link,
-div#footer div#copyleft a:visited {
-	color: #fff;
 }
 /* EXTRA */
 div#footer div#extra {
 	font-size: 0.9em;
 	text-align: center;
-	margin: 0 auto 10px;
-	width: 420px;
-	height: 40px;
+	margin: 0 auto;
 }
-div#footer div#extra p {
+div#footer div#extra div#powered {
 	float: left;
-	margin: 0 0 0 5px;
+	width: 469px; /* 480 - 10 - 1 */
+	text-align: right;
+	margin-top: 2px;
+	padding-right: 10px;
+	border-right: 1px #fff solid;
 }
-div#footer div#extra p.valid-button {
-	padding-top: 3px;
+div#footer div#extra div.buttons {
+	float: right;
+	width: 470px; /* 480 - 10 */
+	text-align: left;
+	margin-top: 3px;
+	padding: 0 0 0 10px;
 }
-div#footer div#extra a:link,
-div#footer div#extra a:visited {
-	color: #fff;
-}
-/* ICONS */
-div#footer div#icons-copyright {
+div#footer div#technologies-copyright {
 	text-align: center;
 	padding-top: 30px;
 }
-div#footer div#icons-copyright p {
-	float: none;
+div#footer div#technologies-copyright p {
+	display: inline;
 }
-div#footer div#icons-copyright a:link,
-div#footer div#icons-copyright a:visited {
-	color: #0199AE;
-	text-decoration: none;
-}
-div#footer div#icons-copyright a:hover {
-	text-decoration: underline;
+div#footer div#technologies-copyright p#jquery-copyright{
 }
 /*
  *

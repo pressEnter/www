@@ -89,19 +89,21 @@
 				<?php $this->renderPartial('webroot.themes.v1.views.partials._links'); ?>
 			</div><!-- links -->
 			<hr />
-			<div id="copyleft">
-				<p><strong>pressEnter &copy;</strong> <span>Cooperativa de Software Libre</span> <?php echo date('Y'); ?> - <?php echo CHtml::link('Licencia (CC BY-SA 2.5)', 'http://creativecommons.org/licenses/by-sa/2.5/ar/', array('target' => '_blank')); ?></p>
-			</div>
 			<div class="section" id="extra">
-				<p id="powered">Gracefully developed with <?php echo CHtml::link('Yii Framework', 'http://yiiframework.com', array('target' => '_blank')); ?>  | </p>
-				<p class="valid-button">
-					<a href="http://validator.w3.org/check?uri=referer" target="_blank"><?php echo CHtml::image('/images/PixelButton-valid-xhtml.gif', 'Valid XHTML 1.0 Transitional'); ?></a>
-				</p>
-				<p class="valid-button">
-					<a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3" target="_blank"><?php echo CHtml::image('/images/PixelButton-valid-css.gif', 'Valid CSS'); ?></a>
-				</p>
-				<div id="icons-copyright">
-					<p>Icons by <a href="http://dryicons.com" target="_blank">Dryicons</a>, <a href="http://www.elegantthemes.com/" target="_blank">Nicholas Roach</a>, <a href="http://delacro.deviantart.com/" target="_blank">Delacro</a>, <a href="http://mysitemyway.com/" target="_blank">Mysitemyway</a></p>
+				<div id="copyleft">
+					<p><strong>pressEnter &copy;</strong> <span>Cooperativa de Software Libre</span> <?php echo date('Y'); ?></p>
+				</div>
+				<div id="powered">
+					<p>Gracefully developed with <?php echo CHtml::link('Yii Framework', 'http://yiiframework.com', array('target' => '_blank')); ?></p>
+				</div>
+				<div class="buttons">
+					<a rel="license" href="http://creativecommons.org/licenses/by-sa/2.5/ar/" target="_blank"><img alt="Licencia Creative Commons" title="Licencia Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/2.5/ar/80x15.png" /></a>
+					<a href="http://validator.w3.org/check?uri=referer" target="_blank"><?php echo CHtml::image('/images/PixelButton-valid-xhtml.gif', 'Valid XHTML 1.0 Transitional', array('title' => 'Valid XHTML 1.0 Transitional')); ?></a>
+					<a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3" target="_blank"><?php echo CHtml::image('/images/PixelButton-valid-css.gif', 'Valid CSS', array('title' => 'Valid CSS')); ?></a>
+				</div>
+				<div id="technologies-copyright">
+					<p id="icons-copyright">Icons by <a href="http://dryicons.com" target="_blank">Dryicons</a>, <a href="http://www.elegantthemes.com/" target="_blank">Nicholas Roach</a>, <a href="http://delacro.deviantart.com/" target="_blank">Delacro</a>, <a href="http://mysitemyway.com/" target="_blank">Mysitemyway</a> - </p>
+					<p id="jquery-copyright">Effects: <a href="http://jquery.com" target="_blank">jQuery</a> &amp; <a href="http://jquerytools.org" target="_blank">jQuerytools</a></p>
 				</div>
 			</div>
 		</div><!-- footer -->
