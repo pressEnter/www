@@ -82,7 +82,8 @@ div#main-nav a {
 	padding: .75em 1em;
 }
 div#main-nav a:link,
-div#main-nav a:visited {
+div#main-nav a:visited,
+div#main-nav ul li.sfHover a:active {
 	color: #fff;
 	text-decoration: none;
 }

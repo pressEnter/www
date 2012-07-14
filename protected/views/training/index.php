@@ -106,4 +106,3 @@
 		<hr />
 	
 </div>
-<p>Ver: http://www.savoirfairelinux.com para los speechs</p>

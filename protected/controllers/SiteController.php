@@ -73,8 +73,8 @@ class SiteController extends Controller
 			if($model->validate())
 			{
 				$headers="From: {$model->email}\r\nReply-To: {$model->email}";
-				mail(Yii::app()->params['adminEmail'], $model->subject, $model->body, $headers);
-				Yii::app()->user->setFlash('success', 'Thank you for contacting us. We will respond to you as soon as possible.');
+				mail(Yii::app()->params['contactEmail'], $model->subject, $model->body, $headers);
+				Yii::app()->user->setFlash('success', 'Gracias por contactarse! Pronto nos estaremos comunicando.');
 				$this->refresh();
 			} else {
 				Yii::app()->user->setFlash('error', 'Hay algún error en el formulario. Por favor chequeálo y enviálo nuevamente.');

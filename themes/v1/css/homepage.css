@@ -98,12 +98,11 @@ div#highlihght-alba-gallery {
 	/* required settings */
 	position: relative;
 	overflow: hidden;
-	width: 315px;
-	height: 90px;
+	width: 317px;
+	height: 92px;
 	/* custom decorations */
 	border: 5px #BDBDBD solid;
-	background: #f00;
-	padding: 0;
+	background: #898989;
 }
 div#highlihght-alba-gallery div.items {
 	/* this cannot be too large */
@@ -114,7 +113,7 @@ div#highlihght-alba-gallery div.items {
 div#highlihght-alba-gallery div.items div {
 	float: left;
 	width: 315px;
-	padding: 0;
+	margin: 1px 0 0 1px;
 }
 div#highlihght-alba-gallery div.items img {
 	float: left;

@@ -121,7 +121,6 @@ div#inner-content {
  */
 div#footer {
 	width: 960px;
-	height: 520px;
 	background: url(../images/footer-bg-140x520.jpg) repeat-x;
 	margin: 0 5px;
 	color: #fff;
@@ -264,6 +263,8 @@ div#footer div#extra {
 	font-size: 0.9em;
 	text-align: center;
 	margin: 0 auto;
+	background: url(../images/footer-bg-140x520.jpg) repeat-x;
+	padding-bottom: 30px;
 }
 div#footer div#extra div#powered {
 	float: left;
@@ -307,6 +308,11 @@ body#site-index div#messages {
 }
 div#messages div {
 	padding: 10px;
+}
+div#messages div.success {
+	background: #fff url(../images/icons/coquette-accept-16x16.png) no-repeat 10px 10px; /* background color animated */
+	color: #fff;
+	border: 5px #ffd solid;
 }
 div#messages div.error {
 	background: #fff url(../images/icons/warning-icon-16x16.png) no-repeat 10px 10px; /* background color animated */

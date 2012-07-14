@@ -22,8 +22,8 @@ class Controller extends CController
 			
 			if($this->contact_form_model->validate()){
 				$headers = "From: {$this->contact_form_model->email}\r\nReply-To: {$this->contact_form_model->email}";
-				mail(Yii::app()->params['adminEmail'], 'Contacto desde el sitio', $this->contact_form_model->body, $headers);
-				Yii::app()->user->setFlash('success', 'Gracias por contactarse! Estaremos respondiendo.');
+				mail(Yii::app()->params['contactEmail'], 'Contacto desde el sitio', $this->contact_form_model->body, $headers);
+				Yii::app()->user->setFlash('success', 'Gracias por contactarse! Pronto nos estaremos comunicando.');
 				$this->refresh();
 			} else {
 				Yii::app()->user->setFlash('error', 'Hay algún error en el formulario. Por favor chequeálo y enviálo nuevamente.');

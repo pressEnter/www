@@ -51,6 +51,9 @@ div#page-content ul {
 	list-style: square;
 	list-style-position: inside;
 }
+div#page-content ul ul {
+	margin-left: 2em;
+}
 div#page-content div.gallery ul,
 div#page-content div.social-links ul {
 	list-style: none;
@@ -86,15 +89,12 @@ body#news-index div.articles-wrapper div.article,
 body#news-read div.article {
 	margin: 30px 0 0;
 	width: 600px;
-	background: url(../images/shadow-h-960x10.png) no-repeat bottom right;
-	padding-bottom: 30px;
 }
 body#news-read div.article {
 	padding-bottom: 60px;
 	background: none;
 }
 div#page-content div.articles-wrapper div.article.last {
-	background: none;
 }
 body#news-index div.articles-wrapper div.article h2, /* LIST DISPLAY */
 body#news-read div.article h1 { /* FULL DISPLAY */
@@ -125,9 +125,16 @@ body#news-read div.article div.published-date span {
 body#news-index div.article div.body,
 body#news-read div.article div.body {
 }
+body#news-index div.article div.footer,
+body#news-read div.article div.footer {
+	background: #ddd;
+	border: 1px #ccc solid;
+	height: 40px;
+	margin-top: 10px;
+}
 body#news-index div.article div.social-links,
 body#news-read div.article div.social-links {
-	margin: 20px 0;
+	margin: 0 10px;
 	background: #898989;
 }
 body#news-index div.article div.social-links li,
@@ -258,7 +265,8 @@ div#contact-other-wrapper {
 	width: 920px;
 	margin: 20px auto 0;
 	padding-top: 10px;
-	background: #DDDAD8 url(../images/shadow-h-960x10.png) no-repeat top center;
+	background: #ddd;
+	border-radius: 10px;
 }
 div#contact-other-wrapper h4 {
 	font-size: 1.6em;
@@ -272,11 +280,13 @@ div#contact-other-inner {
 	padding-bottom: 30px;
 	margin-bottom: -35px;
 }
+
 div#contact-other-inner p.contact-detail {
 	height: 48px;
 	padding: 5px 0 10px 70px;
 	line-height: 60px;
 	margin: 2px 0 0;
+	float: left;
 }
 div#contact-other-inner p#contact-email {
 	background: url(../images/icons/once-mail.png) no-repeat 10px 10px;
@@ -299,7 +309,6 @@ div#training-items {
 div#training-items div.article {
 	width: 800px;
 	margin: 20px 0 0 0;
-	background: url(../images/shadow-h-960x10.png) no-repeat bottom right;
 }
 div#training-items div.article.last {
 	background: none;
@@ -323,8 +332,6 @@ div#training-items div.body {
 
 div#training-items div.article div.footer {
 	clear: both;
-	padding-top: 20px;
-	padding-bottom: 20px;
 }
 /*  */
 body#training-details div.article {
@@ -358,6 +365,9 @@ body#training-details div.syllabus ul {
 	list-style: square;
 	list-style-position: inside; 
 	margin: 10px 0 0 5px;
+}
+body#training-details div.syllabus ul ul {
+	margin-left: 2em;
 }
 body#training-details div.syllabus ul li {
 	margin: 10px 0 0;

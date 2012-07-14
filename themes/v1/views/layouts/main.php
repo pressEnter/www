@@ -31,6 +31,7 @@
 				autoArrows:  false,                            // disable generation of arrow mark-up
 				dropShadows: false                             // disable drop shadows
 			}); 
+			$('div#messages div.success').animate({ backgroundColor: "#618F25" }, 3000);
 			$('div#messages div.error').animate({ backgroundColor: "#AA0000" }, 3000);
 		}); 
 	</script>
