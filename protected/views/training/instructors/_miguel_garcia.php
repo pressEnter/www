@@ -9,8 +9,6 @@
 			array('/about-us', '#' => 'miguel-garcia')
 		); ?>
 	</div>	
-	<p>Arquitecto de software, con amplia experiencia en gestión de proyectos y desarrollo de aplicaciones web y de escritorio utilizando tecnologías <strong>libres</strong>: Python, PHP5, C++ y SQL.</p>
-	<p>Especializado en diseño <strong>OOP</strong>, metodologías <strong>ágiles</strong>, optimización de aplicaciones e integración con librerias y servicios de terceros.</p>
-	<p>Ha participado en varios proyectos complejos, creando soluciones tecnológicas para empresas y organizaciones de Argentina, Canada y USA.</p>
-	<p>Está interesado en la utilización de <strong>best practices</strong> para mejorar la calidad del proceso de desarrollo y del software creado, minimizando los costos.</p>
+	<p>Arquitecto de software, con amplia experiencia en desarrollo de aplicaciones web.</p>
+	<p>Ha trabajado para organizaciones y empresas desarrollando aplicaciones web sobre Symfony, que son utilizadas diariamente por cientos de usuarios.</p>
 </div>

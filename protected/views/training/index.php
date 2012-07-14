@@ -19,9 +19,9 @@
 				); ?>
 			</div>
 			<div class="body">
-				<p>Symfony es un framework hiper-completo, una librería de clases cohesivas escrita en <strong>PHP 5</strong>.</p>
-				<p>Provee una arquitectura, componentes y herramientas para que los desarrolladores puedan escribir aplicaciones complejas en segundos.</p>
-				<p>En el curso se aprende a desarrollar y mantener aplicaciones "correctamente" y a gran escala, así como el concepto de MVC, el corazón de todo framework.</p>
+				<p>Symfony es un framework completo para la construcciones de aplicativos y sitios web en <strong>PHP 5</strong>.</p>
+				<p>Provee una librería de clases cohesivas, componentes y herramientas que permiten a los desarrolladores crear aplicaciones complejas de forma rápida, enfocándose en las problemáticas propias del negocio.</p>
+				<p>En el curso se enseña cómo desarrollar y mantener aplicaciones, así como los conceptos e ideas detrás del framework (MVC, routing, ORM, etc).</p>
 			</div>
 			<div class="footer"></div>
 		</div>

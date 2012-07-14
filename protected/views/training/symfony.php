@@ -7,24 +7,23 @@
 		<?php echo CHtml::image(Yii::app()->request->getBaseUrl(true).'/images/training/symfony-logo-100x100.png', 'Symfony logo', array()); ?>
 	</div>
 	<div class="body">
-		<p>Symfony es un framework hiper-completo, una librería de clases cohesivas escrita en PHP.</p>
-		<p>Provee una arquitectura, componentes y herramientas para que los desarrolladores puedan escribir aplicaciones complejas en segundos.</p>
-		<p>En el curso se aprende a desarrollar y mantener aplicaciones "correctamente" y a gran escala, así como el concepto de MVC, el corazón de todo framework.</p>
+				<p>Symfony es un framework completo para la construcciones de aplicativos y sitios web en <strong>PHP 5</strong>.</p>
+				<p>Provee una librería de clases cohesivas, componentes y herramientas que permiten a los desarrolladores crear aplicaciones complejas de forma rápida, enfocándose en las problemáticas propias del negocio.</p>
+				<p>En el curso se enseña cómo desarrollar y mantener aplicaciones, así como los conceptos e ideas detrás del framework (MVC, routing, ORM, etc).</p>
 	</div>
 	<div class="syllabus">
 		<h2>Temario del curso</h2>
 		<ul>
-			<li>Installing symfony</li>
-			<li>From flat file to MVC project</li>
-			<li>Templating with symfony</li>
-			<li>Configuration</li>
-			<li>Object Relational Abstraction</li>
-			<li>Working environment</li>
-			<li>Routing and HTTP protocol</li>
-			<li>Admin generator</li>
-			<li>Internationalization and localization</li>
-			<li>The cache</li>
-			<li>Tests</li>
+			<li>Arquitectura de aplicaciones web flat vs MVC</li>
+			<li>Instalación de symfony y setup inicial de un proyecto</li>
+			<li>MVC en symfony y routing</li>
+			<li>ORM: definición de esquema de datos y acceso a datos</li>
+			<li>Forms, widgets y validadores</li>
+			<li>Generación automática de ABMs y su personalización</li>
+			<li>Seguridad: manejo de usuario y permisos</li>
+			<li>Internationalización</li>
+			<li>Cache</li>
+			<li>Testing unitario y funcional</li>
 		</ul>
 	</div>
 	<div class="audience">
