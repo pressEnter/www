@@ -4,7 +4,7 @@
 		<h1>Hosting</h1>
 	</div>
 	<div class="body service-details">
-		<p>Brindamos alojamiento web para aplicaciones que necesite acceder desde cualquier parte de mundo.</p> 
+            <p>Brindamos alojamiento web para aplicaciones que necesite acceder desde cualquier parte de mundo. <br/> Viste los planes existentes o bien consulte por una solución a medida de sus necesidades.</p> 
 	</div>
 	<div id="hosting-plans">
 		<table summary="Planes de Hosting disponibles en pressEnter">

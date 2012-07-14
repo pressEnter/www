@@ -17,7 +17,7 @@
 			<h2><?php echo CHtml::link('Actividades SUGAR', 'services/sugar-activities'); ?></h2>
 			<div class="body">
         <p>Contamos con personal calificado, que tiene experiencia en tecnologías educativas, y participan en la comunidad de SugarLabs.<br/>
-         Brindamos servicios de desarrollo y mantenimiento de actividades sobre la plataforma educativa SUGAR.</br>
+         Brindamos servicios de desarrollo y mantenimiento de actividades sobre la plataforma educativa SUGAR.</br></p>
 			</div>
 			<div class="footer"></div>
 		</div>
@@ -34,7 +34,7 @@
 		<div class="article">
 			<h2><?php echo CHtml::link('Hosting', 'services/hosting'); ?></h2>
             <div class="body">
-            <p>Brindamos alojamiento web para aplicaciones que necesite acceder desde cualquier parte de mundo. <b/> Viste los planes existentes o bien consulte por una solución a medida de sus necesidades.</p> 
+            <p>Brindamos alojamiento web para aplicaciones que necesite acceder desde cualquier parte de mundo. <br/> Viste los planes existentes o bien consulte por una solución a medida de sus necesidades.</p> 
 			</div>
 			<div class="footer"></div>
 		</div>

@@ -1,8 +1,9 @@
 <?php $this->pageTitle = 'pressEnter | Desarrollo Web'; ?>
 <div class="article">
-	<div class="article">
-		<h1>Desarrollo Web</h1>
-		<div class="body">
+	<div class="header">
+        <h1>Desarrollo Web</h1>
+    </div>
+	<div class="body service-details">
 			<p>Actualmente es necesario disponer de sistemas On-Line, que permitan el acceso seguro, a clientes y al personal de la empresa.</p>
 			<p>Brindamos una solución en internet con la combinación de las tecnologías más adecuadas para sus necesidades.</p>
 			<h2>Frameworks web</h2>
@@ -15,6 +16,4 @@
 			<p>Muchas veces es conveniente y necesario modificar productos <strong>Open Source</strong> existentes en el mercado para poder adaptarlos a nuestras necesidades.</p>
 			<p>Tenemos experiencia en la implementación y desarrollo de modulos en plataformas como: <strong>Sugar</strong>, <strong>Egroupware</strong>, <strong>OsCommerce</strong>, <strong>WordPress</strong>, <strong>Drupal</strong>, <strong>Joomla</strong> y <strong>Moodle</strong>.</p>
 		</div>
-		<div class="footer"></div>
-	</div>
 </div>
