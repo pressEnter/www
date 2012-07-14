@@ -99,8 +99,8 @@
 				); ?>
 			</div>
 			<div class="body">
-                <p>Actualmente <strong>GNU/Linux</strong> es un sistema operativo muy utilizado en las empresas para brindar servicios, como así también en computadoras personales y dispositivos portátiles</p>
-            <p>Proponemos capacitarte para que puedas dominar este sistema, conociendo su funcionamiento interno, configuración, servicios y  hasta poder adaptarlo a tus necesides, acompañado por un profesional experto en el tema.</p>
+                <p>Actualmente <strong>GNU/Linux</strong> es un sistema operativo muy utilizado en las empresas para brindar servicios, como así también en computadoras personales y dispositivos portátiles.</p>
+            <p>Proponemos capacitarte para que puedas dominar este sistema, conociendo su arquitectura, funcionamiento interno, configuración y servicios, para poder adaptarlo a tus necesides, acompañado por un profesional experto en el tema.</p>
 			</div>
 			<div class="footer"></div>
 		</div>
