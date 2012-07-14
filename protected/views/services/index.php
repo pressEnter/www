@@ -16,7 +16,8 @@
 		<div class="article">
 			<h2><?php echo CHtml::link('Actividades SUGAR', 'services/sugar-activities'); ?></h2>
 			<div class="body">
-				<p>Nunc scelerisque tortor eros, eu dictum ligula. Sed eget nulla sit amet tellus ornare pharetra. Aenean nulla arcu, pulvinar ut condimentum in, lacinia vel arcu. Nulla vel tortor at nisl sodales suscipit. Nam in urna dui. Vestibulum quis erat nec mauris laoreet volutpat quis sit amet quam.</p>
+        <p>Contamos con personal calificado, que tiene experiencia en tecnologías educativas, y participan en la comunidad de SugarLabs.<br/>
+         Brindamos servicios de desarrollo y mantenimiento de actividades sobre la plataforma educativa SUGAR.</br>
 			</div>
 			<div class="footer"></div>
 		</div>
