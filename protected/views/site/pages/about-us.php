@@ -35,8 +35,8 @@ Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl . '/js/j
 			</div>
 			<p>Desarrollador y Administrador de sistemas con más de 10 años de trabajo sobre plataformas <strong>GNU/Linux</strong>.</p>
 			<p>Posee amplios conocimientos en hardware, software e infraestructura de redes y se especializa en implentaciones de sevidores, seguridad y monitoreo.</p>
-			<p>Miembro de <a href="http://www.solar.org.ar">SoLAr</a>, promotor y partícipe activo en varios proyectos de <strong>Software Libre</strong> alrededor del mundo.</p>
-			<p>Es uno de creadores y actual mantenedor del <a href="http://www.proyectoalba.com.ar">Proyecto Alba</a>.</p>
+			<p>Miembro de <a href="http://www.solar.org.ar" target="_blank">SoLAr</a>, promotor y partícipe activo en varios proyectos de <strong>Software Libre</strong> alrededor del mundo.</p>
+			<p>Es uno de creadores y actual mantenedor del <a href="http://www.proyectoalba.com.ar" target="_blank">Proyecto Alba</a>.</p>
 			<div class="footer">
 				<div class="footer-inner">
 				<?php
