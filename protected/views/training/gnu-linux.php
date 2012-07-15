@@ -7,8 +7,8 @@
 		<?php echo CHtml::image(Yii::app()->request->getBaseUrl(true).'/images/training/linux-logo-100x100.png', 'Linux logo', array()); ?>
 	</div>
 	<div class="body">
-                <p>Actualmente <strong>GNU/Linux</strong> es un sistema operativo muy utilizado en las empresas para brindar servicios, como así también en computadoras personales y dispositivos portátiles.</p>
-            <p>Proponemos capacitarte para que puedas dominar este sistema, conociendo su arquitectura, funcionamiento interno, configuración y servicios, para poder adaptarlo a tus necesides, acompañado por un profesional experto en el tema.</p>
+		<p>Actualmente <strong>GNU/Linux</strong> es un sistema operativo muy utilizado en las empresas para brindar servicios, como así también en computadoras personales y dispositivos portátiles.</p>
+		<p>Proponemos capacitarte para que puedas dominar este sistema, conociendo su arquitectura, funcionamiento interno, configuración y servicios, para poder adaptarlo a tus necesides, acompañado por un profesional experto en el tema.</p>
 	</div>
 	<div class="syllabus">
 		<h2>Temario del curso</h2>
@@ -19,7 +19,7 @@
 			<li>Manejo de recursos del sistema</li>
 			<li>Administración de discos y filesystem</li>
 			<li>Periféricos (usb, pci, scsi, etc)</li>
-			<li>Iniciando/finalizando</li>
+			<li>Servicios</li>
 			<li>Usuarios</li>
 			<li>Herramientas administrativas</li>
 			<li>Introducción a redes TCP/IP</li>
@@ -41,5 +41,5 @@
 	</div>
 	<div class="footer"></div>
 </div>
-<?php echo $this->renderPartial('instructors/_fernando_toledo'); ?>
+<?php echo $this->renderPartial('instructors/fernando_toledo/_gnu_linux'); ?>
 <hr />

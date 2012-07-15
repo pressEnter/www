@@ -36,5 +36,5 @@
 	</div>
 	<div class="footer"></div>
 </div>
-<?php echo $this->renderPartial('instructors/_miguel_garcia'); ?>
+<?php echo $this->renderPartial('instructors/miguel_garcia/_symfony'); ?>
 <hr />

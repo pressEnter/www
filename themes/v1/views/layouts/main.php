@@ -10,12 +10,12 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/reset.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/main.css" />
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/page-content.css" />
-	<link rel="stylesheet" media="screen" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/main-nav.css" /> 
+	<link rel="stylesheet" media="screen" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/main-nav.css" />
 	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Overlock' />
-	
+
 	<?php Yii::app()->clientScript->registerscriptFile(Yii::app()->theme->baseUrl . "/js/superfish-1.4.8/js/hoverIntent.js"); ?>
 	<?php Yii::app()->clientScript->registerscriptFile(Yii::app()->theme->baseUrl . "/js/superfish-1.4.8/js/superfish.js"); ?>
-	
+
 	<?php Yii::app()->clientScript->registerscriptFile(Yii::app()->theme->baseUrl . "/js/jquery-ui-1.8.21/development-bundle/ui/minified/jquery.effects.core.min.js"); ?>
 	<?php Yii::app()->clientScript->registerscriptFile(Yii::app()->theme->baseUrl . "/js/jquery-ui-1.8.21/development-bundle/ui/minified/jquery.effects.highlight.min.js"); ?> <!-- Flash messages -->
 
@@ -23,20 +23,20 @@
 </head>
 <body id="<?php echo str_replace('/', '-', $this->getUniqueId()).'-'.$this->getAction()->getId(); ?>">
 	<script type="text/javascript">
-		$(document).ready(function(){ 
+		$(document).ready(function(){
 			$("ul.sf-menu").superfish({
 				delay:       50,                               // one second delay on mouseout
 				animation:   {opacity:'show', height:'show'},  // fade-in and slide-down animation
 				speed:       'fast',                           // faster animation speed
 				autoArrows:  false,                            // disable generation of arrow mark-up
 				dropShadows: false                             // disable drop shadows
-			}); 
+			});
 			$('div#messages div.success').animate({ backgroundColor: "#618F25" }, 3000);
 			$('div#messages div.error').animate({ backgroundColor: "#AA0000" }, 3000);
-		}); 
+		});
 	</script>
 	<div id="wrapper">
-	
+
 		<div class="section header" id="header">
 			<div class="hgroup">
 				<h1>
@@ -69,11 +69,11 @@
 			</div> <!-- social-links -->
 			
 		</div><!-- header -->
-		
+
 		<div id="main-nav">
 			<?php $this->renderPartial('webroot.themes.v1.views.partials._main_nav'); ?>
 		</div><!-- main-nav -->
-		
+
 		<div id="content">
 			<div id="inner-content">
 			<?php $this->renderPartial('application.views.partials._flashes'); ?>
@@ -82,7 +82,7 @@
 				</div>
 			</div>
 		</div>
-		
+
 		<div class="section footer" id="footer">
 			<div class="section" id="contact">
 				<h3>Contacto</h3>
@@ -118,9 +118,9 @@
 					<p>Gracefully developed with <?php echo CHtml::link('Yii Framework', 'http://yiiframework.com', array('target' => '_blank')); ?></p>
 				</div>
 				<div class="buttons">
-					<a rel="license" href="http://creativecommons.org/licenses/by-sa/2.5/ar/" target="_blank"><img alt="Licencia Creative Commons" title="Licencia Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/2.5/ar/80x15.png" /></a>
-					<a href="http://validator.w3.org/check?uri=referer" target="_blank"><?php echo CHtml::image('/images/PixelButton-valid-xhtml.gif', 'Valid XHTML 1.0 Transitional', array('title' => 'Valid XHTML 1.0 Transitional')); ?></a>
-					<a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3" target="_blank"><?php echo CHtml::image('/images/PixelButton-valid-css.gif', 'Valid CSS', array('title' => 'Valid CSS')); ?></a>
+					<a rel="license" href="http://creativecommons.org/licenses/by-sa/2.5/ar/" target="_blank"><?php echo Html::image('http://i.creativecommons.org/l/by-sa/2.5/ar/80x15.png',"Licencia Creative Commons", array('title'=>"Licencia Creative Commons", 'style'=>"border-width:0"))?></a>
+					<a href="http://validator.w3.org/check?uri=referer" target="_blank"><?php echo Html::image('/PixelButton-valid-xhtml.gif', 'Valid XHTML 1.0 Transitional', array('title' => 'Valid XHTML 1.0 Transitional')); ?></a>
+					<a href="http://jigsaw.w3.org/css-validator/check/referer?profile=css3" target="_blank"><?php echo Html::image('PixelButton-valid-css.gif', 'Valid CSS', array('title' => 'Valid CSS')); ?></a>
 				</div>
 				<div id="technologies-copyright">
 					<p id="icons-copyright">Icons by <a href="http://dryicons.com" target="_blank">Dryicons</a>, <a href="http://www.elegantthemes.com/" target="_blank">Nicholas Roach</a>, <a href="http://delacro.deviantart.com/" target="_blank">Delacro</a>, <a href="http://mysitemyway.com/" target="_blank">Mysitemyway</a> - </p>

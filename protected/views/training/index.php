@@ -2,11 +2,11 @@
 <div class="section">
 	<h1>Capacitación</h1>
 	<p>Brindamos capacitación profesional en temáticas de desarrollo de sistemas y coaching de proyectos, entre otros.</p>
-	<p>Nuestros entrenamientos estan dirigidos al nivel técnico para los equipos de trabajo de su empresa.</p>
+	<p>Nuestros entrenamientos están dirigidos al nivel técnico para los equipos de trabajo de su empresa.</p>
 	<h3>Actualmente ofrecemos capacitación en:</h3>
-	
+
 	<div class="section" id="training-items">
-		
+
 		<div class="article">
 			<div class="header">
 				<h2><?php echo CHtml::link('Symfony Framework', 'training/symfony'); ?></h2>
@@ -26,7 +26,7 @@
 			<div class="footer"></div>
 		</div>
 		<hr />
-		
+
 		<div class="article">
 			<div class="header">
 				<h2><?php echo CHtml::link('Drupal CMS', 'training/drupal'); ?></h2>
@@ -46,7 +46,7 @@
 			<div class="footer"></div>
 		</div>
 		<hr />
-		
+
 		<div class="article">
 			<div class="header">
 				<h2><?php echo CHtml::link('Python / Django', 'training/python-django'); ?></h2>
@@ -66,7 +66,7 @@
 			<div class="footer"></div>
 		</div>
 		<hr />
-		
+
 		<div class="article">
 			<div class="header">
 				<h2><?php echo CHtml::link('XHTML/CSS', 'training/xhtml-css'); ?></h2>
@@ -86,7 +86,7 @@
 			<div class="footer"></div>
 		</div>
 		<hr />
-		
+
 		<div class="article last">
 			<div class="header">
 				<h2><?php echo CHtml::link('GNU/Linux', 'training/gnu-linux'); ?></h2>
@@ -105,5 +105,5 @@
 			<div class="footer"></div>
 		</div>
 		<hr />
-	
+
 </div>

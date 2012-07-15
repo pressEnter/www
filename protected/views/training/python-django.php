@@ -45,5 +45,5 @@
 	</div>
 	<div class="footer"></div>
 </div>
-<?php echo $this->renderPartial('instructors/_hector_sanchez'); ?>
+<?php echo $this->renderPartial('instructors/hector_sanchez/_python_django'); ?>
 <hr />

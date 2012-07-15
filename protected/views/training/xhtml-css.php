@@ -48,5 +48,5 @@
 	</div>
 	<div class="footer"></div>
 </div>
-<?php echo $this->renderPartial('instructors/_luciano_baraglia'); ?>
+<?php echo $this->renderPartial('instructors/luciano_baraglia/_xhtml_css'); ?>
 <hr />
