@@ -7,11 +7,12 @@ return array(
 	'name'=>'My Console Application',
 	// application components
 	'components'=>array(
+    /*
 		'db'=>array(
 			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
 		),
 		// uncomment the following to use a MySQL database
-		/*
+		
 		'db'=>array(
 			'connectionString' => 'mysql:host=localhost;dbname=testdrive',
 			'emulatePrepare' => true,
@@ -20,5 +21,12 @@ return array(
 			'charset' => 'utf8',
 		),
 		*/
+    'db' => require(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'db.php')
 	),
+  'import' => array(
+		'application.models.*',
+		'application.components.*',
+		'application.models.forms.*',
+		'application.helpers.*',
+  ),
 );
