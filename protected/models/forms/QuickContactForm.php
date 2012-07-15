@@ -23,7 +23,7 @@ class QuickContactForm extends CFormModel
 			// email has to be a valid email address
 			array('email', 'email'),
 			// verifyCode needs to be entered correctly
-			array('verifyCode', 'captcha', 'allowEmpty' => !CCaptcha::checkRequirements()),
+			array('verifyCode', 'captcha', 'captchaAction' => 'site/captcha', 'allowEmpty' => !CCaptcha::checkRequirements()), // captchaAction acá sino da Error 500
 		);
 	}
 
