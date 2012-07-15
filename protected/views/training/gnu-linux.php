@@ -19,7 +19,7 @@
 			<li>System resources management</li>
 			<li>Hard disks and file systems management</li>
 			<li>Peripherals (usb, pci, scsi, etc)</li>
-			<li>Starting/Stopping</li>
+			<li>Services</li>
 			<li>Users</li>
 			<li>Administration tools</li>
 			<li>Introduction to TCP/IP network</li>
