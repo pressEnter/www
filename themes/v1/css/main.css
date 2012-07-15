@@ -135,6 +135,7 @@ div#footer div#contact {
 	width: 640px;
 	float: left;
 	padding-top: 30px;
+	padding-bottom: 30px;
 	background: url(../images/shadow-v-10x960.png) no-repeat bottom right;
 }
 /* CONTACT-DETAILS */
@@ -147,8 +148,6 @@ div#footer ul#contact-details li {
 }
 div#footer ul#contact-details li span {
 	display: block; 
-	float: right;
-	margin: 0 10px 0 0;
 }
 /* MAP */
 div#footer div#map {	
@@ -161,7 +160,7 @@ div#footer div#map {
 div#footer div.form-wrapper {
 	float: right;
 	width: 280px;
-	margin: -313px 20px 20px 0;
+	margin: -353px 20px 20px 0;
 }
 div#footer div.form-wrapper.with-errors {
 }

@@ -13,32 +13,31 @@
 	<div class="syllabus">
 		<h2>Temario del curso</h2>
 		<ul>
-			<li>Introduction</li>
-			<li>Linux and software installation (rpm, make, sources, fhs)</li>
-			<li>The Linux kernel (build, customize, install)</li>
-			<li>System resources management</li>
-			<li>Hard disks and file systems management</li>
-			<li>Peripherals (usb, pci, scsi, etc)</li>
-			<li>Starting/Stopping</li>
-			<li>Users</li>
-			<li>Administration tools</li>
-			<li>Introduction to TCP/IP network</li>
-			<li>Remote commands (ssh, rsh, etc)</li>
-			<li>FTP server Configuration</li>
-			<li>NFS server Configuration</li>
-			<li>LDAP server Configuration</li>
-			<li>Email server Configuration</li>
-			<li>Samba Configuration</li>
-			<li>DHCP Configuration</li>
+			<li>Introducción</li>
+			<li>Instalación de software en Linux (rpm, make, sources, fhs)</li>
+			<li>El Kernel de Linux (compilar, personalizar, instalar)</li>
+			<li>Manejo de recursos del sistema</li>
+			<li>Administración de discos y filesystem</li>
+			<li>Periféricos (usb, pci, scsi, etc)</li>
+			<li>Iniciando/finalizando</li>
+			<li>Usuarios</li>
+			<li>Herramientas administrativas</li>
+			<li>Introducción a redes TCP/IP</li>
+			<li>Administración remota (ssh, rsh, etc)</li>
+			<li>Configuración de servidores FTP y NFS</li>
+			<li>Configuración de un servidor LDAP</li>
+			<li>Configuración de un servidor de mail</li>
+			<li>Configuración de un servidor de Samba</li>
+			<li>Configuración DHCP</li>
 		</ul>
 	</div>
 	<div class="audience">
 		<h3>A quién está dirigido?</h3>
-		<p>Técnicos - Administradores de sistemas</p>
+		<p>Aspirantes a técnicos/administradores de sistemas</p>
 	</div>
 	<div class="prerequisites">
 		<h3>Pre requisitos</h3>
-		<p>Conocimientos redes</p>
+		<p>Es conveniente tener conceptos básicos en redes</p>
 	</div>
 	<div class="footer"></div>
 </div>

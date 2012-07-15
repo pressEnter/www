@@ -79,8 +79,8 @@ $form = $this->beginWidget('CActiveForm', array(
 <div id="contact-other-wrapper">
 	<div id="contact-other-inner">
 		<p id='contact-email' class='contact-detail'><strong>Email:</strong> <span>info@pressenter.com.ar</span></p>
-		<p id='contact-phone' class='contact-detail'><strong>Teléfono:</strong> <span>15-3475-1407</span></p>
-		<p id='contact-person' class='contact-detail'><strong>Personalmente (concertar previamente):</strong> <span>Avenida Belgrano 748, 1ro Of. 13</span></p>
+		<p id='contact-phone' class='contact-detail'><strong>Teléfono:</strong> <span>+54 9 11 3475 1407 | +54 9 11 34991374</span></p>
+		<p id='contact-person' class='contact-detail'><strong>Personalmente (concertar previamente):</strong> <span>Av. Belgrano 748 1° Of. 13 | CABA | Argentina</span></p>
 	</div>
 	<hr />
 </div>
