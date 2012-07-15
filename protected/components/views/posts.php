@@ -21,7 +21,7 @@
 		?>
 		<div class="header">
 			<div class="published-date"><?php echo $date_out; ?></div>
-			<h2><?php echo $post->title; ?></h2>
+			<<?php echo $headerTag ?>><?php echo $post->title; ?></<?php echo $headerTag ?>>
 		</div>
 		<div class="body">
 		<?php echo $post->body; ?>

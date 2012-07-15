@@ -22,7 +22,7 @@
 		<div class="header">
 			<div class="published-date"><?php echo $date_out; ?></div>
 			
-			<h2><?php echo CHtml::link($post->title, $url); ?></h2>
+			<<?php echo $headerTag ?>><?php echo CHtml::link($post->title, $url); ?></<?php echo $headerTag ?>>
 		</div>
 		<div class="body">
 			<p><?php echo strip_tags(substr($post->body, 0, 300)); ?>...</p>

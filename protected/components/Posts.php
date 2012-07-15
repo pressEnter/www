@@ -15,6 +15,7 @@ class Posts extends CWidget {
 	public $extraItemClasses;
 	public $showSocialLinks = true;
 	public $category = '';
+	public $headerTag = 'h2';
 
 	public function run(){
 		$criteria = new CDbCriteria;
@@ -46,6 +47,7 @@ class Posts extends CWidget {
 				'extraWrapperClasses' => $extraWrapperClasses, 
 				'extraItemClasses' => $extraItemClasses,
 				'showSocialLinks' => $this->showSocialLinks,
+				'headerTag' => $this->headerTag,
 			));
 		} else {
 			$this->render('posts', array(
@@ -56,6 +58,7 @@ class Posts extends CWidget {
 				'extraWrapperClasses' => $extraWrapperClasses, 
 				'extraItemClasses' => $extraItemClasses,
 				'showSocialLinks' => $this->showSocialLinks,
+				'headerTag' => $this->headerTag,
 			));
 		}
 	}
