@@ -96,6 +96,19 @@ div#header h2 {
 	text-shadow: 0 1px 1px #000;
 	margin-left: 25px;
 }
+/* SOCIAL-LINKS */
+div#header div#social-links {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+div#header div#social-links ul {
+	width: auto;
+}
+div#header div#social-links li {
+	float: left;
+	margin: 0 0 0 10px;
+}
 /*
  *
  *=CONTENT
@@ -236,19 +249,7 @@ div#footer a:visited {
 div#footer a:hover {
 	color: #FFAD00;
 }
-/* SOCIAL-LINKS */
-div#footer div#social-links {
-	position: absolute;
-	bottom: 10px;
-	right: 20px;
-}
-div#footer div#social-links ul {
-	width: auto;
-}
-div#footer div#social-links li {
-	float: left;
-	margin: 0 0 0 10px;
-}
+
 /* COPYLEFT */
 div#footer div#copyleft {
 	font-size: 1.0em;

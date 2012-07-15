@@ -46,8 +46,28 @@
 				</h1>
 				<h2><span>Cooperativa de Software {Libre}</span></h2>
 			</div>
-			<div class="footer">
-			</div>
+			
+			<div id="social-links">
+				<?php $images_dir = Yii::app()->theme->baseUrl ."/images"; ?>
+				<ul>
+					<li>
+						<a href="https://twitter.com/#!/PressEnterComAr" target="_blank">
+							<img src="<?php echo $images_dir; ?>/icons/twitter-bird-24x24.png" alt="Cuenta de Twitter de pressEnter" title="Cuenta de Twitter de pressEnter" />
+						</a>
+					</li>
+					<li>
+						<a href="http://www.facebook.com/pages/PressEnter-Cooperativa-de-desarrollo-de-Software-Libre/105554509534761" target="_blank">
+							<img src="<?php echo $images_dir; ?>/icons/infocus-facebook-logo-square-24x24.png" alt="pressenter en Facebook" title="pressenter en Facebook" />
+						</a>
+					</li>
+					<li>
+						<a href="http://www.linkedin.com/company/2532858" target="_blank">
+							<img src="<?php echo $images_dir; ?>/icons/infocus-linkedin-logo-square2-24x24.png" alt="Perfil de pressEnter en Linkedin" title="Perfil de pressEnter en Linkedin" />
+						</a>
+					</li>
+				</ul>
+			</div> <!-- social-links -->
+			
 		</div><!-- header -->
 		
 		<div id="main-nav">
