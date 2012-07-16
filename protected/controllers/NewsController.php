@@ -40,7 +40,10 @@ class NewsController extends Controller {
 		// * self reference
 		//$feed->addChannelTag('atom:link', 'http://www.pressenter.com.ar/news/rss');
 
-		$posts = Post::model()->findAll();
+		$posts = Post::model()->findAll(array(
+			'condition' => 'published = 1',
+			'order' => 'published_date DESC',
+		));
 		foreach ($posts as $post) {
 			$item = $feed->createNewItem();
 			$item->title = $post->title;
