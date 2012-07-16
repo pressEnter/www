@@ -46,7 +46,7 @@
 				</h1>
 				<h2><span>Cooperativa de Software {Libre}</span></h2>
 			</div>
-			
+
 			<div id="social-links">
 				<?php $images_dir = Yii::app()->theme->baseUrl ."/images"; ?>
 				<ul>
@@ -69,12 +69,12 @@
 						<?php echo CHtml::link(
 							CHtml::image($images_dir.'/icons/infocus-rss-cube-24x24.png', 'Noticias RSS', array('title' => 'Noticias RSS')),
 							array('news/rss')
-						); 
+						);
 						?>
 					</li>
 				</ul>
 			</div> <!-- social-links -->
-			
+
 		</div><!-- header -->
 
 		<div id="main-nav">
@@ -99,16 +99,14 @@
 					<li><strong>Dirección</strong> <span>Av. Belgrano 748 1° Of. 13 | CABA |  Argentina </span></li>
 				</ul>
 				<div id="map">
-					<!--
-					<iframe width="280" height="210" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com.ar/maps?f=q&amp;source=s_q&amp;hl=es-419&amp;geocode=&amp;q=Avenida+Belgrano+748,+Ciudad+Aut%C3%B3noma+de+Buenos+Aires&amp;aq=0&amp;oq=Avenida+Belgrano+748,+Ciudad&amp;sll=-38.341656,-63.28125&amp;sspn=34.935993,86.572266&amp;ie=UTF8&amp;hq=&amp;hnear=Av+Belgrano+748,+Monserrat,+Buenos+Aires&amp;t=m&amp;ll=-34.612796,-58.376799&amp;spn=0.014834,0.025663&amp;z=14&amp;output=embed"></iframe>
-					<br />
-					-->
-					<!--
-					<small>
-						<a href="https://maps.google.com.ar/maps?f=q&amp;source=embed&amp;hl=es-419&amp;geocode=&amp;q=Avenida+Belgrano+748,+Ciudad+Aut%C3%B3noma+de+Buenos+Aires&amp;aq=0&amp;oq=Avenida+Belgrano+748,+Ciudad&amp;sll=-38.341656,-63.28125&amp;sspn=34.935993,86.572266&amp;ie=UTF8&amp;hq=&amp;hnear=Av+Belgrano+748,+Monserrat,+Buenos+Aires&amp;t=m&amp;ll=-34.612796,-58.376799&amp;spn=0.014834,0.025663&amp;z=14" style="color:#0000FF;text-align:left">Ver mapa más grande</a>
-					</small>
-					-->
-				</div> <!-- map -->
+        <iframe width="278" height="208" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+        src="http://www.openstreetmap.org/export/embed.html?bbox=-58.38105,-34.61484,-58.37406,-34.61113&amp;layer=osmarender&amp;marker=-34.61298,-58.37702"
+        style="border: 1px solid black"></iframe>
+        <br /><br />
+        <small>
+        <a target="_blank" href="http://www.openstreetmap.org/?lat=-34.612985&amp;lon=-58.377555&amp;zoom=17&amp;layers=M&amp;mlat=-34.61298&amp;mlon=-58.37702">Ver mapa m&aacute;s grande</a>
+        </small>
+        </div><!-- map -->
 				<div id="site-contact-form-wrapper">
 					<?php $this->renderPartial('webroot.themes.v1.views.partials._site_contact_form'); ?>
 				</div>
@@ -137,6 +135,9 @@
 		</div><!-- footer -->
 
 	</div><!-- wrapper -->
-
-</body>
+  <?php print_R($_SERVER['REMOTE_ADDR']); ?>
+  <?php if (!in_array(@$_SERVER['REMOTE_ADDR'], array('127.0.0.1', '::1'))): ?>
+  <!-- Piwik --><script type="text/javascript">var pkBaseURL = (("https:" == document.location.protocol) ? "https://piwik.tom.pressenter.com.ar/" : "http://piwik.tom.pressenter.com.ar/");document.write(unescape("%3Cscript src='" + pkBaseURL + "piwik.js' type='text/javascript'%3E%3C/script%3E"));</script><script type="text/javascript">try {var piwikTracker = Piwik.getTracker(pkBaseURL + "piwik.php", 1);piwikTracker.trackPageView();piwikTracker.enableLinkTracking();} catch( err ) {}</script><noscript><p><img src="http://piwik.tom.pressenter.com.ar/piwik.php?idsite=1" style="border:0" alt="" /></p></noscript><!-- End Piwik Tracking Code -->
+  <?php endif;?>
+  </body>
 </html>
