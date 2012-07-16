@@ -64,7 +64,7 @@ class Post extends CActiveRecord
 		// class name for the relations automatically generated below.
 		return array(
 			'images' => array(self::HAS_MANY, 'PostImage', 'post_id'),
-			//'category' => array(self::BELONGS_TO, 'PostCategory', 'category_id'),
+			'author' => array(self::BELONGS_TO, 'User', 'author_id'),
 			'categories' => array(self::MANY_MANY, 'PostCategory', 'posts_categories(post_id,category_id)'),
 		);
 	}
