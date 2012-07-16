@@ -10,5 +10,4 @@ SETUP:
 5 - Crear una base de datos y configurarla en el archivo "protected/config/db.php"
 6 - Ejecutar en la base de datos el archivo "protected/data/schema.mysql.sql".
 7 - Ejecutar en la base de datos los archivos que haya en "protected/data/deltas/".
-8 - Ejecutar en la base de datos los archivos que haya en "protected/data/datos-prueba/".
 9 - Cruzar los dedos y visitar el sitio.
