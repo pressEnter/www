@@ -1,15 +1,10 @@
 BEGIN;
 
-INSERT INTO post_categories (id, description, slug) VALUES 
-(1, 'Novedades', 'novedades'),
-(2, 'Proyectos', 'proyectos'),
-(3, 'Capacitación', 'capacitacion'),
-(4, 'Servicios', 'servicios'),
-(5, 'Notas', 'notas'),
-(6, 'Eventos', 'eventos'),
-(7, 'Desarrollos', 'desarrollos')
-;
+INSERT INTO users (username, password, email) VALUES ('lbaraglia', SHA1('Asps97huMroe'), 'lbaraglia@pressenter.com.ar');
+INSERT INTO users (username, password, email) VALUES ('ftoledo', SHA1('gyBe48saL74'), 'ftoledo@pressenter.com.ar');
+INSERT INTO users (username, password, email) VALUES ('mgarcia', SHA1('tan14LOrds'), 'mgarcia@pressenter.com.ar');
+INSERT INTO users (username, password, email) VALUES ('hsanchez', SHA1('Fugal45deL'), 'hsanchez@pressenter.com.ar');
 
-INSERT INTO deltas (number, tag, description) VALUES (1, 'datos', '');
+INSERT INTO deltas (number, tag, description) VALUES ('001', 'datos', 'Usuarios.');
 
 COMMIT;

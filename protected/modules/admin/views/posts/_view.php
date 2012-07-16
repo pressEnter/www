@@ -8,10 +8,6 @@
 	<?php echo CHtml::encode($data->published_date); ?>
 	<br />
 
-	<b><?php echo CHtml::encode($data->getAttributeLabel('category_id')); ?>:</b>
-	<?php echo CHtml::encode($data->category_id); ?>
-	<br />
-
 	<b><?php echo CHtml::encode($data->getAttributeLabel('title')); ?>:</b>
 	<?php echo CHtml::encode($data->title); ?>
 	<br />
@@ -28,11 +24,5 @@
 	<?php echo CHtml::encode($data->published); ?>
 	<br />
 
-	<?php /*
-	<b><?php echo CHtml::encode($data->getAttributeLabel('author_id')); ?>:</b>
-	<?php echo CHtml::encode($data->author_id); ?>
-	<br />
-
-	*/ ?>
 
 </div>

@@ -65,8 +65,11 @@ class PostsController extends Controller
 		if(isset($_POST['Post']))
 		{
 			$model->attributes=$_POST['Post'];
-			if($model->save())
+			//$model->categories = $_POST;
+			if($model->save()){
+				$model->saveCategories($_POST['Post']['CategoriesIds']);
 				$this->redirect(array('view','id'=>$model->id));
+			}
 		}
 
 		$this->render('create',array(
@@ -89,8 +92,10 @@ class PostsController extends Controller
 		if(isset($_POST['Post']))
 		{
 			$model->attributes=$_POST['Post'];
-			if($model->save())
+			if($model->save()){
+				$model->saveCategories($_POST['Post']['CategoriesIds']);
 				$this->redirect(array('view','id'=>$model->id));
+			}
 		}
 
 		$this->render('update',array(

@@ -20,10 +20,6 @@ $this->menu=array(
 	'attributes'=>array(
 		'id',
 		'published_date',
-		array(
-			'label' => 'Category',
-			'value' => $model->category->description,
-		),
 		'title',
 		'slug',
 		'body',

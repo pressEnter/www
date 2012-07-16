@@ -87,5 +87,4 @@ return array(
 		'contactEmail' => 'info@pressenter.com.ar',
 	),
 	'theme' => 'v1',
-	'layout' => '',
 );

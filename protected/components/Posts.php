@@ -20,9 +20,9 @@ class Posts extends CWidget {
 	public function run(){
 		$criteria = new CDbCriteria;
 		$criteria->condition = 'published=1';
-		$criteria->with = 'category';
 		if(!empty($this->category)){
-			$criteria->addCondition('category.slug = \'' . $this->category . '\'');
+			$criteria->with = 'categories';
+			$criteria->addCondition('categories.slug = \'' . $this->category . '\'');
 		}
 		$criteria->order = 'published_date DESC';
 		if(isset($this->limit)){

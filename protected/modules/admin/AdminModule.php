@@ -2,7 +2,6 @@
 
 class AdminModule extends CWebModule
 {
-	public $layout = 'application.modules.admin.views.layouts.column2';
 	
 	public function init()
 	{

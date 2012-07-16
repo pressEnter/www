@@ -16,15 +16,15 @@
 	</div>
 
 	<div class="row">
-		<?php echo $form->labelEx($model,'category_id'); ?>
-		<?php echo $form->dropDownList($model, 'category_id', CHtml::listData(PostCategory::model()->findAll(array('order' => 'description asc')), 'id', 'description')); ?>
-		<?php echo $form->error($model,'category_id'); ?>
-	</div>
-
-	<div class="row">
 		<?php echo $form->labelEx($model,'title'); ?>
 		<?php echo $form->textField($model,'title',array('size'=>60,'maxlength'=>99)); ?>
 		<?php echo $form->error($model,'title'); ?>
+	</div>
+
+	<div class="row many">
+		<?php echo $form->labelEx($model,'categories'); ?>
+		<?php echo $form->checkBoxList($model, 'CategoriesIds', CHtml::listData(PostCategory::model()->findAll(), 'id', 'description')); ?>
+		<?php echo $form->error($model,'categories'); ?>
 	</div>
 
 	<div class="row">

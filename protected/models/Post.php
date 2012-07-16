@@ -6,7 +6,6 @@
  * The followings are the available columns in table 'posts':
  * @property integer $id
  * @property string $published_date
- * @property integer $category_id
  * @property string $title
  * @property string $slug
  * @property string $body
@@ -15,7 +14,7 @@
  *
  * The followings are the available model relations:
  * @property PostImages[] $postImages
- * @property PostCategories $category
+ * @property PostCategories[] $categories
  */
 class Post extends CActiveRecord
 {
@@ -46,13 +45,13 @@ class Post extends CActiveRecord
 		// will receive user inputs.
 		return array(
 			array('title, slug, body', 'required'),
-			array('category_id, published, author_id', 'numerical', 'integerOnly'=>true),
+			array('published, author_id', 'numerical', 'integerOnly'=>true),
 			array('title', 'length', 'max' => 99),
 			array('slug', 'length', 'max' => 255),
 			array('published_date', 'safe'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
-			array('category_id, title, published, author_id', 'safe', 'on'=>'search'),
+			array('title, published, author_id', 'safe', 'on'=>'search'),
 		);
 	}
 
@@ -65,7 +64,8 @@ class Post extends CActiveRecord
 		// class name for the relations automatically generated below.
 		return array(
 			'images' => array(self::HAS_MANY, 'PostImage', 'post_id'),
-			'category' => array(self::BELONGS_TO, 'PostCategory', 'category_id'),
+			//'category' => array(self::BELONGS_TO, 'PostCategory', 'category_id'),
+			'categories' => array(self::MANY_MANY, 'PostCategory', 'posts_categories(post_id,category_id)'),
 		);
 	}
 
@@ -77,7 +77,7 @@ class Post extends CActiveRecord
 		return array(
 			'id' => 'ID',
 			'published_date' => 'Published Date',
-			'category_id' => 'Category',
+			'categories' => 'Categories',
 			'title' => 'Title',
 			'slug' => 'Slug',
 			'body' => 'Body',
@@ -97,7 +97,6 @@ class Post extends CActiveRecord
 
 		$criteria=new CDbCriteria;
 
-		$criteria->compare('category_id',$this->category_id);
 		$criteria->compare('title',$this->title,true);
 		$criteria->compare('published',$this->published);
 		$criteria->compare('author_id',$this->author_id);
@@ -119,4 +118,42 @@ class Post extends CActiveRecord
 			),
 		);
 	}
+	
+	/**
+	 *  Method used to populate checkbox list while create/edit 
+	 */ 
+	public function getCategoriesIds(){
+		$array = array();
+		foreach($this->categories as $cat){
+			$array[] = (int)$cat['id'];
+		}
+		return $array;
+	}
+	/**
+	 * 
+	 * Called manually after saving post in controller
+	 * 
+	 */ 
+	public function saveCategories($ids){
+		$insert_sql = "INSERT INTO posts_categories (post_id, category_id) VALUES (:post_id, :category_id);";
+		$delete_sql = "DELETE FROM posts_categories WHERE post_id = :post_id AND category_id = :category_id;";
+		
+		$in_db = Post::model()->findByPk($this->id)->categories;
+		$current_values = array();
+		foreach($in_db as $tmp){
+			$current_values[] = $tmp->id;
+		}
+		
+		$delete_values = array_diff($current_values, $ids);
+		$insert_values = array_diff($ids, $current_values);
+		
+		foreach($delete_values as $category_id){
+			Yii::app()->db->createCommand($delete_sql)->bindValues(array(':post_id' => $this->id, ':category_id' => $category_id))->execute();
+		}
+		// passed values
+		foreach($insert_values as $category_id){
+			Yii::app()->db->createCommand($insert_sql)->bindValues(array(':post_id' => $this->id, ':category_id' => $category_id))->execute();
+		}
+	}
+	
 }

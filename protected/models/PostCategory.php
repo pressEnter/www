@@ -58,7 +58,7 @@ class PostCategory extends CActiveRecord
 		// NOTE: you may need to adjust the relation name and the related
 		// class name for the relations automatically generated below.
 		return array(
-			'posts' => array(self::HAS_MANY, 'Post', 'category_id'),
+			'posts' => array(self::MANY_MANY, 'Post', 'posts_categories(category_id,post_id)'),
 		);
 	}
 
