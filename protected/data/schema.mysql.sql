@@ -5,7 +5,7 @@ CREATE TABLE users (
     username VARCHAR(128) NOT NULL,
     password VARCHAR(40) NOT NULL,
     email VARCHAR(128) NOT NULL
-);
+) ENGINE=InnoDB;
 --
 --
 CREATE TABLE deltas (
