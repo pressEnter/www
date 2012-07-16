@@ -117,7 +117,7 @@
 		</table>
 		<div class="footer">
 			<p>Todos los planes descriptos son configurables para adaptarlos a cualquier necesidad.</p>
-			<p>Para más información o contratar un servicio de <strong>Hosting</strong>, por favor comuníquese con nosotros a través de nuestra nuestra <?php echo CHtml::link('página de contacto', '/contact'); ?>.</p>
+			<p>Para más información o contratar un servicio de <strong>Hosting</strong>, por favor comuníquese con nosotros a través de nuestra nuestra <?php echo CHtml::link('página de contacto', array('site/contact')); ?>.</p>
 		</div>
 	</div>
 </div>

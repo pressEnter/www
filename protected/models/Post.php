@@ -44,11 +44,12 @@ class Post extends CActiveRecord
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
 		return array(
-			array('title, slug, body', 'required'),
+			array('title, body', 'required'),
 			array('published, author_id', 'numerical', 'integerOnly'=>true),
 			array('title', 'length', 'max' => 99),
 			array('slug', 'length', 'max' => 255),
-			array('published_date', 'safe'),
+			array('published_date', 'type', 'type' => 'datetime', 'datetimeFormat' => 'yyyy-MM-dd hh:mm:ss', 'message' => 'La fecha parece inválida.'),
+			array('published_date', 'default', 'value' => date('Y-m-d h:i:s')),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('title, published, author_id', 'safe', 'on'=>'search'),

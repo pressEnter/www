@@ -26,7 +26,7 @@ CREATE TABLE post_categories (
 
 CREATE TABLE posts (
 	id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
-	published_date date,
+	published_date DATETIME NOT NULL,
 	title VARCHAR(99) NOT NULL,
 	slug VARCHAR(255) NOT NULL,
 	body TEXT NOT NULL,

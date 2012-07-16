@@ -13,7 +13,7 @@
 		<?php 
 		$date_parts = getdate(strtotime($post->published_date));
 		$date_out = "
-		<span class='month'>" . Yii::app()->locale->getMonthName($date_parts['mon'], 'wide') . "</span>
+		<span class='month'>" . Yii::app()->locale->getMonthName($date_parts['mon'], 'abbreviated') . "</span>
 		<span class='day'>{$date_parts['mday']}</span>
 		<span class='year'>{$date_parts['year']}</span>
 		";

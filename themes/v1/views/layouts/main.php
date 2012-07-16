@@ -65,6 +65,13 @@
 							<img src="<?php echo $images_dir; ?>/icons/infocus-linkedin-logo-square2-24x24.png" alt="Perfil de pressEnter en Linkedin" title="Perfil de pressEnter en Linkedin" />
 						</a>
 					</li>
+					<li>
+						<?php echo CHtml::link(
+							CHtml::image($images_dir.'/icons/infocus-rss-cube-24x24.png', 'Noticias RSS', array('title' => 'Noticias RSS')),
+							array('news/rss')
+						); 
+						?>
+					</li>
 				</ul>
 			</div> <!-- social-links -->
 			
@@ -88,7 +95,7 @@
 				<h3>Contacto</h3>
 				<ul id="contact-details">
 					<li><strong>Email</strong> <span>info@pressenter.com.ar</span></li>
-					<li><strong>Teléfonos</strong> <span>+54 9 11 3475 1407 | +54 9 11 34991374</span></li>
+					<li><strong>Teléfonos</strong> <span>+54 9 11 3475 1407 | +54 9 11 3499 1374</span></li>
 					<li><strong>Dirección</strong> <span>Av. Belgrano 748 1° Of. 13 | CABA |  Argentina </span></li>
 				</ul>
 				<div id="map">
