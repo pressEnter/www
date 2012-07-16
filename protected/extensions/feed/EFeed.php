@@ -184,7 +184,7 @@ class EFeed extends CComponent{
 	{
 		$validator = new CUrlValidator();
 		if(!$validator->validateValue($link))
-			//throw new CException( Yii::t('EFeed', $link. ' does not seem to be a valid URL') );
+			throw new CException( Yii::t('EFeed', $link. ' does not seem to be a valid URL') );
 			
 		$this->addChannelTag('link', $link);
 	}
@@ -213,7 +213,7 @@ class EFeed extends CComponent{
 	{
 		$validator = new CUrlValidator();
 		if(!$validator->validateValue($link))
-			//throw new CException( Yii::t('EFeed', $link. ' does not seem to be a valid URL') );
+			throw new CException( Yii::t('EFeed', $link. ' does not seem to be a valid URL') );
 			
 		$this->addChannelTag('image', array('title'=>$title, 'link'=>$link, 'url'=>$url));
 	}
@@ -237,7 +237,7 @@ class EFeed extends CComponent{
 	{
 		$validator = new CUrlValidator();
 		if(!$validator->validateValue($url))
-			//throw new CException( Yii::t('EFeed', $url. ' does not seem to be a valid URL') );
+			throw new CException( Yii::t('EFeed', $url. ' does not seem to be a valid URL') );
 			
 		$this->addChannelTag('ChannelAbout', $url);
  
