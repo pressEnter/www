@@ -15,9 +15,10 @@ Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl . '/js/j
 				<?php echo CHtml::image(Yii::app()->request->getBaseUrl(true) . '/images/about-us/hector-sanchez-100x100-color.jpg', 'Héctor Sanchez', array('title' => 'Héctor Sanchez')); ?>
 			</div>
 			<p>Analista de sistemas, graduado en la Universidad Tecnológica Nacional (UTN). Tiene conocimiento en diferentes lenguajes de programación, su preferido es <strong>Python</strong>.</p>
-			<p>Posee mucha experiencia en desarrollos Web utilizando los frameworks Symfony y Django.</p>
+			<p>Posee mucha experiencia en desarrollos Web, en sitios de gran escala utilizando los frameworks Symfony y Django.</p>
 			<p>Es un activista de <strong>Software Libre</strong>, que participó en el dictado de cursos y conferencias nacionales e internacionales, actualmente participa activamente de organizaciones como <a href="http://www.lanux.org.ar" target="_blank">LANUX</a>, <a href="http://www.solar.org.ar" target="_blank">SoLAr</a>, <a href="http://www.python.com.ar" target="_blank">PyAr</a> y <a href="http://ar.sugarlabs.org" target="_blank"> SugarLabs-Argentina </a>, dedicadas a la difusión del Software Libre tanto en el aspecto social como técnico.</p>
-			<p>Formó parte del equipo <a href="http://activities.sugarlabs.org/es-ES/sugar/addon/4215" target="_blank">Falabracman</a> ganador de la competencia OLPC Game Jam 2008 en Porto Alegre - Brasil en FISL, que consite en desarrollar un video juego educativo "actividad" en 32hs, que funcione en una computadora OLPC en el entorno Sugar.</p>
+			<p>Particia en el  <a href="http://www.proyectoalba.com.ar" target="_blank">Proyecto Alba</a>. desde sus comienzos.</p>
+            <p>Formó parte del equipo <a href="http://activities.sugarlabs.org/es-ES/sugar/addon/4215" target="_blank">Falabracman</a> ganador de la competencia OLPC Game Jam 2008 en Porto Alegre - Brasil en FISL.</p>
 			<div class="footer">
 				<div class="footer-inner">
 				<?php
@@ -36,7 +37,7 @@ Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl . '/js/j
 			<p>Desarrollador y Administrador de sistemas con más de 10 años de trabajo sobre plataformas <strong>GNU/Linux</strong>.</p>
 			<p>Posee amplios conocimientos en hardware, software e infraestructura de redes y se especializa en implentaciones de sevidores, seguridad y monitoreo.</p>
 			<p>Miembro de <a href="http://www.solar.org.ar" target="_blank">SoLAr</a>, promotor y partícipe activo en varios proyectos de <strong>Software Libre</strong> alrededor del mundo.</p>
-			<p>Es uno de creadores y actual mantenedor del <a href="http://www.proyectoalba.com.ar" target="_blank">Proyecto Alba</a>.</p>
+			<p>Es uno de los creadores y actual mantenedor del <a href="http://www.proyectoalba.com.ar" target="_blank">Proyecto Alba</a>.</p>
 			<div class="footer">
 				<div class="footer-inner">
 				<?php
