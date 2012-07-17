@@ -14,6 +14,7 @@
 	<link rel="stylesheet" media="screen" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/main-nav.css" />
 	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Overlock' />
 	<link rel='image_src' type="image/png" href='<?php echo Yii::app()->createAbsoluteUrl('/'). '/images/logo-200x55.png'?>' />
+	<link rel='alternate' type="application/rss+xml" href='<?php echo Yii::app()->createAbsoluteUrl('/'). '/news/rss'?>' title="pressEnter - Novedades"/>
 
 	<?php Yii::app()->clientScript->registerscriptFile(Yii::app()->theme->baseUrl . "/js/superfish-1.4.8/js/hoverIntent.js"); ?>
 	<?php Yii::app()->clientScript->registerscriptFile(Yii::app()->theme->baseUrl . "/js/superfish-1.4.8/js/superfish.js"); ?>
