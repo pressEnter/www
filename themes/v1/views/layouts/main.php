@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
-<head>
+<head >
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<!--[if lt IE 8]>
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/ie.css" media="screen, projection" />
@@ -20,16 +20,18 @@
 	<?php Yii::app()->clientScript->registerscriptFile(Yii::app()->theme->baseUrl . "/js/jquery-ui-1.8.21/development-bundle/ui/minified/jquery.effects.highlight.min.js"); ?> <!-- Flash messages -->
 
 	<title><?php echo CHtml::encode($this->pageTitle); ?></title>
+
 </head>
 <body id="<?php echo str_replace('/', '-', $this->getUniqueId()).'-'.$this->getAction()->getId(); ?>">
-  <div xmlns:og="http://ogp.me/ns#" style="display:none;"><![CDATA[ <!--OpenGraph section-->
+	<div xmlns:og="http://ogp.me/ns#" style="display:none;">
+  <![CDATA[
     <meta property='og:description' content='pressEnter es una cooperativa de trabajo Argentina con más de 10 años de experiencia brindando servicios en el mercado de las tecnologías de información y comunicaciones.' />
     <meta property='og:title' content='pressEnter - Cooperativa de Software {Libre}' />
     <meta property='og:url' content='http://www.pressenter.com.ar' />
     <meta property='og:image' content='<?php echo Yii::app()->createAbsoluteUrl('/') . '/images/logo-200x55.png'?>' />
-    ]]>
+  ]]>
   </div>
-	<script type="text/javascript">
+  <script type="text/javascript">
 		$(document).ready(function(){
 			$("ul.sf-menu").superfish({
 				delay:       50,                               // one second delay on mouseout
