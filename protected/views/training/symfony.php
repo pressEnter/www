@@ -1,7 +1,7 @@
 <?php $this->pageTitle = 'pressEnter | Capacitación en Symfony Framework'; ?>
 <div class="article">
 	<div class="header">
-		<h1>Symfony Framework</h1>
+		<h2>Curso de Symfony Framework</h2>
 	</div>
 	<div class="figure">
 		<?php echo CHtml::image(Yii::app()->request->getBaseUrl(true).'/images/training/symfony-logo-100x100.png', 'Symfony logo', array()); ?>
@@ -12,7 +12,7 @@
 				<p>En el curso se enseña cómo desarrollar y mantener aplicaciones, así como los conceptos e ideas detrás del framework (MVC, routing, ORM, etc).</p>
 	</div>
 	<div class="syllabus">
-		<h2>Temario del curso</h2>
+		<h3>Temario del curso</h3>
 		<ul>
 			<li>Arquitectura de aplicaciones web flat vs MVC</li>
 			<li>Instalación de symfony y setup inicial de un proyecto</li>

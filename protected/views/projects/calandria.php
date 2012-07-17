@@ -1,8 +1,8 @@
 <?php $this->pageTitle = 'pressEnter | Calandria Gestión - Sistema de Gestión Administrativa para Pymes'; ?>
 <div class="article">
 	<div class="hgroup">
-		<h1>Calandria Gestión</h1>
-		<h2>Sistema de Gestión Administrativa para Pymes</h2>
+		<h2>Calandria Gestión</h2>
+		<h3>Sistema de Gestión Administrativa para Pymes</h3>
 	</div>
 	<div class="body project-details">
 	</div>

@@ -5,7 +5,7 @@ $this->breadcrumbs=array(
 );
 ?>
 
-<h1>Login</h1>
+<h2>Login</h2>
 
 <p>Please fill out the following form with your login credentials:</p>
 

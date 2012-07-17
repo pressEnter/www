@@ -12,7 +12,7 @@
 			?>
 			<?php echo $date_out; ?>
 		</div> <!-- published-date -->
-		<h1><?php echo $post->title ?></h1>
+		<h2><?php echo $post->title ?></h2>
 	</div>
 	<div class="body">
 		<?php echo $post->body; ?>

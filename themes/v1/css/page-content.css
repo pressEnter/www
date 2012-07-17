@@ -15,30 +15,30 @@ div#page-content h4 {
 	font-weight: bold;
 	margin: 10px 0 0;
 }
-div#page-content h1 {
+div#page-content h2 {
 	font-size: 1.6em;
 	color: #008080;
 	text-transform: uppercase;
 	margin-bottom: 15px;
 }
-div#page-content h2 {
+div#page-content h3 {
 	font-size: 1.4em;
 	color: #F01800;
 	margin-top: 15px;
 }
-div#page-content h2 a:link,
-div#page-content h2 a:visited {
+div#page-content h3 a:link,
+div#page-content h3 a:visited {
 	color: #F01800;
 	text-decoration: none;
 }
-div#page-content h2 a:hover {
+div#page-content h3 a:hover {
 	color: #FFAD00;
 }
-div#page-content h3 {
+div#page-content h4 {
 	font-size: 1.2em;
 	margin-top: 15px;
 }
-div#page-content h4 {
+div#page-content h5 {
 	font-size: 1.0em;
 	margin-top: 15px;
 }
@@ -385,8 +385,11 @@ body#training-details div.instructor-details {
 body#training-details div.instructor-details h3 {
 	text-align: center;
 	margin-bottom: 20px;
+	color: #fff;
+	font-size: 1.2em;
 }
 body#training-details div.instructor-details h4 {
+	font-size: 1em;
 	margin-left: 110px;
 	color: #0199AE;
 }

@@ -1,7 +1,7 @@
 <?php $this->pageTitle = 'pressEnter | Capacitación en XHTML/CSS'; ?>
 <div class="article">
 	<div class="header">
-		<h1>XHTML/CSS</h1>
+		<h2>Curso de XHTML y CSS</h2>
 	</div>
 	<div class="figure">
 		<?php echo CHtml::image(Yii::app()->request->getBaseUrl(true).'/images/training/css-logo-100x100.png', 'CSS logo', array()); ?>
@@ -12,7 +12,7 @@
 		<p>La capacitación comienza con una introducción a XHTML, cómo escribir código válido y liviano para terminar con maquetación avanzada con CSS.</p>
 	</div>
 	<div class="syllabus">
-		<h2>Temario del curso</h2>
+		<h3>Temario del curso</h3>
 		<ul>
 			<li>Estructura básica de una página web</li>
 			<li>Introducción a XHTML</li>

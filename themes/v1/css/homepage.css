@@ -51,6 +51,7 @@ body#site-index div.highlight div.info-wrapper h3 {
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; 
 	margin: 0;
 	width: 350px;
+	text-transform: none;
 }
 body#site-index div.highlight div.info-wrapper h2 {
 	font-size: 2.0em;
@@ -150,15 +151,13 @@ div#alba-gallery-nav a.active {
     cursor: default;
 }
 /* SERVICES */
+body#site-index div#services h2 {
+	position: absolute;
+	left: 9000px;
+}
 body#site-index div#services {
 	height: 410px;
 	background: url(../images/services-bg-150x410.jpg) repeat-x;
-}
-body#site-index div#services h3 {
-	text-align: center;
-	line-height: 70px;
-	color: #fff;
-	text-shadow: 0 1px 1px #000;
 }
 body#site-index div#services-wrapper {
 	width: 960px;
@@ -173,7 +172,8 @@ body#site-index div#services div.article {
 	background: url(../images/shadow-v-10x960.png) no-repeat right bottom;
 	padding: 60px 0 0;
 }
-body#site-index div#services div.article h4 {
+body#site-index div#services div.article h3 {
+	color: #fff;
 	font-size: 1.4em;
 	margin: 0 0 10px 60px;
 }
@@ -214,15 +214,13 @@ body#site-index div#news {
 	padding: 0 0 0;
 }
 body#site-index div#content div#news h2 {
-	font-size: 1.2em;
-}
-body#site-index div#content div#news h3 {
 	color: #323232;
 	text-align: center;
 	font-weight: bold;
 	line-height: 60px;
 	width: 640px;
 	margin: 10px 0 0;
+	font-size: 1.2em;
 }
 body#site-index div#news div.articles-wrapper {
 	margin: 0 20px 0;
@@ -232,22 +230,16 @@ body#site-index div#news div.article {
 	margin: 20px 0 30px;
 	background: none;
 }
-body#site-index div#news div.article h2 a:link,
-body#site-index div#news div.article h2 a:visited {
+body#site-index div#news div.article h3 {
+	margin: 0 0 0 80px;
+}
+body#site-index div#news div.article h3 a:link,
+body#site-index div#news div.article h3 a:visited {
 	color: #F01800;
 	text-decoration: none;
 }
-body#site-index div#news div.article h2 a:hover {
+body#site-index div#news div.article h3 a:hover {
 	color: #FFAD00;
-}
-body#site-index div#news div.body {
-	width: 520px;
-}
-body#site-index div#news div.body p {
-	width: 520px;
-}
-body#site-index div#news div.article.last {
-	margin-bottom: 0;
 }
 body#site-index div#news div.published-date {
 	font-family: Arial, sans-serif;
@@ -275,14 +267,18 @@ body#site-index div#news div.published-date span.day {
 body#site-index div#news div.published-date span.year {
 	font-size: 1.0em;
 }
-body#site-index div#news h2 {
-	margin: 0 0 0 80px;
-}
 body#site-index div#news div.body {
+	width: 520px;
 	margin: 10px 0 0 80px;
 	color: #222;
 	font-size: 1.0em;
 	line-height: 18px;
+}
+body#site-index div#news div.body p {
+	width: 520px;
+}
+body#site-index div#news div.article.last {
+	margin-bottom: 0;
 }
 /* =UPDATES */
 body#site-index div#updates {
@@ -290,7 +286,8 @@ body#site-index div#updates {
 	height: 390px;
 	float: left;
 }
-body#site-index div#updates h3 {
+body#site-index div#updates h2 {
+	font-size: 1.2em;
 	line-height: 60px;
 	width: 320px;
 	color: #323232;
@@ -307,7 +304,8 @@ body#site-index div#technologies {
 	background: #DDDAD8 url(../images/shadow-h-960x10.png) no-repeat top;
 	margin-bottom: -27px;
 }
-body#site-index div#technologies h3 {
+body#site-index div#technologies h2 {
+	font-size: 1.2em;
 	color: #323232;
 	width: 960px;
 	height: 36px;
@@ -345,6 +343,3 @@ body#site-index div#technologies li.last {
 body#site-index div#technologies img {
 	width: 100px;
 }
-
-
-

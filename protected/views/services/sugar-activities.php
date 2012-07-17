@@ -1,7 +1,7 @@
 <?php $this->pageTitle = 'pressEnter | SUGAR Activities'; ?>
 <div class="article">
 	<div class="header">
-		<h1>Actividades SUGAR</h1>
+		<h2>Actividades SUGAR</h2>
 	</div>
 	<div class="body service-details">
         <p>Contamos con personal calificado, que tiene experiencia en tecnologías educativas, y participan en la comunidad de SugarLabs.</p>

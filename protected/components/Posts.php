@@ -15,7 +15,7 @@ class Posts extends CWidget {
 	public $extraItemClasses;
 	public $showSocialLinks = true;
 	public $category = '';
-	public $headerTag = 'h2';
+	public $headerTag = 'h3';
 
 	public function run(){
 		$criteria = new CDbCriteria;

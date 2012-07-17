@@ -3,14 +3,14 @@
 Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl . '/js/jquerytools.org/jquery.tools.tooltip.min.js', CClientScript::POS_BEGIN);
 ?>
 <?php $this->pageTitle = 'pressEnter | Quiénes somos'; ?>
-<h1>Nosotros</h1>
+<h2>Nosotros</h2>
 
 <p><strong>pressEnter</strong> es una cooperativa de trabajo Argentina con más de 10 años de experiencia brindando servicios en el mercado de las tecnologías de información y comunicaciones.</p>
 <div id="about-us" class="section">
 	<div class="articles-wrapper">
 
 		<div class="article" id="hector-sanchez">
-			<h2>Héctor Sanchez</h2>
+			<h3>Héctor Sanchez</h3>
 			<div class="figure">
 				<?php echo CHtml::image(Yii::app()->request->getBaseUrl(true) . '/images/about-us/hector-sanchez-100x100-color.jpg', 'Héctor Sanchez', array('title' => 'Héctor Sanchez')); ?>
 			</div>
@@ -29,7 +29,7 @@ Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl . '/js/j
 		</div>
 
 		<div class="article" id="fernando-toledo">
-			<h2>Fernando Toledo</h2>
+			<h3>Fernando Toledo</h3>
 			<div class="figure">
 				<?php echo CHtml::image(Yii::app()->request->getBaseUrl(true) . '/images/about-us/fernando-toledo-100x100-color.jpg', 'Fernando Toledo', array('title' => 'Fernando Toledo')); ?>
 			</div>
@@ -50,7 +50,7 @@ Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl . '/js/j
 		</div>
 
 		<div class="article" id="miguel-garcia">
-			<h2>Miguel Ángel García</h2>
+			<h3>Miguel Ángel García</h3>
 			<div class="figure">
 				<?php echo CHtml::image(Yii::app()->request->getBaseUrl(true) . '/images/about-us/miguel-garcia-100x100-color.jpg', 'Miguel García', array('title' => 'Miguel García')); ?>
 			</div>
@@ -69,7 +69,7 @@ Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl . '/js/j
 		</div>
 
 		<div class="article" id="luciano-baraglia">
-			<h2>Luciano Abel Baraglia</h2>
+			<h3>Luciano Abel Baraglia</h3>
 			<div class="figure">
 				<?php echo CHtml::image(Yii::app()->request->getBaseUrl(true) . '/images/about-us/luciano-baraglia-100x100-color.jpg', 'Luciano Baraglia', array('title' => 'Luciano Baraglia')); ?>
 			</div>
