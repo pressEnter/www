@@ -3,6 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
 <head >
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="description" content="pressEnter es una cooperativa de trabajo Argentina con más de 10 años de experiencia brindando servicios en el mercado de las tecnologías de información y comunicaciones." />
 	<!--[if lt IE 8]>
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/ie.css" media="screen, projection" />
 	<![endif]-->
@@ -12,6 +13,7 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/page-content.css" />
 	<link rel="stylesheet" media="screen" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/main-nav.css" />
 	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Overlock' />
+	<link rel='image_src' href='<?php echo Yii::app()->createAbsoluteUrl('/'). '/images/logo-200x55.png'?>' />
 
 	<?php Yii::app()->clientScript->registerscriptFile(Yii::app()->theme->baseUrl . "/js/superfish-1.4.8/js/hoverIntent.js"); ?>
 	<?php Yii::app()->clientScript->registerscriptFile(Yii::app()->theme->baseUrl . "/js/superfish-1.4.8/js/superfish.js"); ?>
@@ -25,7 +27,6 @@
 <body id="<?php echo str_replace('/', '-', $this->getUniqueId()).'-'.$this->getAction()->getId(); ?>">
 	<div xmlns:og="http://ogp.me/ns#" style="display:none;">
   <![CDATA[
-    <meta property='og:description' content='pressEnter es una cooperativa de trabajo Argentina con más de 10 años de experiencia brindando servicios en el mercado de las tecnologías de información y comunicaciones.' />
     <meta property='og:title' content='pressEnter - Cooperativa de Software {Libre}' />
     <meta property='og:url' content='http://www.pressenter.com.ar' />
     <meta property='og:image' content='<?php echo Yii::app()->createAbsoluteUrl('/') . '/images/logo-200x55.png'?>' />
