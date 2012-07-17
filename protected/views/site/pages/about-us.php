@@ -17,7 +17,7 @@ Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl . '/js/j
 			<p>Analista de sistemas, graduado en la Universidad Tecnológica Nacional (UTN). Tiene conocimiento en diferentes lenguajes de programación, su preferido es <strong>Python</strong>.</p>
 			<p>Posee mucha experiencia en desarrollos Web, en sitios de gran escala utilizando los frameworks Symfony y Django.</p>
 			<p>Es un activista de <strong>Software Libre</strong>, que participó en el dictado de cursos y conferencias nacionales e internacionales, actualmente participa activamente de organizaciones como <a href="http://www.lanux.org.ar" target="_blank">LANUX</a>, <a href="http://www.solar.org.ar" target="_blank">SoLAr</a>, <a href="http://www.python.com.ar" target="_blank">PyAr</a> y <a href="http://ar.sugarlabs.org" target="_blank"> SugarLabs-Argentina </a>, dedicadas a la difusión del Software Libre tanto en el aspecto social como técnico.</p>
-			<p>Particia en el  <a href="http://www.proyectoalba.com.ar" target="_blank">Proyecto Alba</a>. desde sus comienzos.</p>
+			<p>Participa en el  <a href="http://www.proyectoalba.com.ar" target="_blank">Proyecto Alba</a> desde sus comienzos.</p>
             <p>Formó parte del equipo <a href="http://activities.sugarlabs.org/es-ES/sugar/addon/4215" target="_blank">Falabracman</a> ganador de la competencia OLPC Game Jam 2008 en Porto Alegre - Brasil en FISL.</p>
 			<div class="footer">
 				<div class="footer-inner">
