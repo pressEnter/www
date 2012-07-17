@@ -1,2 +1,2 @@
 <?php $this->pageTitle = 'pressEnter | Proyectos'; ?>
-<h1>Proyectos</h1>
+<h2>Proyectos</h2>

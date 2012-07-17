@@ -1,7 +1,7 @@
 <?php $this->pageTitle = 'pressEnter | Capacitación en Python/Django'; ?>
 <div class="article">
 	<div class="header">
-		<h1>Python/Django</h1>
+		<h2>Curso de Python y Django</h2>
 	</div>
 	<div class="figure">
 		<?php echo CHtml::image(Yii::app()->request->getBaseUrl(true).'/images/training/django-logo-100x100.png', 'Python/Django logos', array()); ?>
@@ -12,7 +12,7 @@
 		<p>Dictado por miembros activos de la comunidad de Python, el curso propone aprender a utilizar tanto el framework como el lenguaje en el que está basado.</p>
 	</div>
 	<div class="syllabus">
-		<h2>Temario del curso</h2>
+		<h3>Temario del curso</h3>
         <ul>
             <li>Introducción a Python</li>
 			<li>Introducción a Django</li>

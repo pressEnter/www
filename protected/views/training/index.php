@@ -1,15 +1,16 @@
 <?php $this->pageTitle = 'pressEnter | Capacitación'; ?>
 <div class="section">
-	<h1>Capacitación</h1>
+	
+	<h2>Capacitación</h2>
 	<p>Brindamos capacitación profesional en temáticas de desarrollo de sistemas y coaching de proyectos, entre otros.</p>
 	<p>Nuestros entrenamientos están dirigidos al nivel técnico para los equipos de trabajo de su empresa.</p>
-	<h3>Actualmente ofrecemos capacitación en:</h3>
+	<p><strong>Actualmente ofrecemos capacitación en:</strong></p>
 
-	<div class="section" id="training-items">
+	<div id="training-items">
 
 		<div class="article">
 			<div class="header">
-				<h2><?php echo CHtml::link('Symfony Framework', 'training/symfony'); ?></h2>
+				<h3><?php echo CHtml::link('Symfony Framework', 'training/symfony'); ?></h3>
 			</div>
 			<div class="figure">
 				<?php echo CHtml::link(
@@ -29,7 +30,7 @@
 
 		<div class="article">
 			<div class="header">
-				<h2><?php echo CHtml::link('Drupal CMS', 'training/drupal'); ?></h2>
+				<h3><?php echo CHtml::link('Drupal CMS', 'training/drupal'); ?></h3>
 			</div>
 			<div class="figure">
 				<?php echo CHtml::link(
@@ -49,7 +50,7 @@
 
 		<div class="article">
 			<div class="header">
-				<h2><?php echo CHtml::link('Python / Django', 'training/python-django'); ?></h2>
+				<h3><?php echo CHtml::link('Python / Django', 'training/python-django'); ?></h3>
 			</div>
 			<div class="figure">
 				<?php echo CHtml::link(
@@ -69,7 +70,7 @@
 
 		<div class="article">
 			<div class="header">
-				<h2><?php echo CHtml::link('XHTML/CSS', 'training/xhtml-css'); ?></h2>
+				<h3><?php echo CHtml::link('XHTML/CSS', 'training/xhtml-css'); ?></h3>
 			</div>
 			<div class="figure">
 				<?php echo CHtml::link(
@@ -89,7 +90,7 @@
 
 		<div class="article last">
 			<div class="header">
-				<h2><?php echo CHtml::link('GNU/Linux', 'training/gnu-linux'); ?></h2>
+				<h3><?php echo CHtml::link('GNU/Linux', 'training/gnu-linux'); ?></h3>
 			</div>
 			<div class="figure">
 				<?php echo CHtml::link(
@@ -103,7 +104,9 @@
             <p>Proponemos capacitarte para que puedas dominar este sistema, conociendo su arquitectura, funcionamiento interno, configuración y servicios, para poder adaptarlo a tus necesides, acompañado por un profesional experto en el tema.</p>
 			</div>
 			<div class="footer"></div>
-		</div>
+		</div>		
 		<hr />
-
-</div>
+		
+	</div><!--training-items-->
+	
+</div><!--section-->

@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
 <head >
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="description" content="pressEnter es una cooperativa de trabajo Argentina con más de 10 años de experiencia brindando servicios en el mercado de las tecnologías de información y comunicaciones." />
+	<meta name="description" content="pressEnter es una cooperativa de desarrollo de software Argentina con más de 10 años de actividad brindando servicios en el mercado de las tecnologías de información y comunicaciones." />
 	<!--[if lt IE 8]>
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/ie.css" media="screen, projection" />
 	<![endif]-->
@@ -13,7 +13,7 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/page-content.css" />
 	<link rel="stylesheet" media="screen" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/main-nav.css" />
 	<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Overlock' />
-	<link rel='image_src' href='<?php echo Yii::app()->createAbsoluteUrl('/'). '/images/logo-200x55.png'?>' />
+	<link rel='image_src' type="image/png" href='<?php echo Yii::app()->createAbsoluteUrl('/'). '/images/logo-200x55.png'?>' />
 
 	<?php Yii::app()->clientScript->registerscriptFile(Yii::app()->theme->baseUrl . "/js/superfish-1.4.8/js/hoverIntent.js"); ?>
 	<?php Yii::app()->clientScript->registerscriptFile(Yii::app()->theme->baseUrl . "/js/superfish-1.4.8/js/superfish.js"); ?>
@@ -25,13 +25,6 @@
 
 </head>
 <body id="<?php echo str_replace('/', '-', $this->getUniqueId()).'-'.$this->getAction()->getId(); ?>">
-	<div xmlns:og="http://ogp.me/ns#" style="display:none;">
-  <![CDATA[
-    <meta property='og:title' content='pressEnter - Cooperativa de Software {Libre}' />
-    <meta property='og:url' content='http://www.pressenter.com.ar' />
-    <meta property='og:image' content='<?php echo Yii::app()->createAbsoluteUrl('/') . '/images/logo-200x55.png'?>' />
-  ]]>
-  </div>
   <script type="text/javascript">
 		$(document).ready(function(){
 			$("ul.sf-menu").superfish({
@@ -46,15 +39,11 @@
 		});
 	</script>
 	<div id="wrapper">
-
 		<div class="section header" id="header">
-			<div class="hgroup">
-				<h1>
-					<a href="<?php echo Yii::app()->request->getBaseUrl(true); ?>">
-						<span><?php echo CHtml::encode(Yii::app()->name); ?></span>
-					</a>
-				</h1>
-				<h2><span>Cooperativa de Software {Libre}</span></h2>
+			<h1><span><?php echo CHtml::encode(Yii::app()->name); ?></span></h1>
+			<p id="subtitle"><span>Cooperativa de Software {Libre}</span></p>
+			<div id="logo">
+				<a href="<?php echo Yii::app()->request->getBaseUrl(true); ?>"><?php echo CHtml::image(Yii::app()->createAbsoluteUrl('/') . '/images/logo-200x55.png', 'pressEnter logo', array('title' => 'pressEnter logo')); ?></a>
 			</div>
 
 			<div id="social-links">
@@ -102,7 +91,7 @@
 
 		<div class="section footer" id="footer">
 			<div class="section" id="contact">
-				<h3>Contacto</h3>
+				<h2>Contacto</h2>
 				<ul id="contact-details">
 					<li><strong>Email</strong> <span>info@pressenter.com.ar</span></li>
 					<li><strong>Teléfonos</strong> <span>+54 9 11 3475 1407 | +54 9 11 3499 1374</span></li>

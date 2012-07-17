@@ -1,8 +1,8 @@
 <?php $this->pageTitle = 'pressEnter | Proyecto Alba - Sistema Libre de Gestión Educativa'; ?>
 <div class="article" id="alba-project">
 	<div class="hgroup">
-		<h1>Proyecto Alba</h1>
-		<h2>Sistema Libre de Gestión Educativa</h2>
+		<h2>Proyecto Alba</h2>
+		<h3>Sistema Libre de Gestión Educativa</h3>
 	</div>				
 	
 	<div class="body">

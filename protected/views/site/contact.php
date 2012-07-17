@@ -1,10 +1,10 @@
 <?php $this->pageTitle = 'pressEnter | Contacto'; ?>
 <div class="hgroup">
-	<h1>Contacto</h1>
+	<h2>Contactáctenos</h2>
 </div>
 <div id="contact-text">
 	<p>Si estás buscando <strong>desarrolladores</strong> para un proyecto, capacitar a tus empleados en <strong>tecnologías libres</strong> o simplemente saber <strong>cómo podemos ayudarte</strong>, contactáte con nosotros.</p>
-	<h4>Estamos creciendo...</h4>
+	<p><strong>Estamos creciendo...</strong></p>
 	<p>Si lo tuyo es la <strong>programación</strong> o la <strong>administración de servidores</strong>, te sentís identificado con el espíritu del <strong>Software Libre</strong> y simpatizás con <strong>pressEnter</strong>, enviános tu <strong>CV</strong>. Podríamos trabajar juntos!</p>
 </div>
 <div id="contact-form-wrapper" class="form-wrapper">
@@ -17,7 +17,6 @@ $form = $this->beginWidget('CActiveForm', array(
 	),
 )); 
 ?>
-	<?php //echo $form->errorSummary($model); ?>
 	<div id="contact-form-widgets">
 		<fieldset id="fieldset-main-data">
 			<legend>Datos principales</legend>
@@ -73,9 +72,10 @@ $form = $this->beginWidget('CActiveForm', array(
 			<?php echo CHtml::submitButton('Enviar'); ?>
 		</div>
 		<hr />
-<?php $this->endWidget(); ?>
 	</div>
+<?php $this->endWidget(); ?>
 </div><!-- form-wrapper -->
+
 <div id="contact-other-wrapper">
 	<div id="contact-other-inner">
 		<p id='contact-email' class='contact-detail'><strong>Email:</strong> <span>info@pressenter.com.ar</span></p>

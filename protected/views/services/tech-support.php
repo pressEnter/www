@@ -1,7 +1,7 @@
 <?php $this->pageTitle = 'pressEnter | Soporte Técnico'; ?>
 <div class="article">
 	<div class="header">
-        <h1>Soporte Técnico Linux</h1>
+        <h2>Soporte Técnico Linux</h2>
     </div>
 	<div class="body service-details">
 		<p> Nuestro servicio de asistencia técnica profesional, proporciona a la empresas la robustez y seguridad necesaria para que su negocio funcione sin interrupciones los 365 días del año. </p>

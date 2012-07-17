@@ -1,7 +1,7 @@
 <?php $this->pageTitle = 'pressEnter | Capacitación en Drupal'; ?>
 <div class="article">
 	<div class="header">
-		<h1>Drupal CMS</h1>
+		<h2>Curso de Drupal CMS</h2>
 	</div>
 	<div class="figure">
 		<?php echo CHtml::image(Yii::app()->request->getBaseUrl(true).'/images/training/drupal-logo-100x100.png', 'Drupal logo', array()); ?>
@@ -12,7 +12,7 @@
 		<p>Aprendé a crear un sitio web utilizando Drupal, utilizando módulos de la comunidad, creando los propios y diseñando un theme totalmente desde cero.</p>
 	</div>
 	<div class="syllabus">
-		<h2>Temario del curso</h2>
+		<h3>Temario del curso</h3>
 		<ul>
 			<li>¿Qué es un CMS?</li>
 			<li>Introducción a Drupal</li>

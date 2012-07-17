@@ -1,7 +1,7 @@
 <?php $this->pageTitle = 'pressEnter | Capacitación en GNU/Linux'; ?>
 <div class="article">
 	<div class="header">
-		<h1>GNU/Linux</h1>
+		<h2>Capacitación GNU/Linux</h2>
 	</div>
 	<div class="figure">
 		<?php echo CHtml::image(Yii::app()->request->getBaseUrl(true).'/images/training/linux-logo-100x100.png', 'Linux logo', array()); ?>
@@ -11,7 +11,7 @@
 		<p>Proponemos capacitarte para que puedas dominar este sistema, conociendo su arquitectura, funcionamiento interno, configuración y servicios, para poder adaptarlo a tus necesides, acompañado por un profesional experto en el tema.</p>
 	</div>
 	<div class="syllabus">
-		<h2>Temario del curso</h2>
+		<h3>Temario del curso</h3>
 		<ul>
 			<li>Introducción</li>
 			<li>Instalación de software en Linux (rpm, make, sources, fhs)</li>
