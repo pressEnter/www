@@ -24,6 +24,7 @@ Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl . '/js/j
 				<?php
 				echo CHtml::link(CHtml::image(Yii::app()->theme->baseUrl . '/images/icons/infocus-linkedin-logo-square2-24x24.png', 'Ver perfil de Héctor Sánchez en Linkedin', array('title' => 'Ver perfil de Héctor Sánchez en Linkedin')), 'http://www.linkedin.com/in/karucha', array('target' => '_blank'));
 				echo CHtml::link(CHtml::image(Yii::app()->theme->baseUrl . '/images/icons/twitter-bird-24x24.png', 'Cuenta de Twitter', array('title' => 'Cuenta de Twitter')), 'https://twitter.com/hectorksanchez', array('target' => '_blank'));
+				echo CHtml::image(Yii::app()->theme->baseUrl . '/images/icons/infocus-gmail-24x24.png', 'XMPP/GTalk: hsanchez@pressenter.com.ar', array('class' => 'gtalk-info', 'title' => 'XMPP/GTalk: hsanchez@pressenter.com.ar'));
 				?>
 				</div>
 			</div>
