@@ -79,7 +79,7 @@ div#header div.hgroup {
 }
 div#header h1 {
 	position: absolute;
-	left: 9000px;
+	left: -9000px;
 }
 div#header p#subtitle {
 	font-weight: bold;
@@ -230,7 +230,7 @@ div#footer div#links {
 }
 div#footer div#links h2 {
 	position: absolute;
-	left:  9000px;
+	left: -9000px;
 }
 div#footer div#links h3 {
 	font-size: 1.2em;
