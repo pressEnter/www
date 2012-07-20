@@ -1,5 +1,12 @@
 <?php $this->pageTitle = 'pressEnter | Cooperativa de Software Libre'; ?>
-<?php $this->renderPartial('webroot.themes.v1.views.partials.highlights._alba'); ?>
+<div class="section" id="intro">
+	<h2><span>acerca de pressEnter</span></h2>
+	<div id="intro-text">
+		<p>Somos una <strong>cooperativa de desarrollo de software</strong> con base en Argentina.</p>
+		<p><strong>Construimos aplicaciones</strong> y damos <strong>soporte y capacitación</strong> en <strong>herramientas libres</strong>.</p>
+	</div>
+	<hr />
+</div>
 <div class="section" id="services">
     <h2>Servicios</h2>
     <div id="services-wrapper">
@@ -25,6 +32,7 @@
         <hr />
     </div> <!-- services-wrapper -->
 </div>
+<?php $this->renderPartial('webroot.themes.v1.views.partials.highlights._alba'); ?>
 <div class="section" id="news-updates">
     <div class="section" id="news">
         <h2>Noticias</h2>

@@ -5,7 +5,7 @@ Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl . '/js/j
 <?php $this->pageTitle = 'pressEnter | Quiénes somos'; ?>
 <h2>Nosotros</h2>
 
-<p><strong>pressEnter</strong> es una cooperativa de trabajo Argentina con más de 10 años de experiencia brindando servicios en el mercado de las tecnologías de información y comunicaciones.</p>
+<p><strong>pressEnter</strong> es una cooperativa de desarrollo de software Argentina con más de 10 años de experiencia brindando servicios en el mercado de las tecnologías de información y comunicaciones.</p>
 <div id="about-us" class="section">
 	<div class="articles-wrapper">
 

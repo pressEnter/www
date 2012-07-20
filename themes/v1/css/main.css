@@ -6,7 +6,8 @@
  *  AZUL VERDOSO 	#008080
  *  GRIS SUPERCLARO	#F4F4F4
  *  GRIS CLARO		#DDDAD8
- *  GRIS OSCURO		#898989
+ *  GRIS MEDIO		#898989 
+ *  GRIS OSCURO		#585858
  *  NARANJA			#FFAD00
  *  ROJO			#F01800
  * 
@@ -17,7 +18,7 @@ html {
 }
 body {
 	font-size: 62.5%;
-	font-family: "Overlock", Tahoma, Geneva, sans-serif;
+	font-family: "Overlock", "Trebuchet MS", Geneva, sans-serif;
 	font-weight: normal;
 }
 p {

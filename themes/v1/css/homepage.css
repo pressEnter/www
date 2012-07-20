@@ -8,18 +8,93 @@ body#site-index div#content {
 body#site-index div#page-content {
 	width: 960px;
 }
+/*
+ *
+ *=INTRO
+ *
+ */
+body#site-index div#intro {
+	margin: 10px 30px 30px;
+	text-align: center;
+	font-family: "Trebuchet MS", sans;
+/*
+*/
+}
+body#site-index div#intro h2 {
+	color: #fff;
+	background: #fff;
+	display: inline;
+	padding: 10px 5px;
+	font-size: 1em;
+	border: 1px #DDDAD8 solid;
+	text-transform: none;
+}
+body#site-index div#intro h2 span {
+	background: #0199AE;
+	padding: 5px 10px;
+}
+body#site-index div#intro-text {
+	color: #585858;
+	margin-top: 20px;
+}
+/* SERVICES */
+body#site-index div#services h2 {
+	position: absolute;
+	left: -9000px;
+}
+body#site-index div#services {
+	height: 410px;
+	background: url(../images/services-bg-150x410.jpg) repeat-x;
+}
+body#site-index div#services-wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+body#site-index div#services div.article {
+	width: 320px;
+	height: 300px;
+	float: left;
+	margin: 0;
+	color: #fff;
+	background: url(../images/shadow-v-10x960.png) no-repeat right bottom;
+	padding: 60px 0 0;
+}
+body#site-index div#services div.article h3 {
+	color: #fff;
+	font-size: 1.4em;
+	margin: 0 0 10px 60px;
+}
+body#site-index div#services div.article img {
+	float: left;
+	margin: -10px 10px 0 20px;
+}
+body#site-index div#services div.article p {
+	font-size: 1.0em;
+	text-align: justify;
+	text-justify: newspaper;
+	width: 260px;
+}
+body#site-index div#services div.article a:link,
+body#site-index div#services div.article a:visited {
+	color: #fff;
+}
+body#site-index div#services div.article a:hover {
+	color: #FFAD00;
+}
+body#site-index div#services div#service-support {
+	background: none;
+}
 /* HIGHLIGHT */
 body#site-index div.highlight {
-	height: 425px;
+	height: 455px;
 	position: relative;
+	border-bottom: 1px #fff solid;
+	background: url(../images/shadow-h-960x10b.png) no-repeat center bottom;
 }
 body#site-index div.highlight div#highlight-message {
 	width: 113px;
 	height: 67px;
 	background: url(../images/highlight-ribbon-113x67.png) no-repeat top left;
-	position: absolute;
-	top: -25px;
-	left: 0;
 }
 body#site-index div.highlight div#highlight-message span {
 	display: none;
@@ -28,7 +103,7 @@ body#site-index div.highlight div.image-wrapper {
 	float: left;
 	width: 535px;
 	height: 340px;
-	margin: 30px 0 0 40px;
+	margin: 0 0 0 40px;
 	position: relative;
 	overflow: hidden;
 }
@@ -44,7 +119,7 @@ body#site-index div.highlight div.image-wrapper p {
 body#site-index div.highlight div.info-wrapper {
 	float: right;
 	width: 350px;
-	margin: 30px 20px 0 0;
+	margin: 0 20px 0 0;
 }
 body#site-index div.highlight div.info-wrapper h2,
 body#site-index div.highlight div.info-wrapper h3 {
@@ -149,53 +224,6 @@ div#alba-gallery-nav a:hover {
 div#alba-gallery-nav a.active {
     background-position: 0 -16px;
     cursor: default;
-}
-/* SERVICES */
-body#site-index div#services h2 {
-	position: absolute;
-	left: -9000px;
-}
-body#site-index div#services {
-	height: 410px;
-	background: url(../images/services-bg-150x410.jpg) repeat-x;
-}
-body#site-index div#services-wrapper {
-	width: 960px;
-	margin: 0 auto;
-}
-body#site-index div#services div.article {
-	width: 320px;
-	height: 300px;
-	float: left;
-	margin: 0;
-	color: #fff;
-	background: url(../images/shadow-v-10x960.png) no-repeat right bottom;
-	padding: 60px 0 0;
-}
-body#site-index div#services div.article h3 {
-	color: #fff;
-	font-size: 1.4em;
-	margin: 0 0 10px 60px;
-}
-body#site-index div#services div.article img {
-	float: left;
-	margin: -10px 10px 0 20px;
-}
-body#site-index div#services div.article p {
-	font-size: 1.0em;
-	text-align: justify;
-	text-justify: newspaper;
-	width: 260px;
-}
-body#site-index div#services div.article a:link,
-body#site-index div#services div.article a:visited {
-	color: #fff;
-}
-body#site-index div#services div.article a:hover {
-	color: #FFAD00;
-}
-body#site-index div#services div#service-support {
-	background: none;
 }
 /*
  *
