@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>http://pressenter.com.ar/</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://pressenter.com.ar/news/rss</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://pressenter.com.ar/news</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://pressenter.com.ar/training</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://pressenter.com.ar/training/symfony</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://pressenter.com.ar/training/drupal</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://pressenter.com.ar/training/python-django</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://pressenter.com.ar/training/xhtml-css</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://pressenter.com.ar/training/gnu-linux</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://pressenter.com.ar/services</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://pressenter.com.ar/services/web-development</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://pressenter.com.ar/services/sugar-activities</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://pressenter.com.ar/services/tech-support</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://pressenter.com.ar/services/hosting</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://pressenter.com.ar/about-us</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://pressenter.com.ar/contact</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://pressenter.com.ar/projects/alba</loc>
+  <changefreq>weekly</changefreq>
+</url>
+<url>
+  <loc>http://pressenter.com.ar/news/read/1/rediseno-del-sitio-web-de-pressenter</loc>
+  <changefreq>weekly</changefreq>
+</url>
+</urlset>
