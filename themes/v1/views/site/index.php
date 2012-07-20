@@ -1,6 +1,11 @@
 <?php $this->pageTitle = 'pressEnter | Cooperativa de Software Libre'; ?>
 <div class="section" id="intro">
-	<h2>Introducción</h2>
+	<h2><span>acerca de pressEnter</span></h2>
+	<div id="intro-text">
+		<p>Somos una <strong>cooperativa de desarrollo de software</strong> con base en Argentina.</p>
+		<p><strong>Construimos aplicaciones</strong> y damos <strong>soporte y capacitación</strong> en <strong>herramientas libres</strong>.</p>
+	</div>
+	<hr />
 </div>
 <div class="section" id="services">
     <h2>Servicios</h2>

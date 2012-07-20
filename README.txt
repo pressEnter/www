@@ -1,3 +1,5 @@
+Logo font: Amaranth
+
 SETUP:
 
 1 - Descargar el código del repositorio

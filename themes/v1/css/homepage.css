@@ -8,7 +8,35 @@ body#site-index div#content {
 body#site-index div#page-content {
 	width: 960px;
 }
-
+/*
+ *
+ *=INTRO
+ *
+ */
+body#site-index div#intro {
+	margin: 10px 30px 30px;
+	text-align: center;
+	font-family: "Trebuchet MS", sans;
+/*
+*/
+}
+body#site-index div#intro h2 {
+	color: #fff;
+	background: #fff;
+	display: inline;
+	padding: 10px 5px;
+	font-size: 1em;
+	border: 1px #DDDAD8 solid;
+	text-transform: none;
+}
+body#site-index div#intro h2 span {
+	background: #0199AE;
+	padding: 5px 10px;
+}
+body#site-index div#intro-text {
+	color: #585858;
+	margin-top: 20px;
+}
 /* SERVICES */
 body#site-index div#services h2 {
 	position: absolute;
