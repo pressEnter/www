@@ -1,5 +1,7 @@
 <?php $this->pageTitle = 'pressEnter | Cooperativa de Software Libre'; ?>
-<?php $this->renderPartial('webroot.themes.v1.views.partials.highlights._alba'); ?>
+<div class="section" id="intro">
+	<h2>Introducción</h2>
+</div>
 <div class="section" id="services">
     <h2>Servicios</h2>
     <div id="services-wrapper">
@@ -25,6 +27,7 @@
         <hr />
     </div> <!-- services-wrapper -->
 </div>
+<?php $this->renderPartial('webroot.themes.v1.views.partials.highlights._alba'); ?>
 <div class="section" id="news-updates">
     <div class="section" id="news">
         <h2>Noticias</h2>
