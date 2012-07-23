@@ -1,4 +1,5 @@
-<?php $this->pageTitle = 'pressEnter | Capacitación en GNU/Linux'; ?>
+<?php $this->pageTitle = 'pressEnter | Capacitación GNU/Linux'; ?>
+<?php $this->pageTitle = 'Capacitación GNU/Linux en Argentina. Proponemos capacitarte para que puedas dominar este sistema, conociendo su arquitectura, funcionamiento interno, configuración y servicios, para poder adaptarlo a tus necesidades, acompañado por un profesional experto en el tema.'; ?>
 <div class="article">
 	<div class="header">
 		<h2>Capacitación GNU/Linux</h2>
@@ -8,7 +9,7 @@
 	</div>
 	<div class="body">
 		<p>Actualmente <strong>GNU/Linux</strong> es un sistema operativo muy utilizado en las empresas para brindar servicios, como así también en computadoras personales y dispositivos portátiles.</p>
-		<p>Proponemos capacitarte para que puedas dominar este sistema, conociendo su arquitectura, funcionamiento interno, configuración y servicios, para poder adaptarlo a tus necesides, acompañado por un profesional experto en el tema.</p>
+		<p>Proponemos capacitarte para que puedas dominar este sistema, conociendo su arquitectura, funcionamiento interno, configuración y servicios, para poder adaptarlo a tus necesidades, acompañado por un profesional experto en el tema.</p>
 	</div>
 	<div class="syllabus">
 		<h3>Temario del curso</h3>

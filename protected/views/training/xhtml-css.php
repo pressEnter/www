@@ -1,4 +1,5 @@
-<?php $this->pageTitle = 'pressEnter | Capacitación en XHTML/CSS'; ?>
+<?php $this->pageTitle = 'pressEnter | Curso de XHTML/CSS'; ?>
+<?php $this->metaDescription = 'Curso de XHTML/CSS en Argentina. Introducción a XHTML, cómo escribir código válido y liviano para terminar con maquetación avanzada con CSS.'; ?>
 <div class="article">
 	<div class="header">
 		<h2>Curso de XHTML y CSS</h2>

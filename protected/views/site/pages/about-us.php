@@ -3,6 +3,7 @@
 Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl . '/js/jquerytools.org/jquery.tools.tooltip.min.js', CClientScript::POS_BEGIN);
 ?>
 <?php $this->pageTitle = 'pressEnter | Quiénes somos'; ?>
+<?php $this->metaDescription = 'Conozca a quiénes trabajan en pressEnter. Héctor Sánchez, Fernando Toledo, Miguel García, Luciano Baraglia.'; ?>
 <h2>Nosotros</h2>
 
 <p><strong>pressEnter</strong> es una cooperativa de desarrollo de software Argentina con más de 10 años de experiencia brindando servicios en el mercado de las tecnologías de información y comunicaciones.</p>

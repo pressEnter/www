@@ -6,6 +6,8 @@
 class Controller extends CController
 {
 	/**
+	 * @var QuickContactForm $contact_form_model
+	 * Representa al formulario de contacto que está en el footer de todas las páginas.
 	 * 
 	 */ 
 	public $contact_form_model;
@@ -46,4 +48,12 @@ class Controller extends CController
 	 * for more details on how to specify this property.
 	 */
 	public $breadcrumbs=array();
+	
+	/**
+	 * @var string metaDescription
+	 * Si no se sobreescribe esta propiedad, se porporciona la descripción por defecto.
+	 * 
+	 */
+	public $metaDescription='pressEnter es una cooperativa de desarrollo de software Argentina con más de 10 años de actividad brindando servicios en el mercado de las tecnologías de información y comunicaciones.';
+	
 }

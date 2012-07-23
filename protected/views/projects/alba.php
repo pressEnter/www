@@ -1,4 +1,5 @@
 <?php $this->pageTitle = 'pressEnter | Proyecto Alba - Sistema Libre de Gestión Educativa'; ?>
+<?php $this->metaDescription = 'El Proyecto ALBA es un Sistema Informático para Escuelas. Su licencia GNU/GPL permitirá una reutilización y actualización constante, como así también la posibilidad de aprovechamiento de módulos ya realizados por otros desarrolladores.'; ?>
 <div class="article" id="alba-project">
 	<div class="hgroup">
 		<h2>Proyecto Alba</h2>
@@ -6,7 +7,7 @@
 	</div>				
 	
 	<div class="body">
-		<p>El Proyecto ALBA, es un proyecto de desarrollo de Software para la realización de un <strong>“Sistema Informático Abierto de Gestión Unificada para Unidades Educacionales”</strong>, que brindará una herramienta realizada en <strong>software libre</strong>, para el trabajo cotidiano en estas unidades. Por su tipo de licenciamiento bajo la <strong>GNU/GPL</strong>, el sistema permitirá una reutilización y actualización constante, como así también la posibilidad de aprovechamiento de módulos ya realizados por otros emprendedores.</p>
+		<p>El Proyecto ALBA, es un proyecto de desarrollo de Software para la realización de un <strong>“Sistema Informático para Escuelas”</strong>, que brinda una herramienta realizada en <strong>software libre</strong>, para el trabajo cotidiano en estas unidades. Por su tipo de licenciamiento bajo la <strong>GNU/GPL</strong>, el sistema permitirá una reutilización y actualización constante, como así también la posibilidad de aprovechamiento de módulos ya realizados por otros desarrolladores.</p>
 		<p>Pensado para nuestras propias instituciones educativas a partir de información relevada mediante entrevistas a responsables del sector, el software propuesto contempla un conjunto de módulos que pueden clasificarse en:</p>
 		<ul>
 			<li>Gestión de las Unidades Educacionales (establecimientos, ciclos, calendarios, etc.)</li>

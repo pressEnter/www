@@ -1,4 +1,5 @@
-<?php $this->pageTitle = 'pressEnter | Capacitación en Python/Django'; ?>
+<?php $this->pageTitle = 'pressEnter | Curso en Python/Django'; ?>
+<?php $this->metaDescription = 'Curso de Python/Django en Argentina. El curso propone aprender a utilizar tanto el framework como el lenguaje en el que está basado.'; ?>
 <div class="article">
 	<div class="header">
 		<h2>Curso de Python y Django</h2>

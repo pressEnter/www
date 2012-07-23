@@ -1,4 +1,5 @@
-<?php $this->pageTitle = 'pressEnter | Capacitación en Drupal'; ?>
+<?php $this->pageTitle = 'pressEnter | Curso de Drupal'; ?>
+<?php $this->metaDescription = 'Curso de Drupal en Argentina. Aprendé a crear un sitio web utilizando Drupal, utilizando módulos de la comunidad, creando los propios y diseñando un theme totalmente desde cero.'; ?>
 <div class="article">
 	<div class="header">
 		<h2>Curso de Drupal CMS</h2>

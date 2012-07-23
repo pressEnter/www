@@ -1,4 +1,5 @@
 <?php $this->pageTitle = 'pressEnter | Desarrollo Web'; ?>
+<?php $this->metaDescription = 'Desarrollo avanzado de aplicaciones y sitios web utilizando tecnologías de punta.'; ?>
 <div class="article">
 	<div class="header">
         <h2>Desarrollo Web</h2>

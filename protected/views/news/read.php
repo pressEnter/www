@@ -1,4 +1,8 @@
 <?php $this->pageTitle = 'pressEnter | ' . $post->title; ?>
+<?php 
+$this->metaDescription = substr($post->title.'. '.strip_tags(str_replace("\n", ' ', $post->body)), 0, 250).'...'; 
+
+?>
 <div class="article full">
 	<div class="header">
 		<div class="published-date">

@@ -1,4 +1,5 @@
 <?php $this->pageTitle = 'pressEnter | Servicios'; ?>
+<?php $this->metaDescription = 'En pressEnter ofrecemos servicio de Desarrollo Web, Desarrollo de Actividades SUGAR, Soporte Técnico, Hosting y otros.'; ?>
 <div class="section">
 	<h2>Servicios</h2>
 	<p>Nuestra cooperativa está integrada por socios altamente capacitados, con una larga experiencia en la materia, y muy comprometidos con su trabajo.  <br/> Nos enfocamos principalmente en el desarrollo de software a medida basado en tecnologias libres e implementación de las mismas utilizando la fortaleza de GNU/Linux.</p>

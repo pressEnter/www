@@ -1,4 +1,5 @@
 <?php $this->pageTitle = 'pressEnter | SUGAR Activities'; ?>
+<?php $this->metaDescription = 'Brindamos servicios de desarrollo y mantenimiento de actividades sobre la plataforma educativa SUGAR por desarrolladores altamente experimentados.'; ?>
 <div class="article">
 	<div class="header">
 		<h2>Actividades SUGAR</h2>

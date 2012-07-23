@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
 <head >
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="description" content="pressEnter es una cooperativa de desarrollo de software Argentina con más de 10 años de actividad brindando servicios en el mercado de las tecnologías de información y comunicaciones." />
+	<meta name="description" content="<?php echo $this->metaDescription; ?>" />
 	<!--[if lt IE 8]>
 	<link rel="stylesheet" type="text/css" href="<?php echo Yii::app()->theme->baseUrl; ?>/css/ie.css" media="screen, projection" />
 	<![endif]-->

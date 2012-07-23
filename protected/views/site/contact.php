@@ -1,4 +1,5 @@
 <?php $this->pageTitle = 'pressEnter | Contacto'; ?>
+<?php $this->metaDescription = 'Página de contacto'; ?>
 <div class="hgroup">
 	<h2>Contactáctenos</h2>
 </div>
