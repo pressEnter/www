@@ -2,11 +2,11 @@
 
 class NewsController extends Controller {
 
-	public function actionIndex() {
+	public function actionIndex(){
 		$this->render('index');
 	}
 
-	public function actionRead($id, $slug) {
+	public function actionRead($id, $slug){
 		$id = (int) $id;
 
 		$post = Post::model()->with('categories')->find(array(
@@ -16,13 +16,13 @@ class NewsController extends Controller {
 				':slug' => $slug
 			)
 		));
-		if(is_null($post)) {
+		if(is_null($post)){
 			throw new CHttpException(404, 'No se encuentra la noticia solicitada.');
 		}
 		$this->render('read', array('post' => $post));
 	}
 
-	public function actionRss() {
+	public function actionRss(){
 
 		Yii::import('ext.feed.*');
 		// RSS 2.0 is the default type
@@ -44,7 +44,7 @@ class NewsController extends Controller {
 			'condition' => 'published = 1',
 			'order' => 'published_date DESC',
 		));
-		foreach ($posts as $post) {
+		foreach ($posts as $post){
 			$item = $feed->createNewItem();
 			$item->title = $post->title;
 			$item->link = sprintf('%s/%d/%s', $this->createAbsoluteUrl('/news/read/'), $post->id, $post->slug);
