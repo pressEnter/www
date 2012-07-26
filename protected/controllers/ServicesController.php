@@ -14,6 +14,7 @@ class ServicesController extends Controller
 			'web-development',
 			'sugar-activities',
 			'hosting',
+			'custom-software',
 		);
 
 		if (!in_array($item, $valid)) {

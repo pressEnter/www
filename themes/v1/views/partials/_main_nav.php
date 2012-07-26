@@ -15,8 +15,9 @@
 		)),
 		array('label' => 'Servicios', 'url' => array('/services'), 'items' => array(
 			array('label' => 'Desarrollo web', 'url' => array('/services/web-development')),
-			array('label' => 'Actividades SUGAR', 'url' => array('/services/sugar-activities')),
+      array('label' => 'Software a medida', 'url' => array('/services/custom-software')),
 			array('label' => 'Soporte técnico Linux', 'url' => array('/services/tech-support')),
+      array('label' => 'Actividades SUGAR', 'url' => array('/services/sugar-activities')),
 			array('label' => 'Hosting', 'url' => array('/services/hosting')),
 		)),
 		array('label' => 'Nosotros', 'url' => array('/about-us')),
