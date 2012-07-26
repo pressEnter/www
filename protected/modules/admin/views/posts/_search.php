@@ -37,7 +37,7 @@
 
 	<div class="row">
 		<?php echo $form->label($model,'author_id'); ?>
-		<?php echo $form->textField($model,'author_id'); ?>
+		<?php echo $form->dropDownList($model, 'author_id', CHtml::listData(User::model()->findAll(), 'id', 'username'), array('prompt' => '')); ?>
 	</div>
 
 	<div class="row buttons">

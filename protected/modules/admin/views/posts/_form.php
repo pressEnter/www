@@ -47,7 +47,7 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'author_id'); ?>
-		<?php echo $form->textField($model,'author_id'); ?>
+		<?php echo $form->dropDownList($model, 'author_id', CHtml::listData(User::model()->findAll(), 'id', 'username')); ?>
 		<?php echo $form->error($model,'author_id'); ?>
 	</div>
 

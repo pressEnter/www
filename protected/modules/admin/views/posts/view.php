@@ -24,6 +24,9 @@ $this->menu=array(
 		'slug',
 		'body',
 		'published',
-		'author_id',
+		array(
+			'label' => 'Author',
+			'value' => $model->author->username,
+		)
 	),
 )); ?>

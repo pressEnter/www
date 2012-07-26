@@ -24,5 +24,9 @@
 	<?php echo CHtml::encode($data->published); ?>
 	<br />
 
+	<b><?php echo CHtml::encode($data->getAttributeLabel('author')); ?>:</b>
+	<?php echo CHtml::encode($data->author->username); ?>
+	<br />
+
 
 </div>
