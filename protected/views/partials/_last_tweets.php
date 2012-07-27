@@ -23,8 +23,8 @@ new TWTR.Widget({
   },
   features: {
     scrollbar: false,
-    loop: false,
-    live: false,
+    loop: true,
+    live: true,
     behavior: 'all',
     hashtags: true
   }
