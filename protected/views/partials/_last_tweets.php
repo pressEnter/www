@@ -1,10 +1,13 @@
 <script type="text/javascript" charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
 <script type="text/javascript">
 new TWTR.Widget({
-  version: 2,
-  type: 'profile',
-  rpp: 4,
-  interval: 30000,
+ version: 2,
+ type: 'search',
+ search: '@pressEnterComAr',
+ interval: 6000,
+ rpp: 4,
+ title: '',
+ subject: '',
   width: 280,
   height: 330,
   theme: {
@@ -22,7 +25,9 @@ new TWTR.Widget({
     scrollbar: false,
     loop: false,
     live: false,
-    behavior: 'all'
+    behavior: 'all',
+    hashtags: true
   }
-}).render().setUser('pressenterComAr').start();
+}).render().start();
 </script>
+
