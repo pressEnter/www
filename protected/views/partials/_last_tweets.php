@@ -2,8 +2,7 @@
 <script type="text/javascript">
 new TWTR.Widget({
  version: 2,
- type: 'search',
- search: '@pressEnterComAr',
+ type: 'profile',
  interval: 6000,
  rpp: 4,
  title: '',
@@ -28,6 +27,6 @@ new TWTR.Widget({
     behavior: 'all',
     hashtags: true
   }
-}).render().start();
+}).render().setUser('PressEnterComAr').start();
 </script>
 
