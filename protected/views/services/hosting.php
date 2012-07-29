@@ -1,5 +1,5 @@
 <?php $this->pageTitle = 'pressEnter | Servicio de Hosting'; ?>
-<?php $this->metaDescription = 'pressEnter ofrece una gran variedad de servicios de hosting adaptable a cualquir necesidad'; ?>
+<?php $this->metaDescription = 'pressEnter ofrece una gran variedad de servicios de hosting adaptable a cualquier necesidad'; ?>
 <div class="article">
 	<div class="header">
 		<h2>Hosting</h2>
