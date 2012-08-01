@@ -1,7 +1,7 @@
 <?php
 
 // change the following paths if necessary
-$yii=dirname(__FILE__).'/protected/yii-1.1.10.r3566/framework/yii.php';
+$yii=dirname(__FILE__).'/protected/yii-1.1.11.58da45/framework/yii.php';
 $config=require(dirname(__FILE__).'/protected/config/main.php');
 // remove the following lines when in production mode
 defined('YII_DEBUG') or define('YII_DEBUG',false);
