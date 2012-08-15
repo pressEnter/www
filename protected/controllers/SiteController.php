@@ -66,7 +66,10 @@ class SiteController extends Controller
 			$model->attributes=$_POST['ContactForm'];
 			if($model->validate()){
 				$headers="From: {$model->email}\r\nReply-To: {$model->email}";
-				mail(Yii::app()->params['contactEmail'], $model->subject, $model->body, $headers);
+				$url = Yii::app()->request->getHostInfo() . Yii::app()->request->getRequestUri();
+				$body = $model->body . "\r\n\r\n\r\n\r\nEnviado desde: " . $url;
+				die(var_export($body));
+				mail(Yii::app()->params['contactEmail'], $model->getSubject(), $body, $headers);
 				Yii::app()->user->setFlash('success', 'Gracias por contactarse! Pronto nos estaremos comunicando.');
 				$this->refresh();
 			} else {

@@ -37,7 +37,7 @@ $form = $this->beginWidget('CActiveForm', array(
 
 			<div class="form-row input-select">
 				<?php echo $form->labelEx($model, 'subject'); ?>
-				<?php echo $form->dropDownList($model, 'subject', ContactForm::$subjectOptions); ?>
+				<?php echo $form->dropDownList($model, 'subject', $model->subjectOptions); ?>
 				<?php echo $form->error($model, 'subject'); ?>
 				<hr />
 			</div>

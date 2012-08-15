@@ -13,9 +13,9 @@ class ContactForm extends CFormModel
 	public $body;
 	public $verifyCode;
 
-	public static $subjectOptions = array(
+	public $subjectOptions = array(
 		null => '',
-		0 => 'Capacitación',
+		1 => 'Capacitación',
 		'Enviar CV',
 		'Hosting',
 		'Proyecto Alba',
@@ -53,5 +53,9 @@ class ContactForm extends CFormModel
 			'body' => 'Mensaje',
 			'verifyCode' => 'Código de verificación',
 		);
+	}
+	public function getSubject(){
+		die(var_export($this->subjectOptions[$this->subject])); 
+		return $this->subjectOptions[$this->subject];
 	}
 }
