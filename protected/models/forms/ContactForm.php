@@ -55,7 +55,6 @@ class ContactForm extends CFormModel
 		);
 	}
 	public function getSubject(){
-		die(var_export($this->subjectOptions[$this->subject])); 
 		return $this->subjectOptions[$this->subject];
 	}
 }
