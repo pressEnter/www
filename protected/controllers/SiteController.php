@@ -65,7 +65,8 @@ class SiteController extends Controller
 		if(isset($_POST['ContactForm'])){
 			$model->attributes=$_POST['ContactForm'];
 			if($model->validate()){
-				$headers="From: {$model->email}\r\nReply-To: {$model->email}";
+				$date = date('r');
+				$headers="From: {$model->email}\r\nReply-To: {$model->email}\r\nDate: {$date}";
 				$url = Yii::app()->request->getHostInfo() . Yii::app()->request->getRequestUri();
 				$body = $model->body . "\r\n\r\n\r\n\r\nEnviado desde: " . $url;
 				mail(Yii::app()->params['contactEmail'], $model->getSubject(), $body, $headers);

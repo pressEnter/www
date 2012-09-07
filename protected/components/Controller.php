@@ -23,7 +23,8 @@ class Controller extends CController
 			$this->contact_form_model->attributes = $_POST['QuickContactForm'];
 			
 			if($this->contact_form_model->validate()){
-				$headers = "From: {$this->contact_form_model->email}\r\nReply-To: {$this->contact_form_model->email}";
+				$date = date('r');
+				$headers = "From: {$this->contact_form_model->email}\r\nReply-To: {$this->contact_form_model->email}\r\nDate: {$date}";
 				$url = Yii::app()->request->getHostInfo() . Yii::app()->request->getRequestUri();
 				$body = $this->contact_form_model->body . "\r\n\r\n\r\n\r\nEnviado desde: " . $url;
 				mail(Yii::app()->params['contactEmail'], 'Contacto desde el sitio', $body, $headers);
