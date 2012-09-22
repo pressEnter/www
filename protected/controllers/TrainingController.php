@@ -13,6 +13,7 @@ class TrainingController extends Controller
 			'python-django',
 			'xhtml-css',
 			'gnu-linux',
+			'proyecto-alba',
 		);
 
 		if (!in_array($item, $valid)){

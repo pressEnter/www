@@ -1,5 +1,5 @@
 <?php $this->pageTitle = 'pressEnter | Curso de Symfony Framework'; ?>
-<?php $this->metaDescription = 'Curso de Symfony Framework en Argentina. En el curso se enseña cómo desarrollar y mantener aplicaciones, así como los conceptos e ideas detrás del framework.'; ?>
+<?php $this->metaDescription = 'Curso de Symfony Framework. En el curso se enseña cómo desarrollar y mantener aplicaciones, así como los conceptos e ideas detrás del framework.'; ?>
 <div class="article">
 	<div class="header">
 		<h2>Curso de Symfony Framework</h2>

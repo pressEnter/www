@@ -80,7 +80,7 @@
 	<div class="footer">
 		<h3>Información extra</h3>
 		<p>Descargá el código en <a href="https://github.com/proyectoalba/alba" target="_blank">Proyecto Alba en Github</a>.</p>
-		<p>Para más información visitá la <a href="http://proyectoalba.com.ar" target="_blank">página oficial del Proyecto Alba</a> y la <a href="http://dev.pressenter.com.ar/alba" target="_blank">wiki del proyecto</a>.</p>
+		<p>Para más información visitá la <a href="http://proyectoalba.com.ar" target="_blank">página oficial del Proyecto Alba</a> y la <a href="https://github.com/proyectoalba/alba/wiki" target="_blank">wiki del proyecto</a>.</p>
 	</div>
 </div> <!-- ARTICLE -->
 

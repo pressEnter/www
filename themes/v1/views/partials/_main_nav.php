@@ -12,6 +12,7 @@
 			array('label' => 'Python/DJango', 'url' => array('/training/python-django')),
 			array('label' => 'XHTML/CSS', 'url' => array('/training/xhtml-css')),
 			array('label' => 'GNU/Linux', 'url' => array('/training/gnu-linux')),
+			array('label' => 'Proyecto ALBA', 'url' => array('/training/proyecto-alba')),
 		)),
 		array('label' => 'Servicios', 'url' => array('/services'), 'items' => array(
 			array('label' => 'Desarrollo web', 'url' => array('/services/web-development')),

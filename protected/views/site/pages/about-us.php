@@ -93,6 +93,25 @@ Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl . '/js/j
 			</div>
 		</div>
 
+		<div class="article" id="jordi-lopez-amat">
+			<h3>Jordi López Amat</h3>
+			<div class="figure">
+				<?php echo CHtml::image(Yii::app()->request->getBaseUrl(true) . '/images/about-us/jordi-lopez-amat-100x100-color.jpg', 'Luciano Baraglia', array('title' => 'Luciano Baraglia')); ?>
+			</div>
+			<p>Pudo estudiar <strong>Imagen y sonido</strong> primero, e <strong>Informática y Electrónica</strong> después, en <strong>Barcelona</strong>.</p>
+			<p>Trabajó durante 10 años en corporaciones de telecomunicaciones, en múltiples servicios de <strong>telefonía e internet</strong>.</p>
+			<p>Recién se reinventó como profesor de nuevas tecnologías, internándose en el apasionante sector del <strong>e-learning</strong>.</p>
+			<p>Aprendiz de todo y maestro de nada. En la actualidad, se mueve con la soberanía tecnológica, el cooperativismo y la emancipación en el uso del <strong>software libre</strong>; en su nuevo hogar en <strong>Buenos Aires</strong>.</p>
+			<div class="footer">
+				<div class="footer-inner">
+				<?php
+				echo CHtml::link(CHtml::image(Yii::app()->theme->baseUrl . '/images/icons/twitter-bird-24x24.png', 'Cuenta de Twitter', array('title' => 'Cuenta de Twitter')), 'https://twitter.com/jordilopezamat', array('target' => '_blank'));
+				echo CHtml::image(Yii::app()->theme->baseUrl . '/images/icons/infocus-gmail-24x24.png', 'XMPP/GTalk: luciano.baraglia@gmail.com', array('class' => 'gtalk-info', 'title' => 'XMPP/GTalk: jordilopezamat@gmail.com'));
+				?>
+				</div>
+			</div>
+		</div>
+
 	</div> <!-- articles-wrapper -->
 	<hr />
 </div>

@@ -1,5 +1,5 @@
-<?php $this->pageTitle = 'pressEnter | Cursos y capacitación en Argentina'; ?>
-<?php $this->metaDescription = 'Cursos y capacitación en Software Libre en Argentina. Damos cursos y brindamos capacitación para individuos y empresas. Tanto en nuestras instalaciones como en modalidad in-company.'; ?>
+<?php $this->pageTitle = 'pressEnter | Cursos y capacitación'; ?>
+<?php $this->metaDescription = 'Cursos y capacitación en Software Libre. Damos cursos y brindamos capacitación para individuos y empresas. Tanto en nuestras instalaciones como en modalidad in-company.'; ?>
 <div class="section">
 	
 	<h2>Capacitación</h2>
@@ -90,7 +90,7 @@
 		</div>
 		<hr />
 
-		<div class="article last">
+		<div class="article">
 			<div class="header">
 				<h3><?php echo CHtml::link('GNU/Linux', 'training/gnu-linux'); ?></h3>
 			</div>
@@ -103,7 +103,25 @@
 			</div>
 			<div class="body">
                 <p>Actualmente <strong>GNU/Linux</strong> es un sistema operativo muy utilizado en las empresas para brindar servicios, como así también en computadoras personales y dispositivos portátiles.</p>
-            <p>Proponemos capacitarte para que puedas dominar este sistema, conociendo su arquitectura, funcionamiento interno, configuración y servicios, para poder adaptarlo a tus necesides, acompañado por un profesional experto en el tema.</p>
+				<p>Proponemos capacitarte para que puedas dominar este sistema, conociendo su arquitectura, funcionamiento interno, configuración y servicios, para poder adaptarlo a tus necesides, acompañado por un profesional experto en el tema.</p>
+			</div>
+			<div class="footer"></div>
+		</div>		
+		<hr />
+
+		<div class="article last">
+			<div class="header">
+				<h3><?php echo CHtml::link('Proyecto ALBA', 'training/proyecto-alba'); ?></h3>
+			</div>
+			<div class="figure">
+				<?php echo CHtml::link(
+					CHtml::image(Yii::app()->request->getBaseUrl(true).'/images/training/proyecto-alba-logo-100x100.png', 'Proyecto ALBA logo', array()),
+					'training/proyecto-alba',
+					array('title' => 'Capacitación en Proyecto ALBA')
+				); ?>
+			</div>
+			<div class="body">
+                <p>&nbsp;</p>
 			</div>
 			<div class="footer"></div>
 		</div>		
