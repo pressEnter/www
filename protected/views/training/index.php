@@ -121,7 +121,7 @@
 				); ?>
 			</div>
 			<div class="body">
-                <p>&nbsp;</p>
+               <p>El Proyecto ALBA, es un proyecto de desarrollo de Software para la realización de un “Sistema Informático para Escuelas”, que brinda una herramienta realizada en software libre, para el trabajo cotidiano en estas unidades.</p>
 			</div>
 			<div class="footer"></div>
 		</div>		
