@@ -1,5 +1,6 @@
 protected/config/db.php
 protected/config/gii.php
+protected/data/deltas/001.sql.ignore
 /.htaccess
 nbproject
 /dns
