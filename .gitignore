@@ -1,4 +1,5 @@
 protected/config/db.php
+protected/config/gii.php
 /.htaccess
 nbproject
 /dns

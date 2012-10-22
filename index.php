@@ -1,5 +1,5 @@
 <?php
-
+date_default_timezone_set('America/Argentina/Buenos_Aires');
 // change the following paths if necessary
 $yii=dirname(__FILE__).'/protected/yii-1.1.11.58da45/framework/yii.php';
 $config=require(dirname(__FILE__).'/protected/config/main.php');
