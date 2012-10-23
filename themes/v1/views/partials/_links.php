@@ -6,6 +6,7 @@
 				<li><?php echo CHtml::link('Python/DJango', array('/training/python-django')); ?></li>
 				<li><?php echo CHtml::link('XHTML/CSS', array('/training/xhtml-css')); ?></li>
 				<li><?php echo CHtml::link('GNU/Linux', array('/training/gnu-linux')); ?></li>
+				<li><?php echo CHtml::link('Proyecto ALBA', array('/training/proyecto-alba')); ?></li>
 			</ul>
 			<ul>
 				<li><h3>Servicios</h3></li>
