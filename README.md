@@ -16,11 +16,7 @@ Fuente del logo: Amaranth (<http://www.google.com/webfonts/specimen/Amaranth>).
 
 1. Clonar el proyecto o descargar el código del repositorio en la carpeta web local
 2. Dar permiso de escritura a los directorios **assets** y **protected/runtime**
-3. Actualizar una extensión (SluggableBehavior) que está agregada como submódulo de GIT (<http://git-scm.com/book/en/Git-Tools-Submodules>). Para hacerlo, ejecutar:
-
-		$ git submodule init
-		$ git submodule update
-   Los usuarios que no usen GIT deberían descargar directamente el módulo <https://github.com/mintao/yii-behavior-sluggable> y guardarlo en la carpeta correspondiente: **protected/extensions/behaviors/SluggableBehavior**
+3. Actualizar una extensión (SluggableBehavior) que está agregada como submódulo de GIT (<http://git-scm.com/book/en/Git-Tools-Submodules>) (\*).
 4. Copiar el archivo **protected/config/db.php-dist** a **protected/config/db.php**
 5. Copiar el archivo **protected/config/gii.php-dist** a **protected/config/gii.php**
 6. Copiar el archivo **htaccess-dist** a **.htaccess**
@@ -30,6 +26,11 @@ Fuente del logo: Amaranth (<http://www.google.com/webfonts/specimen/Amaranth>).
 10. Cruzar los dedos y visitar el sitio (por ejemplo <http://localhost/pressenter>)
 11. Para administrar las noticias hay que ir al módulo **admin** (por ejemplo <http://localhost/pressenter/admin>) y loguearse con los datos de la base (admin/admin por defecto)
 
+(\*) Para hacerlo, ejecutar:
+
+		$ git submodule init
+		$ git submodule update
+Los usuarios que no usen GIT deberían descargar directamente el módulo <https://github.com/mintao/yii-behavior-sluggable> y guardarlo en la carpeta correspondiente: **protected/extensions/behaviors/SluggableBehavior**
 
 ### CONTACTO:
 
@@ -58,11 +59,7 @@ Logo font: Amaranth (<http://www.google.com/webfonts/specimen/Amaranth>).
 
 1. Clone the project or download the code from the repository into the local web folder
 2. Make **assets** and **protected/runtime" directories writables
-3. Update extension (SluggableBehavior) that is added as a GIT submodule (<http://git-scm.com/book/en/Git-Tools-Submodules>). In order to do this, execute:
-
-		$ git submodule init
-		$ git submodule update
-   Users that doesn't use GIT should download the module <https://github.com/mintao/yii-behavior-sluggable> and save it in the right folder: **protected/extensions/behaviors/SluggableBehavior**
+3. Update extension (SluggableBehavior) that is added as a GIT submodule (<http://git-scm.com/book/en/Git-Tools-Submodules>) (\*). 
 4. Copy **protected/config/db.php-dist** a **protected/config/db.php**
 5. Copy **protected/config/gii.php-dist** to **protected/config/gii.php**
 6. Copy **htaccess-dist** to **.htaccess**
@@ -71,6 +68,12 @@ Logo font: Amaranth (<http://www.google.com/webfonts/specimen/Amaranth>).
 9. Execute SQL files located in **protected/data/deltas/**
 10. Cross your fingers and visit the local site (e.g. <http://localhost/pressenter>)
 11. To admin the news go to **admin** module (e.g. <http://localhost/pressenter/admin>) and login with the provided data (admin/admin by default)
+
+(\*) In order to do this, execute:
+
+		$ git submodule init
+		$ git submodule update
+Users that doesn't use GIT should download the module <https://github.com/mintao/yii-behavior-sluggable> and save it in the right folder: **protected/extensions/behaviors/SluggableBehavior**
 
 
 ### CONTACT:
