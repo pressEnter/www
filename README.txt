@@ -73,7 +73,7 @@ Logo font: Amaranth (<http://www.google.com/webfonts/specimen/Amaranth>).
 
 		$ git submodule init
 		$ git submodule update
-Users that doesn't use GIT should download the module <https://github.com/mintao/yii-behavior-sluggable> and save it in the right folder: **protected/extensions/behaviors/SluggableBehavior**
+Users that doesn't use GIT should download the module <https://github.com/mintao/yii-behavior-sluggable> and save it to the right folder: **protected/extensions/behaviors/SluggableBehavior**
 
 
 ### CONTACT:
