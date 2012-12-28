@@ -32,7 +32,7 @@
 	</div>
 	<div class="audience">
 		<h3>A quién está dirigido?</h3>
-		<p>Diseñadores / desarrolladores web - Programadores</p>
+		<p>Diseñadores y desarrolladores web</p>
 	</div>
 	<div class="prerequisites">
 		<h3>Pre requisitos</h3>
