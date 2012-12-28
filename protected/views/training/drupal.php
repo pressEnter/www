@@ -2,7 +2,7 @@
 <?php $this->metaDescription = 'Curso de Drupal. Aprendé a crear un sitio web utilizando Drupal, utilizando módulos de la comunidad, creando los propios y diseñando un theme totalmente desde cero.'; ?>
 <div class="article">
 	<div class="header">
-		<h2>Curso de Drupal CMS</h2>
+		<h2>Curso de Drupal Desde Cero</h2>
 	</div>
 	<div class="figure">
 		<?php echo CHtml::image(Yii::app()->request->getBaseUrl(true).'/images/training/drupal-logo-100x100.png', 'Drupal logo', array()); ?>
@@ -32,7 +32,7 @@
 	</div>
 	<div class="audience">
 		<h3>A quién está dirigido?</h3>
-		<p>Desarrolladores web - Programadores</p>
+		<p>Diseñadores / desarrolladores web - Programadores</p>
 	</div>
 	<div class="prerequisites">
 		<h3>Pre requisitos</h3>
