@@ -36,7 +36,7 @@
 	</div>
 	<div class="prerequisites">
 		<h3>Pre requisitos</h3>
-		<p>Conocimientos básicos de PHP</p>
+		<p>Conocimientos básicos de PC e Internet</p>
 	</div>
 	<div class="footer"></div>
 </div>
