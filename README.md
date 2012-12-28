@@ -60,7 +60,7 @@ Logo font: Amaranth (<http://www.google.com/webfonts/specimen/Amaranth>).
 1. Clone the project or download the code from the repository into the local web folder
 2. Make **assets** and **protected/runtime" directories writables
 3. Update extension (SluggableBehavior) that is added as a GIT submodule (<http://git-scm.com/book/en/Git-Tools-Submodules>) (\*). 
-4. Copy **protected/config/db.php-dist** a **protected/config/db.php**
+4. Copy **protected/config/db.php-dist** to **protected/config/db.php**
 5. Copy **protected/config/gii.php-dist** to **protected/config/gii.php**
 6. Copy **htaccess-dist** to **.htaccess**
 7. Create a database and configure it in **protected/config/db.php** file
