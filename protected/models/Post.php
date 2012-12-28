@@ -101,6 +101,7 @@ class Post extends CActiveRecord
 		$criteria->compare('title',$this->title,true);
 		$criteria->compare('published',$this->published);
 		$criteria->compare('author_id',$this->author_id);
+		$criteria->order = 'published_date DESC';
 
 		return new CActiveDataProvider($this, array(
 			'criteria'=>$criteria,
