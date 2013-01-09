@@ -1,7 +1,7 @@
 <?php $this->pageTitle = 'pressEnter | Contacto'; ?>
 <?php $this->metaDescription = 'Página de contacto'; ?>
 <div class="hgroup">
-	<h2>Contactáctenos</h2>
+	<h2>Contáctenos</h2>
 </div>
 <div id="contact-text">
 	<p>Si estás buscando <strong>desarrolladores</strong> para un proyecto, capacitar a tus empleados en <strong>tecnologías libres</strong> o simplemente saber <strong>cómo podemos ayudarte</strong>, contactáte con nosotros.</p>
