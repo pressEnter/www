@@ -106,7 +106,23 @@ Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl . '/js/j
 				<div class="footer-inner">
 				<?php
 				echo CHtml::link(CHtml::image(Yii::app()->theme->baseUrl . '/images/icons/twitter-bird-24x24.png', 'Cuenta de Twitter', array('title' => 'Cuenta de Twitter')), 'https://twitter.com/jordilopezamat', array('target' => '_blank'));
-				echo CHtml::image(Yii::app()->theme->baseUrl . '/images/icons/infocus-gmail-24x24.png', 'XMPP/GTalk: luciano.baraglia@gmail.com', array('class' => 'gtalk-info', 'title' => 'XMPP/GTalk: jordilopezamat@gmail.com'));
+				echo CHtml::image(Yii::app()->theme->baseUrl . '/images/icons/infocus-gmail-24x24.png', 'XMPP/GTalk: jordilopezamat@gmail.com', array('class' => 'gtalk-info', 'title' => 'XMPP/GTalk: jordilopezamat@gmail.com'));
+				?>
+				</div>
+			</div>
+		</div>
+
+		<div class="article" id="christian-walter-andres">
+			<h3>Christian Walter Andrés</h3>
+			<div class="figure">
+				<?php echo CHtml::image(Yii::app()->request->getBaseUrl(true) . '/images/about-us/christian-walter-andres-100x100-color.jpg', 'Christian Walter Andrés', array('title' => 'Christian Walter Andrés')); ?>
+			</div>
+			<p>Administrador de sistemas y redes, estudiante de ingeniería en sistemas, especialista en sistemas de alta disponibilidad con amplia experiencia en implementaciones de gran envergadura sobre <strong>GNU/Linux</strong>.</p>
+			<p>Ha participado como integrante activo de <strong>Buenos Aires Libre</strong> (Redes inalámbricas abiertas), es uno de los fundadores y organizador de <?php echo CHtml::link('Lanux', 'http://www.lanux.org.ar', array('target' => '_blank')); ?> (Grupo de usuarios de GNU/Linux de Lanús).</p>
+			<div class="footer">
+				<div class="footer-inner">
+				<?php
+				echo CHtml::image(Yii::app()->theme->baseUrl . '/images/icons/infocus-gmail-24x24.png', 'XMPP/GTalk: chrandres@gmail.com', array('class' => 'gtalk-info', 'title' => 'XMPP/GTalk: chrandres@gmail.com'));
 				?>
 				</div>
 			</div>
