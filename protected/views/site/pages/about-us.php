@@ -96,7 +96,7 @@ Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl . '/js/j
 		<div class="article" id="jordi-lopez-amat">
 			<h3>Jordi López Amat</h3>
 			<div class="figure">
-				<?php echo CHtml::image(Yii::app()->request->getBaseUrl(true) . '/images/about-us/jordi-lopez-amat-100x100-color.jpg', 'Luciano Baraglia', array('title' => 'Luciano Baraglia')); ?>
+				<?php echo CHtml::image(Yii::app()->request->getBaseUrl(true) . '/images/about-us/jordi-lopez-amat-100x100-color.jpg', 'Jordi López Amat', array('title' => 'Jordi López Amat')); ?>
 			</div>
 			<p>Pudo estudiar <strong>Imagen y sonido</strong> primero, e <strong>Informática y Electrónica</strong> después, en <strong>Barcelona</strong>.</p>
 			<p>Trabajó durante 10 años en corporaciones de telecomunicaciones, en múltiples servicios de <strong>telefonía e internet</strong>.</p>
@@ -122,6 +122,7 @@ Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl . '/js/j
 			<div class="footer">
 				<div class="footer-inner">
 				<?php
+				echo CHtml::link(CHtml::image(Yii::app()->theme->baseUrl . '/images/icons/infocus-linkedin-logo-square2-24x24.png', 'Ver perfil de Christian Walter Andrés en Linkedin', array('title' => 'Ver perfil de Christian Walter Andrés en Linkedin')), 'http://www.linkedin.com/pub/christian-walter-andr%C3%A9s/2b/aa9/b49', array('target' => '_blank'));
 				echo CHtml::image(Yii::app()->theme->baseUrl . '/images/icons/infocus-gmail-24x24.png', 'XMPP/GTalk: chrandres@gmail.com', array('class' => 'gtalk-info', 'title' => 'XMPP/GTalk: chrandres@gmail.com'));
 				?>
 				</div>
