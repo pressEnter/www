@@ -34,6 +34,9 @@ class SiteController extends Controller
 	 * when an action is not explicitly requested by users.
 	 */
 	public function actionIndex(){
+		$highlights = array('_alba', '_huayra');
+		$rand_highlight = $highlights[rand(0, count($highlights)-1)];
+		
 		Yii::app()->clientScript->registerCssFile(Yii::app()->theme->baseUrl.'/css/homepage.css', 'screen, projection');
 		Yii::app()->clientScript->registerCssFile(Yii::app()->theme->baseUrl.'/css/highlights.css', 'screen, projection');
 		Yii::app()->clientScript->registerCssFile(Yii::app()->theme->baseUrl.'/js/jquery-lightbox-0.5/css/jquery.lightbox-0.5.css', 'screen, projection');
@@ -41,7 +44,7 @@ class SiteController extends Controller
 		// Carousel
 		Yii::app()->clientScript->registerScriptFile(Yii::app()->theme->baseUrl.'/js/jquerytools.org/jquery.tools.scrollable.min.js', CClientScript::POS_BEGIN);
 		//
-		$this->render('index');
+		$this->render('index', array('rand_highlight' => $rand_highlight));
 	}
 
 	/**

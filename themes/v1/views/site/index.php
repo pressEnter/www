@@ -32,7 +32,7 @@
         <hr />
     </div> <!-- services-wrapper -->
 </div>
-<?php $this->renderPartial('webroot.themes.v1.views.partials.highlights._alba'); ?>
+<?php $this->renderPartial('webroot.themes.v1.views.partials.highlights.' . $rand_highlight); ?>
 <div class="section" id="news-updates">
     <div class="section" id="news">
         <h2>Noticias</h2>

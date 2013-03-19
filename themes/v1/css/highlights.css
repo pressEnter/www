@@ -13,33 +13,10 @@ body#site-index div.highlight div#highlight-message {
 body#site-index div.highlight div#highlight-message span {
 	display: none;
 }
-body#site-index div.highlight div.image-wrapper {
-	float: left;
-	width: 535px;
-	height: 340px;
-	margin: 0 0 0 40px;
-	position: relative;
-	overflow: hidden;
-}
-body#site-index div.highlight div.image-wrapper p {
-	position: absolute;
-	top: 110px;
-	width: 450px;
-	margin: 0 0 0 35px;
-	color: #fff;
-	font-size: 1.0em;
-	text-align: center;
-}
-body#site-index div.highlight div.info-wrapper {
-	float: right;
-	width: 350px;
-	margin: 0 20px 0 0;
-}
 body#site-index div.highlight div.info-wrapper h2,
 body#site-index div.highlight div.info-wrapper h3 {
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif; 
 	margin: 0;
-	width: 350px;
 	text-transform: none;
 }
 body#site-index div.highlight div.info-wrapper h2 {
@@ -81,6 +58,32 @@ body#site-index div.highlight div.check-list li {
  *=ALBA
  *
  */
+body#site-index div#highlight-alba div.info-wrapper {
+	float: right;
+	width: 350px;
+	margin: 0 20px 0 0;
+}
+body#site-index div#highlight-alba div.info-wrapper h2,
+body#site-index div#highlight-alba div.info-wrapper h3 {
+	width: 350px;
+}
+body#site-index div#highlight-alba div.image-wrapper {
+	float: left;
+	width: 535px;
+	height: 340px;
+	margin: 0 0 0 40px;
+	position: relative;
+	overflow: hidden;
+}
+body#site-index div#highlight-alba div.image-wrapper p {
+	position: absolute;
+	top: 110px;
+	width: 450px;
+	margin: 0 0 0 35px;
+	color: #fff;
+	font-size: 1.0em;
+	text-align: center;
+}
 /* GALLERY */
 div#alba-gallery-wrapper {
 	position: absolute;
@@ -164,6 +167,126 @@ div#alba-demo-link a:visited {
 }
 
 div#alba-demo-link a:hover {
+	text-decoration: none;
+	color: #ADE0EE;
+}
+/*
+ *
+ *HUAYRA
+ *
+ */
+body#site-index div#highlight-huayra {
+	height: 400px;
+}
+body#site-index div#highlight-huayra div.info-wrapper {
+	float: left;
+	width: 380px;
+	margin: 0 0 0 70px;
+}
+body#site-index div#highlight-huayra div.info-wrapper h2,
+body#site-index div#highlight-huayra div.info-wrapper h3 {
+}
+body#site-index div#highlight-huayra div.image-wrapper {
+	float: right;
+	width: 920px;
+	height: 260px;
+	margin: -5px 20px 0 0;
+	position: relative;
+	overflow: hidden;
+}
+body#site-index div#highlight-huayra div.image-wrapper p {
+	position: absolute;
+	top: 0px;
+	right: 60px;
+	width: 390px;
+	margin: 0 ;
+	color: #000;
+	font-size: 1.0em;
+	text-align: left;
+}
+/* GALLERY */
+div#huayra-gallery-wrapper {
+	position: absolute;
+	top: 140px;
+	left: 70px;
+	height: 200px;
+}
+div#highlihght-huayra-gallery {
+	/* required settings */
+	position: relative;
+	overflow: hidden;
+	width: 371px;
+	height: 173px;
+	/* custom decorations */
+	border: 5px #B9B9B9 solid;
+}
+div#highlihght-huayra-gallery div.items {
+	/* this cannot be too large */
+	width: 20000em;
+	position: absolute;
+	clear: both;
+}
+div#highlihght-huayra-gallery div.items div {
+	float: left;
+	width: 371px;
+	height: 173px;
+}
+div#highlihght-huayra-gallery div.items img {
+	float: left;
+	margin: 0;
+	background-color: #fff;
+	width: 371px;
+	height: 173px;
+}
+/* NAV */
+/* position and dimensions of the navigator */
+div#huayra-gallery-nav {
+    width: 60px;
+    height: 20px;
+    margin: 5px auto 0;
+    /*  */
+    display: none;
+}
+/* items inside navigator */
+div#huayra-gallery-nav a {
+    width: 8px;
+    height: 8px;
+    float: left;
+    margin: 3px;
+    background: url(../images/jquerytools.org/navigator.png) 0 0 no-repeat;
+    display: block;
+    font-size: 1px;
+    cursor: pointer;
+}
+/* mouseover state */
+div#huayra-gallery-nav a:hover {
+    background-position: 0 -8px;
+}
+/* active state (current page state) */
+div#huayra-gallery-nav a.active {
+    background-position: 0 -16px;
+    cursor: default;
+}
+
+/* DEMO BUTTON */
+div#huayra-demo-link {
+	position: absolute;
+	bottom: 50px;
+	right: 60px;
+	width: 103px;
+	height: 38px;
+	background: url(../../../images/highlights/huayra/button-blue-bg-103x38.png) no-repeat;
+	text-align: center;
+	line-height: 2.6em;
+	text-transform: uppercase;
+}
+div#huayra-demo-link a:link,
+div#huayra-demo-link a:visited {
+	color: #fff;
+	font-weight: bold;
+}
+
+div#huayra-demo-link a:hover {
 	text-decoration: none;
 	color: #ADE0EE;
 }
