@@ -6,7 +6,7 @@
 	'items' => array(
 		array('label' => 'Inicio', 'url' => array('/site/index')),
 		array('label' => 'Noticias', 'url' => array('/news')),
-		array('label' => 'Capacitación', 'url' => array('/training'), 'items' => array(
+		array('label' => 'Capacitación para empresas', 'url' => array('/training'), 'items' => array(
 			array('label' => 'Symfony', 'url' => array('/training/symfony')),
 			array('label' => 'Drupal Desde Cero', 'url' => array('/training/drupal')),
 			array('label' => 'Python/DJango', 'url' => array('/training/python-django')),

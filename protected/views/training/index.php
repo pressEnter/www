@@ -2,9 +2,9 @@
 <?php $this->metaDescription = 'Cursos y capacitación en Software Libre. Damos cursos y brindamos capacitación para individuos y empresas. Tanto en nuestras instalaciones como en modalidad in-company.'; ?>
 <div class="section">
 	
-	<h2>Capacitación</h2>
+	<h2>Capacitación para empresas</h2>
 	<p>Brindamos capacitación profesional en temáticas de desarrollo de sistemas y coaching de proyectos, entre otros.</p>
-	<p>Nuestros entrenamientos están dirigidos al nivel técnico para individuos como para los equipos de trabajo de empresas.</p>
+	<p>Nuestros entrenamientos están dirigidos al nivel técnico para equipos de trabajo de empresas.</p>
 	<p>Las clases pueden ser en tanto en nuestras instalaciones como en las de su compañía.</p>
 	<p><strong>Actualmente ofrecemos capacitación en:</strong></p>
 
