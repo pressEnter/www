@@ -4,7 +4,7 @@
 	
 	<h2>Capacitación para empresas</h2>
 	<p>Brindamos capacitación profesional en temáticas de desarrollo de sistemas y coaching de proyectos, entre otros.</p>
-	<p>Nuestros entrenamientos están dirigidos al nivel técnico para equipos de trabajo de empresas.</p>
+	<p>Nuestros entrenamientos están dirigidos a nivel técnico para equipos de trabajo de empresas.</p>
 	<p>Las clases pueden ser en tanto en nuestras instalaciones como en las de su compañía.</p>
 	<p><strong>Actualmente ofrecemos capacitación en:</strong></p>
 
