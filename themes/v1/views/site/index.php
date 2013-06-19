@@ -46,7 +46,9 @@
     </div>
     <div class="section" id="updates">
         <h2>Actualizaciones</h2>
+        <div id="twitter-widget">
         <?php $this->renderPartial('application.views.partials._last_tweets'); ?>
+        </div>
     </div>
 </div>
 <div class="section gallery" id="technologies">

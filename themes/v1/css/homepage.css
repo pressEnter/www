@@ -170,7 +170,7 @@ body#site-index div#news div.article.last {
 /* =UPDATES */
 body#site-index div#updates {
 	width: 320px;
-	height: 390px;
+	height: 350px;
 	float: left;
 }
 body#site-index div#updates h2 {
@@ -182,9 +182,11 @@ body#site-index div#updates h2 {
 	font-weight: bold;
 	margin: 10px 0 0;
 }
-body#site-index div#updates div#twtr-widget-1 {
-	width: 280px; /* MATCHS WIDGET WIDTH */
+body#site-index div#updates div#twitter-widget {
+	width: 280px; /* MATCHES WIDGET WIDTH */
 	margin: 10px 0 0 22px;
+}
+body#site-index div#updates div#twitter-widget a.twitter-timeline {
 }
 /* TECHNOLOGIES */
 body#site-index div#technologies {
