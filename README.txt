@@ -36,10 +36,10 @@ Los usuarios que no usen GIT deberían descargar directamente el módulo <https:
 
 Contactáte con nosotros ante cualquier duda, sugerencia, loquesea (salvo SPAM):
 
-Luciano Baraglia <lbaraglia@pressenter.com.ar>  
-Fernando Toledo <ftoledo@pressenter.com.ar>  
+Luciano Baraglia <script type="text/javascript">var name = 'lbaraglia';var at = '@';var domain = 'pressenter.com.ar'; document.write(name + at + domain);</script> 
+Fernando Toledo <script type="text/javascript">var name = 'ftoledo';var at = '@';var domain = 'pressenter.com.ar'; document.write(name + at + domain);</script> 
 Héctor Sánchez  <script type="text/javascript">var name = 'hsanchez';var at = '@';var domain = 'pressenter.com.ar'; document.write(name + at + domain);</script>
-Miguel García <mgarcia@pressenter.com.ar>  
+Miguel García <script type="text/javascript">var name = 'mgarcia';var at = '@';var domain = 'pressenter.com.ar'; document.write(name + at + domain);</script> 
 
 
 ---------------------------------------
@@ -80,7 +80,8 @@ Users that doesn't use GIT should download the module <https://github.com/mintao
 
 Contact us for any doubt, suggestion, whatever (no SPAM):
 
-Luciano Baraglia <lbaraglia@pressenter.com.ar>  
-Fernando Toledo <ftoledo@pressenter.com.ar>  
-Héctor Sánchez <hsanchez@pressenter.com.ar>  
-Miguel García <mgarcia@pressenter.com.ar>  
+
+Luciano Baraglia <script type="text/javascript">var name = 'lbaraglia';var at = '@';var domain = 'pressenter.com.ar'; document.write(name + at + domain);</script> 
+Fernando Toledo <script type="text/javascript">var name = 'ftoledo';var at = '@';var domain = 'pressenter.com.ar'; document.write(name + at + domain);</script> 
+Héctor Sánchez  <script type="text/javascript">var name = 'hsanchez';var at = '@';var domain = 'pressenter.com.ar'; document.write(name + at + domain);</script>
+Miguel García <script type="text/javascript">var name = 'mgarcia';var at = '@';var domain = 'pressenter.com.ar'; document.write(name + at + domain);</script> 
