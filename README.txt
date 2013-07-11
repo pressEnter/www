@@ -38,7 +38,7 @@ Contactáte con nosotros ante cualquier duda, sugerencia, loquesea (salvo SPAM):
 
 Luciano Baraglia <lbaraglia@pressenter.com.ar>  
 Fernando Toledo <ftoledo@pressenter.com.ar>  
-Héctor Sánchez <hsanchez@pressenter.com.ar>  
+Héctor Sánchez  <script type="text/javascript">var name = 'hsanchez';var at = '@';var domain = 'pressenter.com.ar'; document.write(name + at + domain);</script>
 Miguel García <mgarcia@pressenter.com.ar>  
 
 
