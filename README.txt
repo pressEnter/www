@@ -36,11 +36,7 @@ Los usuarios que no usen GIT deberían descargar directamente el módulo <https:
 
 Contactáte con nosotros ante cualquier duda, sugerencia, loquesea (salvo SPAM):
 
-Luciano Baraglia <lbaraglia@pressenter.com.ar>  
-Fernando Toledo <ftoledo@pressenter.com.ar>  
-Héctor Sánchez <hsanchez@pressenter.com.ar>  
-Miguel García <mgarcia@pressenter.com.ar>  
-
+info AT pressenter DOT com DOT ar
 
 ---------------------------------------
 
@@ -80,7 +76,4 @@ Users that doesn't use GIT should download the module <https://github.com/mintao
 
 Contact us for any doubt, suggestion, whatever (no SPAM):
 
-Luciano Baraglia <lbaraglia@pressenter.com.ar>  
-Fernando Toledo <ftoledo@pressenter.com.ar>  
-Héctor Sánchez <hsanchez@pressenter.com.ar>  
-Miguel García <mgarcia@pressenter.com.ar>  
+info AT pressenter DOT com DOT ar
