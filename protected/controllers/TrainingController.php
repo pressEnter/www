@@ -27,7 +27,6 @@ class TrainingController extends Controller
 	}
 
 	public function actionDetails($item){
-		$this->modal();
 		$valid = array(
 			'symfony', 
 			'drupal',
@@ -39,6 +38,10 @@ class TrainingController extends Controller
 
 		if (!in_array($item, $valid)){
 			throw new CHttpException(404);
+		}
+		
+		if($item != 'proyecto-alba'){
+			$this->modal();
 		}
 		
 		$this->render('details', array('item' => $item));
