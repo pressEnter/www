@@ -130,3 +130,4 @@
 	</div><!--training-items-->
 	
 </div><!--section-->
+<?php $this->renderPartial('modal'); ?>

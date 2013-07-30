@@ -129,7 +129,7 @@
 				</div>
 				<div id="technologies-copyright">
 					<p id="icons-copyright">Icons by <a href="http://dryicons.com" target="_blank">Dryicons</a>, <a href="http://www.elegantthemes.com/" target="_blank">Nicholas Roach</a>, <a href="http://delacro.deviantart.com/" target="_blank">Delacro</a>, <a href="http://mysitemyway.com/" target="_blank">Mysitemyway</a> - </p>
-					<p id="jquery-copyright">Effects: <a href="http://jquery.com" target="_blank">jQuery</a> &amp; <a href="http://jquerytools.org" target="_blank">jQuerytools</a></p>
+					<p id="jquery-copyright">Effects: <a href="http://jquery.com" target="_blank">jQuery</a>, <a href="http://jquerytools.org" target="_blank">jQuerytools</a> &amp; <a href="http://ericmmartin.com/projects/simplemodal/" target="_blank">SimpleModal</a></p>
 				</div>
 			</div>
 		</div><!-- footer -->
