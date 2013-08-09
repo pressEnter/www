@@ -58,6 +58,9 @@ body#site-index div.highlight div.check-list li {
  *=ALBA
  *
  */
+body#site-index div#highlight-alba {
+	margin-top: -26px;
+}
 body#site-index div#highlight-alba div.info-wrapper {
 	float: right;
 	width: 350px;
@@ -176,7 +179,8 @@ div#alba-demo-link a:hover {
  *
  */
 body#site-index div#highlight-huayra {
-	height: 400px;
+	height: 300px;
+	padding-top: 30px;
 }
 body#site-index div#highlight-huayra div.info-wrapper {
 	float: left;
@@ -207,7 +211,7 @@ body#site-index div#highlight-huayra div.image-wrapper p {
 /* GALLERY */
 div#huayra-gallery-wrapper {
 	position: absolute;
-	top: 140px;
+	top: 100px;
 	left: 70px;
 	height: 200px;
 }

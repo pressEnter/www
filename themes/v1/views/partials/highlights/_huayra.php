@@ -1,5 +1,4 @@
 <div class="section article highlight" id="highlight-huayra">
-	<div id="highlight-message"><span>Destacado!</span></div>
     <div class="info-wrapper">
 		<div class="hgroup">
 			<h2><?php echo CHtml::link('Huayra GNU/Linux', 'http://huayra.conectarigualdad.gob.ar', array('target' => '_blank')); ?></h2>
@@ -7,13 +6,13 @@
 		</div>
     </div>
     <div class="image-wrapper">
-		<p>Tenemos el placer de haber sido convocados para participar del desarrollo de <strong>Huayra GNU/Linux</strong>. Basado en <strong>Debian GNU/Linux</strong>, <strong>Huayra</strong> es más seguro, más ágil y desarrollado en Argentina teniendo en cuenta las necesidades tantos de estudiantes como de docentes y manteniendo nuestra identidad nacional. <strong>Huayra</strong> toma su nombre del vocablo <strong>quechua</strong> que significa <strong>viento</strong>: viento de cambios, vientos de libertad, vientos de soberanía tecnológica. Además de ser un sistema operativo libre, Huayra ha sido pensado y desarrollado para el uso de la comunidad educativa. A través de él puede accederse a una gran variedad de programas y aplicaciones educativas.</p>
+		<p>Algunos miembros de <strong>pressEnter</strong> tenemos el agrado de participar del desarrollo de <strong>Huayra GNU/Linux</strong>. Basado en <strong>Debian GNU/Linux</strong>, <strong>Huayra</strong> es más seguro, más ágil y desarrollado en Argentina teniendo en cuenta las necesidades tantos de estudiantes como de docentes y manteniendo nuestra identidad nacional. <strong>Huayra</strong> toma su nombre del vocablo <strong>quechua</strong> que significa <strong>viento</strong>: viento de cambios, vientos de libertad, vientos de soberanía tecnológica. Además de ser un sistema operativo libre, Huayra ha sido pensado y desarrollado para el uso de la comunidad educativa. A través de él puede accederse a una gran variedad de programas y aplicaciones educativas.</p>
     </div>
 	<div id="huayra-gallery-wrapper">
 		
 		<div class="gallery" id="highlihght-huayra-gallery">
 
-			<!-- root element for the items -->
+		<!-- root element for the items -->
 		
 		<div id="huayra-gallery-nav"></div>
 			<div class="items">
