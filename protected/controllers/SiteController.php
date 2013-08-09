@@ -16,9 +16,9 @@ class SiteController extends Controller
 				'height' => 40,
 				'width' => 90,
 				'padding' => 0,
-				'offset' => 2,
-				'minLength' => 5,
-				'maxLength' => 5,
+				'offset' => -3,
+				'minLength' => 7,
+				'maxLength' => 7,
 			),
 			// page action renders "static" pages stored under 'protected/views/site/pages'
 			// They can be accessed via: index.php?r=site/page&view=FileName
