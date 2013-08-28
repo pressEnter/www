@@ -563,6 +563,9 @@ div#hosting-plans div.footer a:visited {
  *=ABOUT-US
  *
  */
+div#about-us {
+	position: relative;
+}
 div#about-us div.articles-wrapper {
 	margin-top: 10px;
 }
@@ -600,6 +603,24 @@ div#about-us div.article div.footer-inner {
 }
 div#about-us div.article div.footer-inner img {
 	margin: 0 0 0 10px;
+}
+div#about-us div#colaboradores {
+	background: #fefefe;
+	box-shadow: 0 0 10px -5px;
+	margin: 40px 0 0;
+	padding: 20px;
+}
+div#about-us div#colaboradores h2 {
+	margin: 0 0 20px;
+	font-size: 1.2em;
+}
+div#about-us div#colaboradores div.article {
+	width: 410px;
+	float: left;
+	margin: 0 15px;
+}
+div#about-us div#colaboradores div.article div.footer {
+	background: none;
 }
 /* TOOLTIP */
 div.gtalk-info-tooltip {
