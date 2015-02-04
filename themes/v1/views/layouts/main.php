@@ -96,7 +96,7 @@
 				<ul id="contact-details">
 					<li><strong>Email</strong> <span>info@pressenter.com.ar</span></li>
 					<li><strong>Teléfonos</strong> <span>+54 9 11 3475 1407 | +54 9 11 3499 1374</span></li>
-					<li><strong>Dirección</strong> <span>Av. Belgrano 748 1° Of. 13 | CABA |  Argentina </span></li>
+					<li><strong>Dirección</strong> <span>Parana 130 Of. 12 | CABA |  Argentina </span></li>
 				</ul>
 				<div id="map">
         <iframe width="278" height="208"

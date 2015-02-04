@@ -6,14 +6,6 @@
 	'items' => array(
 		array('label' => 'Inicio', 'url' => array('/site/index')),
 		array('label' => 'Noticias', 'url' => array('/news')),
-		array('label' => 'Capacitación para empresas', 'url' => array('/training'), 'items' => array(
-			array('label' => 'Symfony', 'url' => array('/training/symfony')),
-			array('label' => 'Drupal Desde Cero', 'url' => array('/training/drupal')),
-			array('label' => 'Python/DJango', 'url' => array('/training/python-django')),
-			array('label' => 'XHTML/CSS', 'url' => array('/training/xhtml-css')),
-			array('label' => 'GNU/Linux', 'url' => array('/training/gnu-linux')),
-			array('label' => 'Proyecto ALBA', 'url' => array('/training/proyecto-alba')),
-		)),
 		array('label' => 'Servicios', 'url' => array('/services'), 'items' => array(
 			array('label' => 'Desarrollo web', 'url' => array('/services/web-development')),
       array('label' => 'Software a medida', 'url' => array('/services/custom-software')),
